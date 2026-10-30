@@ -14,10 +14,10 @@
       "category": "Trade & Networks",
       "title": "A port connects people and ideas",
       "description": "Singapore’s emergence as a trading port in 1819 attracted Muslim merchants, scholars and settlers, fostering religious and intellectual networks.",
-      "image": null,
-      "imageAlt": "Historical map of the region.",
-      "caption": "Historical map of the region.",
-      "source": null
+      "image": "assets/archive/map.webp",
+      "imageAlt": "Map reproduced on the uploaded presentation sheet; labelled “Ottoman Map of Singapore (1732)”.",
+      "caption": "Map reproduced on the uploaded presentation sheet; labelled “Ottoman Map of Singapore (1732)”.",
+      "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review."
     },
     {
       "id": 2,
@@ -25,10 +25,10 @@
       "category": "Early Learning",
       "title": "Learning takes root in the community",
       "description": "Mosques, homes and teaching circles became centres of Islamic learning, supported by ulama, Sufi networks and pilgrimage connections with the wider Muslim world.",
-      "image": null,
-      "imageAlt": "Historical illustration of a mosque or early Islamic educational setting.",
-      "caption": "Historical illustration of a mosque or early Islamic educational setting.",
-      "source": null
+      "image": "assets/archive/mosque.webp",
+      "imageAlt": "Mosque sketch labelled “Masjid Sultan”, attributed on the uploaded sheet to John Turnbull Johnson (1846).",
+      "caption": "Mosque sketch labelled “Masjid Sultan”, attributed on the uploaded sheet to John Turnbull Johnson (1846).",
+      "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review."
     },
     {
       "id": 3,
@@ -36,10 +36,10 @@
       "category": "Print & Publishing",
       "title": "A centre for the printed word",
       "description": "Singapore became a major centre of Islamic printing and publishing, producing and circulating religious texts across the Malay world.",
-      "image": null,
-      "imageAlt": "Historical Islamic publication or printed text.",
-      "caption": "Historical Islamic publication or printed text.",
-      "source": null
+      "image": "assets/archive/quran-open.webp",
+      "imageAlt": "Open decorated volume reproduced beside the sheet’s heading “Early Printed Qur’an (1869)”; object identification requires review.",
+      "caption": "Open decorated volume reproduced beside the sheet’s heading “Early Printed Qur’an (1869)”; object identification requires review.",
+      "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review."
     },
     {
       "id": 4,
@@ -83,7 +83,21 @@
       "image": null,
       "imageAlt": "Institutional leaders or historical photographs associated with Islamic education governance.",
       "caption": "Institutional leaders or historical photographs associated with Islamic education governance.",
-      "source": null
+      "source": null,
+      "highlights": [
+        {
+          "date": "1968",
+          "label": "MUIS"
+        },
+        {
+          "date": "1982",
+          "label": "MENDAKI"
+        },
+        {
+          "date": "1990",
+          "label": "Islamic Education Advisory Board"
+        }
+      ]
     },
     {
       "id": 8,
@@ -94,7 +108,13 @@
       "image": null,
       "imageAlt": "Madrasah institutional logos.",
       "caption": "Madrasah institutional logos.",
-      "source": null
+      "source": null,
+      "highlights": [
+        {
+          "date": "2009",
+          "label": "Joint Madrasah System"
+        }
+      ]
     },
     {
       "id": 9,
@@ -138,7 +158,13 @@
       "image": null,
       "imageAlt": "SCIS institutional launch or rally photograph.",
       "caption": "SCIS institutional launch or rally photograph.",
-      "source": null
+      "source": null,
+      "highlights": [
+        {
+          "date": "SCIS",
+          "label": "A contemporary chapter in a continuing tradition"
+        }
+      ]
     }
   ],
   "closing": [
@@ -235,15 +261,131 @@
         "term": "Asatizah",
         "definition": "Religious teachers; the plural of ustaz or ustazah."
       }
+    ],
+    "3": [
+      {
+        "term": "Jawi",
+        "definition": "Malay written in an adapted Arabic script; part of the region’s manuscript and print traditions. The script of a particular object still requires identification."
+      }
     ]
   },
   "archiveNotes": {
-    "3": "Print culture draws attention to how texts were produced and circulated. The requested publication has not yet been supplied, so no author, title, printing date or collection reference is asserted here.",
+    "3": "Two views accompany the uploaded sheet’s “Early Printed Qur’an (1869)” caption. Their relationship to one another, production method, date and holding collection require verification. No claim is made that either was printed in Singapore.",
     "6": "The supplied exhibition text names Aljunied, Alsagoff and Al-Ma’arif as examples. An approved building photograph and its identification are still needed.",
     "8": "This thematic milestone begins in the 1960s and also mentions the Joint Madrasah System in 2009. “Onwards” describes a continuing theme, not a single event."
   },
   "closingReflection": [
     "Singapore’s Islamic educational heritage is a story of continuity and change. Across generations, its scholars, educators and institutions have preserved knowledge, responded to new circumstances and contributed to the life of the community.",
     "As Singapore continues to evolve, this living tradition reminds us that heritage is not only what we inherit, but also what we carry forward."
-  ]
+  ],
+  "archiveObjects": [
+    {
+      "id": "map",
+      "filename": "Pasted Graphic.tiff",
+      "image": "assets/archive/map.webp",
+      "imageAlt": "Map reproduced on the uploaded presentation sheet; labelled “Ottoman Map of Singapore (1732)”.",
+      "caption": "Map reproduced on the uploaded presentation sheet; labelled “Ottoman Map of Singapore (1732)”.",
+      "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review.",
+      "milestone": 1,
+      "crop": [
+        470,
+        237,
+        1009,
+        594
+      ],
+      "width": 539,
+      "height": 357
+    },
+    {
+      "id": "mosque",
+      "filename": "Pasted Graphic.tiff",
+      "image": "assets/archive/mosque.webp",
+      "imageAlt": "Mosque sketch labelled “Masjid Sultan”, attributed on the uploaded sheet to John Turnbull Johnson (1846).",
+      "caption": "Mosque sketch labelled “Masjid Sultan”, attributed on the uploaded sheet to John Turnbull Johnson (1846).",
+      "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review.",
+      "milestone": 2,
+      "crop": [
+        471,
+        614,
+        954,
+        959
+      ],
+      "width": 483,
+      "height": 345
+    },
+    {
+      "id": "yusuf",
+      "filename": "Pasted Graphic.tiff",
+      "image": "assets/archive/yusuf.webp",
+      "imageAlt": "Portrait labelled “Yusuf Ma Dexin (1794–1874)” on the uploaded sheet; lower edge is truncated in the supplied file.",
+      "caption": "Portrait labelled “Yusuf Ma Dexin (1794–1874)” on the uploaded sheet; lower edge is truncated in the supplied file.",
+      "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review.",
+      "milestone": 2,
+      "crop": [
+        487,
+        974,
+        939,
+        1406
+      ],
+      "width": 452,
+      "height": 432
+    },
+    {
+      "id": "alsagoff",
+      "filename": "image.png",
+      "image": "assets/archive/alsagoff.webp",
+      "imageAlt": "Portrait labelled “Syed Mohamed Alsagoff (1836–1906)” on the uploaded sheet.",
+      "caption": "Portrait labelled “Syed Mohamed Alsagoff (1836–1906)” on the uploaded sheet.",
+      "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review.",
+      "milestone": 1,
+      "crop": [
+        575,
+        246,
+        924,
+        707
+      ],
+      "width": 349,
+      "height": 461
+    },
+    {
+      "id": "quran-open",
+      "filename": "image.png",
+      "image": "assets/archive/quran-open.webp",
+      "imageAlt": "Open decorated volume reproduced beside the sheet’s heading “Early Printed Qur’an (1869)”; object identification requires review.",
+      "caption": "Open decorated volume reproduced beside the sheet’s heading “Early Printed Qur’an (1869)”; object identification requires review.",
+      "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review.",
+      "milestone": 3,
+      "crop": [
+        329,
+        793,
+        759,
+        1225
+      ],
+      "width": 430,
+      "height": 432
+    },
+    {
+      "id": "quran-page",
+      "filename": "image.png",
+      "image": "assets/archive/quran-page.webp",
+      "imageAlt": "Printed page reproduced beside the sheet’s heading “Early Printed Qur’an (1869)”; object identification requires review.",
+      "caption": "Printed page reproduced beside the sheet’s heading “Early Printed Qur’an (1869)”; object identification requires review.",
+      "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review.",
+      "milestone": 3,
+      "crop": [
+        763,
+        789,
+        1180,
+        1222
+      ],
+      "width": 417,
+      "height": 433
+    }
+  ],
+  "heroObject": "map",
+  "previousArchiveNotes": {
+    "3": "Print culture draws attention to how texts were produced and circulated. The requested publication has not yet been supplied, so no author, title, printing date or collection reference is asserted here.",
+    "6": "The supplied exhibition text names Aljunied, Alsagoff and Al-Ma’arif as examples. An approved building photograph and its identification are still needed.",
+    "8": "This thematic milestone begins in the 1960s and also mentions the Joint Madrasah System in 2009. “Onwards” describes a continuing theme, not a single event."
+  }
 }
