@@ -1,42 +1,63 @@
 # A Brief History of Islamic Education in Singapore
 
-A single-page, mobile-first exhibition companion for SCIS. Plain HTML, CSS and JavaScript, with no package installation or build step.
+A single-page digital heritage journal for SCIS. Semantic HTML, CSS and vanilla JavaScript. No packages, backend, external fonts or build service required by GitHub Pages.
 
-## Preview
+## Preview the redesign
 
-Run from this repository directory if Python is available:
+The redesign lives on `website/illustrated-historical-journal`; merging and deployment are separate review steps. The live main-branch website is unchanged until the pull request is merged.
+
+**Without Terminal:** open the redesign branch on GitHub, choose **Code → Download ZIP**, extract it, and open `index.html` in a browser. All text, styles, images and native expandable archive notes work directly from the folder. JavaScript adds motion, reading progress and the image viewer. GitHub's file view shows source code, not the rendered website. Do not merge just to preview it.
+
+For an HTTP preview, run this from the repository directory:
 
 ```sh
 python3 -m http.server 8000 --bind 0.0.0.0
 ```
 
-Visit `http://localhost:8000` on your computer. Stop with Ctrl+C. The complete static text also works when opening index.html directly; JSON-based updates require an HTTP preview. A phone on the same local network can use your computer's LAN address and port if your firewall permits it. Cloud preview access depends on your environment's port support.
+Open `http://localhost:8000` on that computer. Stop with Ctrl+C. A phone on the same local network can use the computer's LAN IP and port 8000 if permitted by the firewall. A cloud environment needs its supported port access; localhost on a phone refers to the phone.
 
-## Edit exhibition content
+## Maintain the content
 
-`content.json` contains the title, subtitle, introduction, all 12 milestones and closing text. It loads automatically, without a backend. Each milestone has its original brief ID. The HTML places milestone 10 before 9 to group the overlapping 1960s dates chronologically. Keep the static text in index.html in sync when editing so visitors without JavaScript see the same exhibition. If adding or reordering milestones, update the matching article structure in index.html too.
+`content.json` is the authoritative editable source. It retains every field of the existing 12 milestone objects, introduction and closing. It also holds the three chapter groupings, questions, glossary notes, context interpretations and closing reflection.
 
-For each approved image, place the file in assets and set its milestone fields:
+After editing content, regenerate the complete static HTML with the dependency-free standard-library tool:
 
-- `image`: relative path, such as `assets/approved-photo.jpg` (currently null).
-- `imageAlt`: accurate descriptive alternative text.
-- `caption`: approved caption.
-- `source`: collection reference, creator, date and rights credit as appropriate.
+```sh
+python3 tools/render.py
+python3 tools/render.py --check
+```
 
-Images retain their proportions, load lazily and open in an accessible enlarged-image dialog. Escape closes the dialog and focus returns to the image button. Placeholders are not offered as historical images. Keep mobile image files reasonably small; do not upscale low-resolution originals.
+Commit both `content.json` and `index.html`. Python is needed only when generating edited content, not to serve or deploy the website. Do not edit generated index.html directly: use content.json or the layout template in tools/render.py. This avoids a JavaScript-disabled visitor seeing outdated text. The browser no longer fetches JSON or replaces historical content at runtime.
 
-The logo and opening banner remain clearly labelled placeholders. Replace them with approved assets when supplied. Do not treat the SCIS wordmark placeholder as the official institutional logo. See CONTENT-REVIEW.md for outstanding editorial checks. No external fonts, trackers, invented citations or third-party requests are included.
+Milestone placement is set by each chapter's `milestones` list. Each of the 12 original IDs must occur once. The reading order is 1, 2, 3, 4, 5, 6, 7, 8, 10, 9, 11, 12, grouping the three 1960s-onwards themes before 1980s onwards. Overlapping time periods are preserved and documented in CONTENT-REVIEW.md.
 
-## GitHub Pages
+## Approved images and institutional assets
 
-1. Commit and push the updated files to your repository, preferably through a branch and pull request.
-2. Merge the reviewed pull request into main.
-3. In **Settings → Pages**, choose **Deploy from a branch**, **main**, **/ (root)**, then **Save**.
-4. Wait for deployment and open the published URL shown by GitHub. Expected address: `https://ubaedlh.github.io/Islamic-Intellectual-Heritage-SCIS-Launch/`.
-5. Check on a smartphone before printing a QR code. Use the published HTTPS URL in the QR code.
+No historical photographs, documents, official logo or image rights were supplied. Every requested image is labelled as pending, not represented by imaginary evidence. The opening cartographic illustration is clearly marked contemporary and nonhistorical. The earlier illustration is retained unused in assets.
 
-Keep index.html, style.css, script.js, content.json and assets together. All paths support a GitHub Pages project subdirectory.
+To add an approved object image:
+
+1. Save a web-optimised image in assets (preferably under 300 KB where archival legibility permits).
+2. Set its milestone's `image` to the relative local path, e.g. `assets/approved-photo.jpg`.
+3. Set `imageAlt` to a descriptive alternative text, `caption` to the approved caption and `source` to the actual creator/date/collection/rights reference.
+4. Run the renderer and check the result. It rejects missing files and nonlocal paths. Images retain aspect ratio and load lazily. Their caption and source appear in the enlarged-image viewer; Escape, the Close button and clicking outside dismiss it. Focus returns to the original image. Without JavaScript, an image link opens the original asset directly.
+
+Replace the header's explicitly labelled text identifier with the official logo only once supplied. Opening-image and header layout changes belong in tools/render.py. No official links, archival credits or new factual claims should be guessed. See CONTENT-REVIEW.md for editorial approvals still needed.
+
+## Review and publish
+
+Open the branch's pull request and review before merging. Do not change the existing Pages settings unnecessarily. The existing main-branch Pages deployment can publish the revision after merge. If Pages is not enabled, use **Settings → Pages → Deploy from a branch → main → / (root) → Save**.
+
+Expected live URL: `https://ubaedlh.github.io/Islamic-Intellectual-Heritage-SCIS-Launch/`. The site uses relative assets and works beneath this project path. Test the published result on a phone before printing the QR code. Preserve content.json, tools/render.py, index.html, style.css, script.js and assets in the repository.
 
 ## Validation
 
-`node --check script.js` checks syntax without installing dependencies. Test period links, expandable source notes, keyboard focus, reduced motion and narrow layouts. When approved photos are added, verify enlarged-image captions and credits. Static HTML supplies the complete exhibition when JavaScript is disabled or JSON cannot load.
+```sh
+python3 tools/render.py --check
+node --check script.js
+git diff --check
+```
+
+Browser validation for this redesign covered 360, 390, 430, 768 and 1440 px viewports, exact milestone content and order, no horizontal overflow, working chapter anchors and current-chapter state, four reflective questions, archive notes, reading progress, image asset loading, reduced motion including changes during a visit, keyboard skip navigation and the complete no-JavaScript narrative. A test-only local image fixture exercised enlargement, caption/credit preservation, focus containment, Escape and focus restoration. GitHub Pages project-path behaviour was simulated locally.
+
+No full screen-reader audit, physical-phone performance measurement or real archival-image legibility review was performed. Approved archival images are still needed; the present page is lightweight and makes no third-party requests. No new dependencies were installed.

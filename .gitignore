@@ -1,0 +1,3 @@
+# Local Python renderer cache
+__pycache__/
+*.pyc

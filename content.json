@@ -1,6 +1,6 @@
 {
   "title": "A Brief History of Islamic Education in Singapore",
-  "subtitle": "Rooted in tradition. Connected to the world.",
+  "subtitle": "Rooted in Tradition. Shaped by Singapore.",
   "introduction": [
     "Islamic education in Singapore has grown through generations of scholars, educators, philanthropists and institutions. Rooted in Islamic traditions and the local socio-religious context, it is enriched by scholarly networks across the Malay world and beyond.",
     "This exhibition traces selected milestones from the 19th to the 21st century, highlighting a cosmopolitan and adaptive tradition.",
@@ -144,5 +144,106 @@
   "closing": [
     "From early centres of learning and regional scholarly networks to modern madrasahs and institutions of higher education, Singapore’s Islamic educational tradition continues to evolve.",
     "This heritage reflects generations of intellectual exchange, community commitment and institutional development, providing foundations for the future of Islamic education in Singapore."
+  ],
+  "opening": "From the scholarly networks of a bustling port to the educational institutions of a modern nation, discover a living tradition shaped by generations of learning, exchange and renewal.",
+  "openingQuestion": "What makes a place a meeting point for knowledge?",
+  "chapters": [
+    {
+      "id": "connections",
+      "number": "I",
+      "label": "Connections",
+      "title": "A Port of Trade. A Meeting Place of Knowledge.",
+      "period": "Nineteenth century",
+      "intro": "As Singapore developed as a trading port, it also became a meeting place for people, religious texts and ideas. Mosques, homes and teaching circles sustained learning; printing carried the written word across the Malay world.",
+      "question": "What else travelled through Singapore besides goods and people?",
+      "milestones": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "transformation",
+      "number": "II",
+      "label": "Transformation",
+      "title": "A Changing Society. An Evolving Education.",
+      "period": "Early twentieth century – 1960s onwards",
+      "intro": "Modern madrasahs brought structured education and new opportunities for learning. Community support, institutional coordination and curriculum reform reveal different ways of sustaining an educational tradition through changing circumstances.",
+      "question": "How does an educational tradition preserve its foundations while adapting to a changing society?",
+      "milestones": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ]
+    },
+    {
+      "id": "renewal",
+      "number": "III",
+      "label": "Continuity & Renewal",
+      "title": "A Living Tradition. A Shared Future.",
+      "period": "1980s onwards – today",
+      "intro": "Lifelong learning and higher education extend the story beyond the classroom. The professional development of religious educators and the establishment of SCIS are contemporary chapters in a tradition that continues to evolve.",
+      "question": "What does it mean to prepare religious scholars for the Singapore of tomorrow?",
+      "milestones": [
+        9,
+        11,
+        12
+      ]
+    }
+  ],
+  "contexts": {
+    "1": {
+      "title": "A port, and a place of exchange",
+      "text": "The trading port is part of the educational story, too: the existing exhibition account connects Singapore’s emergence as a port in 1819 with the arrival of Muslim merchants, scholars and settlers.",
+      "basis": "Interpretation of milestone 1; not a claim about a specific travel route."
+    },
+    "7": {
+      "title": "Institutions in a changing Singapore",
+      "text": "The exhibition’s post-independence account follows educational coordination through MUIS (1968), MENDAKI (1982) and the Islamic Education Advisory Board (1990). These dates locate institutional development within Singapore’s changing national story.",
+      "basis": "Dates from milestone 7. Chronological context does not establish a particular policy or causal relationship."
+    },
+    "12": {
+      "title": "Scholarship in a plural society",
+      "text": "The SCIS milestone places Islamic scholarship alongside interdisciplinary research and Singapore’s socio-religious context. It invites us to consider how an inherited intellectual tradition engages with the society in which it lives.",
+      "basis": "Interpretation of milestone 12; SCIS is one contemporary chapter, not an inevitable endpoint."
+    }
+  },
+  "terms": {
+    "2": [
+      {
+        "term": "Ulama",
+        "definition": "Islamic religious scholars."
+      }
+    ],
+    "4": [
+      {
+        "term": "Madrasah",
+        "definition": "A school for Islamic education; “madrasahs” is the plural used here."
+      }
+    ],
+    "5": [
+      {
+        "term": "Waqf",
+        "definition": "An endowment dedicated to religious or charitable purposes."
+      }
+    ],
+    "11": [
+      {
+        "term": "Asatizah",
+        "definition": "Religious teachers; the plural of ustaz or ustazah."
+      }
+    ]
+  },
+  "archiveNotes": {
+    "3": "Print culture draws attention to how texts were produced and circulated. The requested publication has not yet been supplied, so no author, title, printing date or collection reference is asserted here.",
+    "6": "The supplied exhibition text names Aljunied, Alsagoff and Al-Ma’arif as examples. An approved building photograph and its identification are still needed.",
+    "8": "This thematic milestone begins in the 1960s and also mentions the Joint Madrasah System in 2009. “Onwards” describes a continuing theme, not a single event."
+  },
+  "closingReflection": [
+    "Singapore’s Islamic educational heritage is a story of continuity and change. Across generations, its scholars, educators and institutions have preserved knowledge, responded to new circumstances and contributed to the life of the community.",
+    "As Singapore continues to evolve, this living tradition reminds us that heritage is not only what we inherit, but also what we carry forward."
   ]
 }
