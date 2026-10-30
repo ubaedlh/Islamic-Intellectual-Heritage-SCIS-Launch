@@ -19,3 +19,11 @@ Historical descriptions and dates are reproduced verbatim from the supplied exhi
 - All programme acronyms remain as supplied; their official expansions should be supplied by the institution rather than guessed. The original introduction's references to Special Collections still need documentary review.
 - `assets/journal-lines.svg` is a newly drawn, abstract cartographic motif. It depicts no identifiable geographical locations or documented routes. Its caption explicitly identifies it as contemporary and not archival evidence. Contour tracing is decorative, with reduced-motion alternatives.
 - Required assets remain: an official SCIS logo, an approved opening map or waterfront image, and the 12 milestone images named in content.json. Supply descriptive alt text, caption, creator, date, collection reference and reproduction permission for each. Source notes currently state that none have been supplied.
+
+## Illustrated review edition — 30 October 2026
+
+See IMAGE-INVENTORY.md for all uploaded material, crop coordinates and provisional object identifications. Two source sheets from main are retained byte for byte. Six cropped WebP views support Chapter I only. No later-period images or standalone official logo were found across the four available branches.
+
+Before public release, verify the map's title, date and geographical subject; the mosque sketch's attribution and date; both portrait identities and image dates; and whether the two Qur’an views depict the same object and support the stated 1869 date. The Yusuf portrait is already truncated in the upload. Lifespan dates must not be treated as portrait dates. Confirm holding collections, reproduction credits and permissions for every object. No route or archival image has been fabricated.
+
+All 12 milestone dates, names and descriptions remain unchanged. Existing introduction, closing, contexts and archive notes remain in content.json; the print note was updated to reflect the supplied material. Jawi is explained without identifying the uploaded Arabic-script page as Malay. The masthead is a text identifier, not an official logo. Later chapters deliberately use typography because appropriate imagery has not been supplied.

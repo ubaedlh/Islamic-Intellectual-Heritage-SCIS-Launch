@@ -1,63 +1,40 @@
 # A Brief History of Islamic Education in Singapore
 
-A single-page digital heritage journal for SCIS. Semantic HTML, CSS and vanilla JavaScript. No packages, backend, external fonts or build service required by GitHub Pages.
+An image-led Malay-Nusantara heritage journal for the SCIS exhibition. Static HTML, CSS, vanilla JavaScript and an authoritative `content.json`; compatible with GitHub Pages beneath a project path. No runtime dependencies, backend, remote fonts or third-party image requests.
 
-## Preview the redesign
+## Preview without publishing
 
-The redesign lives on `website/illustrated-historical-journal`; merging and deployment are separate review steps. The live main-branch website is unchanged until the pull request is merged.
+Use the new review branch `website/nusantara-image-journal-review-20261030`. On GitHub, choose **Code → Download ZIP**, extract it and open `index.html`. This displays the complete exhibition locally, including images and native expandable notes. No merge or deployment is needed.
 
-**Without Terminal:** open the redesign branch on GitHub, choose **Code → Download ZIP**, extract it, and open `index.html` in a browser. All text, styles, images and native expandable archive notes work directly from the folder. JavaScript adds motion, reading progress and the image viewer. GitHub's file view shows source code, not the rendered website. Do not merge just to preview it.
-
-For an HTTP preview, run this from the repository directory:
-
-```sh
-python3 -m http.server 8000 --bind 0.0.0.0
-```
-
-Open `http://localhost:8000` on that computer. Stop with Ctrl+C. A phone on the same local network can use the computer's LAN IP and port 8000 if permitted by the firewall. A cloud environment needs its supported port access; localhost on a phone refers to the phone.
-
-## Maintain the content
-
-`content.json` is the authoritative editable source. It retains every field of the existing 12 milestone objects, introduction and closing. It also holds the three chapter groupings, questions, glossary notes, context interpretations and closing reflection.
-
-After editing content, regenerate the complete static HTML with the dependency-free standard-library tool:
+Or run from the extracted repository:
 
 ```sh
 python3 tools/render.py
 python3 tools/render.py --check
+python3 tools/validate.py
+python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-Commit both `content.json` and `index.html`. Python is needed only when generating edited content, not to serve or deploy the website. Do not edit generated index.html directly: use content.json or the layout template in tools/render.py. This avoids a JavaScript-disabled visitor seeing outdated text. The browser no longer fetches JSON or replaces historical content at runtime.
+Open http://127.0.0.1:8000 and stop with Ctrl+C when finished. This review must not be merged or published automatically. No Pages settings were changed.
 
-Milestone placement is set by each chapter's `milestones` list. Each of the 12 original IDs must occur once. The reading order is 1, 2, 3, 4, 5, 6, 7, 8, 10, 9, 11, 12, grouping the three 1960s-onwards themes before 1980s onwards. Overlapping time periods are preserved and documented in CONTENT-REVIEW.md.
+## Archival material
 
-## Approved images and institutional assets
+Two uploaded presentation sheets were found on `main`, commit `7596929973546dc116b7f19af1c9f4ffc3965303`: `Pasted Graphic.tiff` and `image.png`. Both are retained unchanged. Six cropped WebP object views total approximately 220 KB and are stored in `assets/archive/`. Their crop coordinates, dimensions, source files and review needs are listed in `IMAGE-INVENTORY.md`.
 
-No historical photographs, documents, official logo or image rights were supplied. Every requested image is labelled as pending, not represented by imaginary evidence. The opening cartographic illustration is clearly marked contemporary and nonhistorical. The earlier illustration is retained unused in assets.
+The uploads contain a map, a mosque sketch, two portraits and two printed-text views relevant to Chapter I. No suitable later-period images or standalone official logo were found across the four branches. Later chapters use varied editorial typography without empty image frames. Existing contemporary SVGs remain in the repository but are not displayed as archival evidence. The masthead is a text identifier.
 
-To add an approved object image:
+Object identifications and dates follow captions in the supplied presentation sheets and remain provisional. Collections, reproduction credits and rights have not been supplied. See `CONTENT-REVIEW.md` before approval. Web copies cannot recover detail absent from these small slide reproductions; obtain archival masters for higher-resolution examination.
 
-1. Save a web-optimised image in assets (preferably under 300 KB where archival legibility permits).
-2. Set its milestone's `image` to the relative local path, e.g. `assets/approved-photo.jpg`.
-3. Set `imageAlt` to a descriptive alternative text, `caption` to the approved caption and `source` to the actual creator/date/collection/rights reference.
-4. Run the renderer and check the result. It rejects missing files and nonlocal paths. Images retain aspect ratio and load lazily. Their caption and source appear in the enlarged-image viewer; Escape, the Close button and clicking outside dismiss it. Focus returns to the original image. Without JavaScript, an image link opens the original asset directly.
+## Content and rendering
 
-Replace the header's explicitly labelled text identifier with the official logo only once supplied. Opening-image and header layout changes belong in tools/render.py. No official links, archival credits or new factual claims should be guessed. See CONTENT-REVIEW.md for editorial approvals still needed.
+Edit `content.json`, then regenerate and commit `index.html` with `python3 tools/render.py`. Do not edit the generated HTML directly. The renderer validates local image paths and the exact 12-milestone chapter coverage. All original dates, milestone titles, institutional names and descriptions are preserved. Original archive notes are also retained in `previousArchiveNotes`; the displayed printing note now acknowledges the uploads.
 
-## Review and publish
+The inherited reading order remains 1, 2, 3, 4, 5, 6, 7, 8, 10, 9, 11, 12, grouping overlapping 1960s themes before the 1980s section. Four reflective questions remain. Introductions, glossary definitions, captions, source notes and optional historical details are rendered as HTML and remain available without JavaScript.
 
-Open the branch's pull request and review before merging. Do not change the existing Pages settings unnecessarily. The existing main-branch Pages deployment can publish the revision after merge. If Pages is not enabled, use **Settings → Pages → Deploy from a branch → main → / (root) → Save**.
+Objects use the existing `image`, `imageAlt`, `caption` and `source` fields. Additional views are in `archiveObjects`; `heroObject` selects the frontispiece. Every archival image links directly to its web copy without JavaScript. JavaScript adds a native modal dialog, Escape and Close dismissal, focus return, chapter tracking, reading progress and restrained reveals. Reduced-motion preferences disable motion. System Georgia provides editorial typography without external font dependencies.
 
-Expected live URL: `https://ubaedlh.github.io/Islamic-Intellectual-Heritage-SCIS-Launch/`. The site uses relative assets and works beneath this project path. Test the published result on a phone before printing the QR code. Preserve content.json, tools/render.py, index.html, style.css, script.js and assets in the repository.
+## Validation and limits
 
-## Validation
+Renderer consistency, local asset/anchor references, exact original milestone text, and unchanged original-image hashes were checked. Browser checks covered 360, 390 and 1440 px widths with no document overflow, loading of all six archival views, chapter navigation, mobile image enlargement, Close/Escape dismissal and focus restoration. Static validation confirms the complete no-JavaScript narrative. The reduced-motion stylesheet disables transitions and smooth scrolling; no physical-device or full screen-reader audit was performed.
 
-```sh
-python3 tools/render.py --check
-node --check script.js
-git diff --check
-```
-
-Browser validation for this redesign covered 360, 390, 430, 768 and 1440 px viewports, exact milestone content and order, no horizontal overflow, working chapter anchors and current-chapter state, four reflective questions, archive notes, reading progress, image asset loading, reduced motion including changes during a visit, keyboard skip navigation and the complete no-JavaScript narrative. A test-only local image fixture exercised enlargement, caption/credit preservation, focus containment, Escape and focus restoration. GitHub Pages project-path behaviour was simulated locally.
-
-No full screen-reader audit, physical-phone performance measurement or real archival-image legibility review was performed. Approved archival images are still needed; the present page is lightweight and makes no third-party requests. No new dependencies were installed.
+Publication remains subject to curatorial identification, reproduction permissions and institutional approval. This branch is a design review, not a published exhibition.
