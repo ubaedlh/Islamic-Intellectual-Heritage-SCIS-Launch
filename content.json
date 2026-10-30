@@ -1,0 +1,148 @@
+{
+  "title": "A Brief History of Islamic Education in Singapore",
+  "subtitle": "Rooted in tradition. Connected to the world.",
+  "introduction": [
+    "Islamic education in Singapore has grown through generations of scholars, educators, philanthropists and institutions. Rooted in Islamic traditions and the local socio-religious context, it is enriched by scholarly networks across the Malay world and beyond.",
+    "This exhibition traces selected milestones from the 19th to the 21st century, highlighting a cosmopolitan and adaptive tradition.",
+    "Selected texts and manuscripts showcase Singapore’s Islamic intellectual heritage and SCIS’s commitment to its preservation and study through research and the Library’s Special Collections.",
+    "SCIS continues this intellectual legacy and opens a new chapter in Islamic education in Singapore."
+  ],
+  "milestones": [
+    {
+      "id": 1,
+      "date": "1810s onwards",
+      "category": "Trade & Networks",
+      "title": "A port connects people and ideas",
+      "description": "Singapore’s emergence as a trading port in 1819 attracted Muslim merchants, scholars and settlers, fostering religious and intellectual networks.",
+      "image": null,
+      "imageAlt": "Historical map of the region.",
+      "caption": "Historical map of the region.",
+      "source": null
+    },
+    {
+      "id": 2,
+      "date": "1820s onwards",
+      "category": "Early Learning",
+      "title": "Learning takes root in the community",
+      "description": "Mosques, homes and teaching circles became centres of Islamic learning, supported by ulama, Sufi networks and pilgrimage connections with the wider Muslim world.",
+      "image": null,
+      "imageAlt": "Historical illustration of a mosque or early Islamic educational setting.",
+      "caption": "Historical illustration of a mosque or early Islamic educational setting.",
+      "source": null
+    },
+    {
+      "id": 3,
+      "date": "1860s onwards",
+      "category": "Print & Publishing",
+      "title": "A centre for the printed word",
+      "description": "Singapore became a major centre of Islamic printing and publishing, producing and circulating religious texts across the Malay world.",
+      "image": null,
+      "imageAlt": "Historical Islamic publication or printed text.",
+      "caption": "Historical Islamic publication or printed text.",
+      "source": null
+    },
+    {
+      "id": 4,
+      "date": "Early 1900s onwards",
+      "category": "Modern Madrasahs",
+      "title": "Structured education expands",
+      "description": "Modern madrasahs, including Al-Iqbal, Alsagoff, Aljunied and Al-Ma’arif, expanded structured Islamic education and opportunities for Muslim girls.",
+      "image": null,
+      "imageAlt": "Historical photograph of madrasah pupils or educators.",
+      "caption": "Historical photograph of madrasah pupils or educators.",
+      "source": null
+    },
+    {
+      "id": 5,
+      "date": "1920s onwards",
+      "category": "Community Support",
+      "title": "Philanthropy sustains learning",
+      "description": "Muslim benefactors and community organisations sustained and expanded Islamic education through waqf, philanthropy and community initiatives.",
+      "image": null,
+      "imageAlt": "Historical photograph associated with Muslim philanthropy or educational support.",
+      "caption": "Historical photograph associated with Muslim philanthropy or educational support.",
+      "source": null
+    },
+    {
+      "id": 6,
+      "date": "1920s onwards",
+      "category": "Regional Learning",
+      "title": "Students arrive from across the region",
+      "description": "Madrasahs such as Aljunied, Alsagoff and Al-Ma’arif established Singapore as a regional centre of Islamic learning, attracting students from across Southeast Asia.",
+      "image": null,
+      "imageAlt": "Historical madrasah building.",
+      "caption": "Historical madrasah building.",
+      "source": null
+    },
+    {
+      "id": 7,
+      "date": "1960s onwards",
+      "category": "Institution Building",
+      "title": "Coordinating Islamic education",
+      "description": "Institutionalisation grew from MUIS’s establishment (1968) to greater coordination through MENDAKI (1982) and the Islamic Education Advisory Board (1990).",
+      "image": null,
+      "imageAlt": "Institutional leaders or historical photographs associated with Islamic education governance.",
+      "caption": "Institutional leaders or historical photographs associated with Islamic education governance.",
+      "source": null
+    },
+    {
+      "id": 8,
+      "date": "1960s onwards",
+      "category": "Madrasah Reform",
+      "title": "Modernising full-time madrasahs",
+      "description": "Curriculum reforms, national examinations, campus upgrading and MOE–NIE collaborations modernised full-time madrasah education, alongside the Joint Madrasah System (2009).",
+      "image": null,
+      "imageAlt": "Madrasah institutional logos.",
+      "caption": "Madrasah institutional logos.",
+      "source": null
+    },
+    {
+      "id": 9,
+      "date": "1980s onwards",
+      "category": "Lifelong Learning",
+      "title": "Learning at every stage of life",
+      "description": "Community-based and lifelong Islamic education expanded through SKML, PERGAS and other providers, with structured programmes such as aLIVE, ADIL and ILHAM.",
+      "image": null,
+      "imageAlt": "Photograph of contemporary Islamic education programmes.",
+      "caption": "Photograph of contemporary Islamic education programmes.",
+      "source": null
+    },
+    {
+      "id": 10,
+      "date": "1960s onwards",
+      "category": "Global Connections",
+      "title": "Deepening scholarly networks",
+      "description": "Overseas university pathways and global intellectual exchanges through MUIS Academy, ICCOS and the Distinguished Visitors Programme deepened international Islamic education and scholarly networks.",
+      "image": null,
+      "imageAlt": "Academic conference or scholarly engagement.",
+      "caption": "Academic conference or scholarly engagement.",
+      "source": null
+    },
+    {
+      "id": 11,
+      "date": "2000s onwards",
+      "category": "Higher Education",
+      "title": "Advancing education and the asatizah",
+      "description": "Higher Islamic education and asatizah professionalisation advanced through local post-secondary institutions, accreditation, PCICS, the Syed Isa Semait Scholarship and COFA.",
+      "image": null,
+      "imageAlt": "Relevant publication or institutional material.",
+      "caption": "Relevant publication or institutional material.",
+      "source": null
+    },
+    {
+      "id": 12,
+      "date": "2024 onwards",
+      "category": "A New Chapter",
+      "title": "Establishing SCIS",
+      "description": "SCIS opens a new chapter in contextualised Islamic higher education, integrating Islamic scholarship, interdisciplinary research and Singapore’s socio-religious context.",
+      "image": null,
+      "imageAlt": "SCIS institutional launch or rally photograph.",
+      "caption": "SCIS institutional launch or rally photograph.",
+      "source": null
+    }
+  ],
+  "closing": [
+    "From early centres of learning and regional scholarly networks to modern madrasahs and institutions of higher education, Singapore’s Islamic educational tradition continues to evolve.",
+    "This heritage reflects generations of intellectual exchange, community commitment and institutional development, providing foundations for the future of Islamic education in Singapore."
+  ]
+}
