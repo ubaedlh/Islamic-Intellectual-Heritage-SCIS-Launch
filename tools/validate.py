@@ -27,3 +27,13 @@ for m in d['milestones']:assert m['description'] in __import__('html').unescape(
 assert 'image-placeholder' not in text
 assert sum(o['width']*o['height']>0 for o in d['archiveObjects'])==6
 print('PASS: renderer, 12 milestones, local assets/anchors, alt text, six object views, static narrative')
+
+archive=d.get('chapterArchives', {})
+assert set(archive)=={'transformation'}, 'New archive must belong only to Chapter II'
+objects=[o for g in archive['transformation']['groups'] for o in g['objects']]
+assert len(objects)==7 and len({o['image'] for o in objects})==7
+chapter2=text.split('id="transformation"',1)[1].split('id="renewal"',1)[0]
+for o in objects:
+    assert o['image'] in chapter2 and text.count('src="'+o['image']+'"')==1
+    assert o['caption'] in __import__('html').unescape(chapter2)
+print('PASS: seven unique new objects exclusively in Chapter II, with supplied captions')

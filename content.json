@@ -387,5 +387,96 @@
     "3": "Print culture draws attention to how texts were produced and circulated. The requested publication has not yet been supplied, so no author, title, printing date or collection reference is asserted here.",
     "6": "The supplied exhibition text names Aljunied, Alsagoff and Al-Ma’arif as examples. An approved building photograph and its identification are still needed.",
     "8": "This thematic milestone begins in the 1960s and also mentions the Joint Madrasah System in 2009. “Onwards” describes a continuing theme, not a single event."
+  },
+  "chapterArchives": {
+    "transformation": {
+      "title": "From the Archive",
+      "intro": "Print, people and institutions",
+      "groups": [
+        {
+          "title": "Reformism and the Malay press",
+          "objects": [
+            {
+              "id": "al-imam",
+              "title": "Cover of Al-Imam (1906–1908)",
+              "image": "assets/archive/al-imam.jpeg",
+              "imageAlt": "Cover of Al-Imam with ornamental border and Arabic-script lettering.",
+              "caption": "A Malay-language Islamic reformist periodical published in Singapore, promoting religious reform, education and modernist Islamic thought across the Malay world.",
+              "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Periodical publication range supplied; date of this particular issue has not been verified.",
+              "modalTitle": "Cover of Al-Imam (1906–1908). A Malay-language Islamic reformist periodical published in Singapore, promoting religious reform, education and modernist Islamic thought across the Malay world."
+            },
+            {
+              "id": "yusof-ishak",
+              "title": "Portrait of Yusof Ishak (1910–1970)",
+              "image": "assets/archive/yusof-ishak.jpeg",
+              "imageAlt": "User-identified portrait of Yusof Ishak in a suit and tie.",
+              "caption": "Journalist, co-founder of Utusan Melayu (1939) and Singapore's first President. He represented a generation of Malay-Muslim intellectuals and journalists who championed education, social reform and community advancement through the Malay press.",
+              "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
+              "modalTitle": "Portrait of Yusof Ishak (1910–1970). Journalist, co-founder of Utusan Melayu (1939) and Singapore's first President. He represented a generation of Malay-Muslim intellectuals and journalists who championed education, social reform and community advancement through the Malay press."
+            }
+          ]
+        },
+        {
+          "title": "Scholars and educators",
+          "objects": [
+            {
+              "id": "kiyai-zuhri",
+              "title": "Portrait of Kiyai Zuhri (1905–1985)",
+              "image": "assets/archive/kiyai-zuhri.jpeg",
+              "imageAlt": "User-identified portrait of Kiyai Zuhri wearing a songkok.",
+              "caption": "A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
+              "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
+              "modalTitle": "Portrait of Kiyai Zuhri (1905–1985). A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore."
+            }
+          ]
+        },
+        {
+          "title": "Madrasahs and women’s education",
+          "objects": [
+            {
+              "id": "fadhlullah-and-daughters",
+              "title": "Sheikh Muhammad Fadhlullah Suhaimi and His Daughters",
+              "image": "assets/archive/fadhlullah-and-daughters.jpeg",
+              "imageAlt": "Group photograph supplied as Sheikh Muhammad Fadhlullah Suhaimi and his daughters; identified figure third from right.",
+              "caption": "A religious scholar and advocate of women's education (third from right), whose efforts contributed to the establishment of Madrasah Al-Maarif Al-Islamiah in 1936, a significant milestone in Muslim girls' education in Singapore.",
+              "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
+              "modalTitle": "Sheikh Muhammad Fadhlullah Suhaimi and His Daughters. A religious scholar and advocate of women's education (third from right), whose efforts contributed to the establishment of Madrasah Al-Maarif Al-Islamiah in 1936, a significant milestone in Muslim girls' education in Singapore."
+            },
+            {
+              "id": "madrasah-aljunied",
+              "title": "Madrasah Aljunied Al-Islamiah",
+              "image": "assets/archive/madrasah-aljunied.jpeg",
+              "imageAlt": "Group outside the building bearing the name Madrasah Aljunied Al-Islamiah.",
+              "caption": "An important institution of Islamic learning that nurtured generations of scholars from Singapore and the wider region, reflecting Singapore's standing as a regional centre of Islamic education.",
+              "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
+              "modalTitle": "Madrasah Aljunied Al-Islamiah. An important institution of Islamic learning that nurtured generations of scholars from Singapore and the wider region, reflecting Singapore's standing as a regional centre of Islamic education."
+            }
+          ]
+        },
+        {
+          "title": "Philanthropy and community scholarships",
+          "objects": [
+            {
+              "id": "ahmad-angullia",
+              "title": "Portrait of Ahmad Mohammad Salleh Angullia (1873–1939)",
+              "image": "assets/archive/ahmad-angullia.jpeg",
+              "imageAlt": "User-identified portrait of Ahmad Mohammad Salleh Angullia wearing a turban.",
+              "caption": "A prominent Muslim merchant and philanthropist whose charitable endowments and contributions to institutions such as Jamiyah Singapore and Masjid Haji Yusoff reflected the role of philanthropy and waqf in sustaining Muslim religious and educational life.",
+              "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
+              "modalTitle": "Portrait of Ahmad Mohammad Salleh Angullia (1873–1939). A prominent Muslim merchant and philanthropist whose charitable endowments and contributions to institutions such as Jamiyah Singapore and Masjid Haji Yusoff reflected the role of philanthropy and waqf in sustaining Muslim religious and educational life."
+            },
+            {
+              "id": "ali-redha-alsagoff",
+              "title": "Syed Ali Redha Alsagoff",
+              "image": "assets/archive/ali-redha-alsagoff.jpeg",
+              "imageAlt": "Indoor group photograph supplied as Syed Ali Redha Alsagoff, identified second from right.",
+              "caption": "A prominent figure in Singapore's Malay-Muslim community and chairman of the Prophet Muhammad's Birthday Memorial Scholarship Fund Board (LBKM), pictured second from right. His involvement in scholarship initiatives reflected community efforts to expand educational opportunities and support Muslim students.",
+              "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
+              "modalTitle": "Syed Ali Redha Alsagoff. A prominent figure in Singapore's Malay-Muslim community and chairman of the Prophet Muhammad's Birthday Memorial Scholarship Fund Board (LBKM), pictured second from right. His involvement in scholarship initiatives reflected community efforts to expand educational opportunities and support Muslim students."
+            }
+          ]
+        }
+      ]
+    }
   }
 }

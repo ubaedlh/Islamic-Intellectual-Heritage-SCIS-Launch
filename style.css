@@ -73,3 +73,10 @@ summary{font:600 12px/1.8 var(--heading);padding:12px 0;min-height:44px;color:va
 }
 @media(max-width:400px){.hero-kicker{font-size:8px}.hero h1{font-size:40px}.identity-name{font-size:27px}.institution{font-size:9px}.chapter-nav a{font-size:9px;gap:4px;padding-inline:5px}.chapter-title-row{gap:14px}.roman{font-size:49px}.chapter-title-row h2{font-size:27px}.milestone,.has-image{column-gap:12px}.chapter{padding-inline:6vw}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.js-motion .milestone:not(.is-visible){transform:none}.progress,.history-line{display:none}}
+
+/* Chapter II: user-supplied archival collection, retaining original proportions. */
+.transformation .chapter-archive{max-width:1180px;margin:40px auto 0;padding:55px 0 20px;border-top:4px solid var(--accent)}
+.chapter-archive>header{max-width:740px;margin-bottom:48px}.chapter-archive>header .eyebrow{color:var(--accent-text)}.chapter-archive h2{font-size:clamp(34px,4vw,54px);margin-top:15px}
+.archive-theme{padding:35px 0 45px;border-top:1px solid var(--chapter-line)}.archive-theme>h3{font:700 15px/1.6 var(--heading);color:var(--accent-text);margin-bottom:28px}
+.chapter-object-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:44px}.chapter-object{max-width:100%;min-width:0}.chapter-object .image-button{background:#fffdf0;padding:18px}.chapter-object img{height:360px;width:100%;object-fit:contain}.chapter-object figcaption h4{font:700 17px/1.5 var(--heading);color:var(--charcoal);margin:4px 0 12px}.chapter-object figcaption>p{font:400 17px/1.75 var(--narrative);color:var(--charcoal)}.chapter-object-grid>.chapter-object:only-child{max-width:540px}
+@media(max-width:800px){.chapter-object-grid{grid-template-columns:1fr;gap:36px}.chapter-object img{height:auto;max-height:440px}.chapter-object .image-button{padding:12px}.archive-theme{padding-block:28px}.transformation .chapter-archive{padding-top:38px}.chapter-object figcaption h4{font-size:16px}}
