@@ -47,6 +47,12 @@ def render():
         highlight_html = f'<aside class="milestone-highlights" aria-label="Milestone highlights">{highlights}</aside>' if highlights else ''
         extras = ''.join(object_figure(o) for o in d.get('archiveObjects', []) if o['milestone'] == n and o['image'] != m.get('image'))
         visual = f'<div class="object-group">{object_figure(m)}{extras}</div>' if m.get('image') else ''
+        if m.get('displayObjects'):
+            figures = []
+            for obj in m['displayObjects']:
+                feature = f'<aside class="did-you-know"><p class="eyebrow">Did You Know?</p><h4>{e(obj["featureTitle"])}</h4><p>{e(obj["featureText"])}</p></aside>' if obj.get('featureTitle') else ''
+                figures.append(f'<div class="milestone-object">{feature}{object_figure(obj)}</div>')
+            visual = '<div class="object-group curated-objects">' + ''.join(figures) + '</div>'
         archive_detail = f'<details class="text-archive"><summary>Explore Further</summary>{archive_html}<p>{e(m["description"])}</p></details>' if archive else ''
         return f'''<article class="milestone layout-{n % 3} {'has-image' if visual else 'typographic'}" id="milestone-{n}" aria-labelledby="title-{n}">
 <div class="folio" aria-hidden="true">{n:02}<span> / 12</span></div>

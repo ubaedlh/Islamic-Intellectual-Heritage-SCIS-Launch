@@ -80,3 +80,16 @@ summary{font:600 12px/1.8 var(--heading);padding:12px 0;min-height:44px;color:va
 .archive-theme{padding:35px 0 45px;border-top:1px solid var(--chapter-line)}.archive-theme>h3{font:700 15px/1.6 var(--heading);color:var(--accent-text);margin-bottom:28px}
 .chapter-object-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:44px}.chapter-object{max-width:100%;min-width:0}.chapter-object .image-button{background:#fffdf0;padding:18px}.chapter-object img{height:360px;width:100%;object-fit:contain}.chapter-object figcaption h4{font:700 17px/1.5 var(--heading);color:var(--charcoal);margin:4px 0 12px}.chapter-object figcaption>p{font:400 17px/1.75 var(--narrative);color:var(--charcoal)}.chapter-object-grid>.chapter-object:only-child{max-width:540px}
 @media(max-width:800px){.chapter-object-grid{grid-template-columns:1fr;gap:36px}.chapter-object img{height:auto;max-height:440px}.chapter-object .image-button{padding:12px}.archive-theme{padding-block:28px}.transformation .chapter-archive{padding-top:38px}.chapter-object figcaption h4{font-size:16px}}
+
+/* Scoped archival displays for milestones 1 and 2. */
+#milestone-1 .curated-objects .archive-object{max-width:100%;margin:0}
+#milestone-1 .curated-objects>.milestone-object:first-child{max-width:390px;margin-inline:auto}
+#milestone-2.has-image{grid-template-columns:45px minmax(0,1fr)}
+#milestone-2.has-image .milestone-copy{grid-column:2;grid-row:auto;max-width:850px}
+#milestone-2.has-image .curated-objects{grid-column:2;grid-row:auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:45px 35px}
+#milestone-2 .curated-objects .archive-object{max-width:100%;margin:0}
+#milestone-2 .curated-objects img{max-height:580px;width:100%;object-fit:contain}
+#milestone-2 .curated-objects .image-button{background:#fffdf0}
+#milestone-2 .curated-objects>.milestone-object:nth-child(3){grid-column:1/-1;max-width:850px;width:100%}
+.did-you-know{border-top:3px solid var(--accent);padding-top:22px;margin-bottom:25px}.did-you-know .eyebrow{color:var(--accent-text)}.did-you-know h4{font:400 28px/1.25 var(--narrative);margin:12px 0 18px}.did-you-know>p:last-child{font-size:18px}
+@media(max-width:800px){#milestone-2.has-image{grid-template-columns:25px minmax(0,1fr)}#milestone-2.has-image .curated-objects{grid-template-columns:1fr;gap:36px}#milestone-2 .curated-objects>.milestone-object:nth-child(3){grid-column:auto}}

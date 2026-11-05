@@ -13,22 +13,77 @@
       "date": "1810s onwards",
       "category": "Trade & Networks",
       "title": "A port connects people and ideas",
-      "description": "Singapore’s emergence as a trading port in 1819 attracted Muslim merchants, scholars and settlers, fostering religious and intellectual networks.",
-      "image": "assets/archive/map.webp",
-      "imageAlt": "Map reproduced on the uploaded presentation sheet; labelled “Ottoman Map of Singapore (1732)”.",
-      "caption": "Map reproduced on the uploaded presentation sheet; labelled “Ottoman Map of Singapore (1732)”.",
-      "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review."
+      "description": "Singapore's emergence as a major trading port in the 19th century attracted Muslim merchants, scholars and pilgrims from across the Malay world and beyond. These transregional networks facilitated not only the movement of people and goods, but also the circulation of religious knowledge, scholarly ideas and intellectual traditions, establishing Singapore as an important meeting point within the wider Muslim world.",
+      "image": "assets/archive/alsagoff.webp",
+      "imageAlt": "Portrait labelled “Syed Mohamed Alsagoff (1836–1906)” on the uploaded sheet.",
+      "caption": "A prominent Muslim merchant and philanthropist whose maritime enterprises, including the steamship S.S. Jeddah, facilitated pilgrimage journeys between Southeast Asia and the Hijaz, strengthening religious and intellectual connections with the wider Muslim world.",
+      "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review.",
+      "displayObjects": [
+        {
+          "id": "alsagoff",
+          "filename": "image.png",
+          "image": "assets/archive/alsagoff.webp",
+          "imageAlt": "Portrait labelled “Syed Mohamed Alsagoff (1836–1906)” on the uploaded sheet.",
+          "caption": "A prominent Muslim merchant and philanthropist whose maritime enterprises, including the steamship S.S. Jeddah, facilitated pilgrimage journeys between Southeast Asia and the Hijaz, strengthening religious and intellectual connections with the wider Muslim world.",
+          "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review.",
+          "milestone": 1,
+          "crop": [
+            575,
+            246,
+            924,
+            707
+          ],
+          "width": 349,
+          "height": 461
+        },
+        {
+          "image": "assets/archive/M1_Kiyai_Abdulrahman_Klotok_Manuscript.jpg",
+          "caption": "Manuscript by Kiyai Abdulrahman Klotok; date unverified.",
+          "imageAlt": "Page of a manuscript supplied as the account by Kiyai Abdulrahman Klotok, with handwritten text and marginal notes.",
+          "source": "Image and identification supplied by the user, 5 November 2026. Collection credit and reproduction permissions have not been supplied. Historical attribution has not been independently verified.",
+          "featureTitle": "Singapore and the Hajj",
+          "featureText": "An early account of Singapore's role as a transit point for Muslim pilgrims travelling from the Malay world to the Hijaz is preserved in a manuscript by Kiyai Abdulrahman Klotok. This historical record offers a glimpse into Singapore's connections with regional pilgrimage networks and the wider Muslim world."
+        }
+      ]
     },
     {
       "id": 2,
       "date": "1820s onwards",
       "category": "Early Learning",
       "title": "Learning takes root in the community",
-      "description": "Mosques, homes and teaching circles became centres of Islamic learning, supported by ulama, Sufi networks and pilgrimage connections with the wider Muslim world.",
-      "image": "assets/archive/mosque.webp",
-      "imageAlt": "Mosque sketch labelled “Masjid Sultan”, attributed on the uploaded sheet to John Turnbull Johnson (1846).",
-      "caption": "Mosque sketch labelled “Masjid Sultan”, attributed on the uploaded sheet to John Turnbull Johnson (1846).",
-      "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review."
+      "description": "Mosques, homes and informal teaching circles became important centres of Islamic learning in early Singapore, sustained by ulama, Sufi networks and connections with the wider Muslim world. Singapore also attracted prominent scholars who produced religious writings on the island, including Sheikh Salim bin Sumayr and Sheikh Ismail al-Khalidi al-Minangkabawi, reflecting its emerging role as a centre of Islamic intellectual activity.",
+      "image": "assets/archive/M2_Salim_bin_Sumayr_Risalah.jpg",
+      "imageAlt": "Page of Risalah ar-Radd ‘ala Ahl al-Tariqah, supplied as a work by Sheikh Salim bin Sumayr.",
+      "caption": "Risalah ar-Radd ‘ala Ahl al-Tariqah — Sheikh Salim bin Sumayr. A religious treatise written in Singapore, reflecting the scholarly activity and religious discourses taking place on the island during the 19th century.",
+      "source": "Image and identification supplied by the user, 5 November 2026. Collection credit and reproduction permissions have not been supplied. Historical attribution has not been independently verified.",
+      "displayObjects": [
+        {
+          "image": "assets/archive/M2_Salim_bin_Sumayr_Risalah.jpg",
+          "caption": "Risalah ar-Radd ‘ala Ahl al-Tariqah — Sheikh Salim bin Sumayr. A religious treatise written in Singapore, reflecting the scholarly activity and religious discourses taking place on the island during the 19th century.",
+          "imageAlt": "Page of Risalah ar-Radd ‘ala Ahl al-Tariqah, supplied as a work by Sheikh Salim bin Sumayr.",
+          "source": "Image and identification supplied by the user, 5 November 2026. Collection credit and reproduction permissions have not been supplied. Historical attribution has not been independently verified."
+        },
+        {
+          "image": "assets/archive/M2_Ismail_al_Khalidi_Mawahib.jpg",
+          "caption": "Mawahib Rab al-Falaq — Sheikh Ismail al-Khalidi al-Minangkabawi. Written in Telok Blangah, Singapore, in 1852, this work illustrates Singapore's connections to wider networks of Islamic scholarship.",
+          "imageAlt": "Page of Mawahib Rab al-Falaq, supplied as a work by Sheikh Ismail al-Khalidi al-Minangkabawi.",
+          "source": "Image and identification supplied by the user, 5 November 2026. Collection credit and reproduction permissions have not been supplied. Historical attribution has not been independently verified."
+        },
+        {
+          "image": "assets/archive/M2_Temenggong_Daeng_Ibrahim_Mosque.jpg",
+          "caption": "Side view of the entrance to the State of Johore Mosque (now Temenggong Daeng Ibrahim Mosque), along Telok Blangah Road, before 1983.",
+          "imageAlt": "Historical photograph of the mosque entrance and roadside buildings along Telok Blangah Road; supplied date before 1983.",
+          "source": "Image and identification supplied by the user, 5 November 2026. Collection credit and reproduction permissions have not been supplied. Historical attribution has not been independently verified."
+        },
+        {
+          "image": "assets/archive/M2_Yusuf_Ma_Dexin.jpg",
+          "caption": "Portrait of Yusuf Ma Dexin (1794–1874), a prominent Chinese Muslim scholar whose travelogue records his travels through Singapore during the 1840s.",
+          "imageAlt": "User-identified portrait of Yusuf Ma Dexin wearing a turban, with a long white beard.",
+          "source": "Image and identification supplied by the user, 5 November 2026. Collection credit and reproduction permissions have not been supplied. Historical attribution has not been independently verified.",
+          "featureTitle": "A Chinese Muslim Scholar in Singapore",
+          "featureText": "The Chinese Muslim scholar Yusuf Ma Dexin recorded his stay in Singapore during the 1840s in his travelogue Chaojin Tuji (Record of the Pilgrimage Journey). His account illustrates Singapore's place within wider pilgrimage routes linking China, Southeast Asia and the Hijaz."
+        }
+      ]
     },
     {
       "id": 3,
