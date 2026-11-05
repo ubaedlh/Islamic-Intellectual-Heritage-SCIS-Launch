@@ -171,7 +171,7 @@
     "From early centres of learning and regional scholarly networks to modern madrasahs and institutions of higher education, Singapore’s Islamic educational tradition continues to evolve.",
     "This heritage reflects generations of intellectual exchange, community commitment and institutional development, providing foundations for the future of Islamic education in Singapore."
   ],
-  "opening": "From the scholarly networks of a bustling port to the educational institutions of a modern nation, discover a living tradition shaped by generations of learning, exchange and renewal.",
+  "opening": "From a bustling port connecting scholars, pilgrims and ideas across the Muslim world to the educational institutions of modern Singapore, Islamic education has evolved through generations of learning, intellectual exchange and renewal. Rooted in Islamic traditions, shaped by Singapore’s local context and enriched by global scholarly networks, this exhibition traces the people, institutions and milestones that have shaped its development and enduring intellectual heritage.",
   "openingQuestion": "What makes a place a meeting point for knowledge?",
   "chapters": [
     {
@@ -478,5 +478,12 @@
         }
       ]
     }
+  },
+  "homepageImage": {
+    "id": "homepage-sultan",
+    "image": "assets/archive/SCIS_Homepage_Masjid_Sultan_1846.png",
+    "imageAlt": "Historical sketch of Masjid Sultan in Singapore, attributed to John Turnbull Johnson, 1846.",
+    "caption": "Sketch of Masjid Sultan by John Turnbull Johnson (1846).",
+    "source": "Image and attribution supplied by the user. Collection credit and reproduction permissions not supplied."
   }
 }
