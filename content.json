@@ -164,12 +164,7 @@
       "imageAlt": "Madrasah institutional logos.",
       "caption": "Madrasah institutional logos.",
       "source": null,
-      "highlights": [
-        {
-          "date": "2009",
-          "label": "Joint Madrasah System"
-        }
-      ]
+      "highlights": []
     },
     {
       "id": 9,
@@ -540,5 +535,11 @@
     "imageAlt": "Historical sketch of Masjid Sultan in Singapore, attributed to John Turnbull Johnson, 1846.",
     "caption": "Sketch of Masjid Sultan by John Turnbull Johnson (1846).",
     "source": "Image and attribution supplied by the user. Collection credit and reproduction permissions not supplied."
-  }
+  },
+  "introHistory": [
+    "As Singapore emerged as a bustling maritime trading port in the 19th century, it became not only a crossroads of commerce but also a meeting place for scholars, pilgrims, merchants and travellers from across the Malay world and beyond. As historian Michael Laffan observed in The Makings of Indonesian Islam, “There (Singapore) the pilgrim, the jurist, and the Sufi could all meet.”",
+    "Alongside the movement of goods and people came the circulation of religious texts, scholarly traditions and intellectual ideas, connecting Singapore to established centres of Islamic learning across the wider Muslim world. Mosques, homes and informal teaching circles served as important spaces for religious learning.",
+    "By the mid-19th century, Singapore was already witnessing Islamic intellectual activity, with scholars who travelled to and settled on the island composing religious works and contributing to its growing textual heritage.",
+    "The subsequent expansion of Islamic printing and publishing further established Singapore as an important centre for the production and circulation of religious texts across the Malay world, laying the foundations for a distinctive tradition of Islamic education rooted in local communities and enriched by cosmopolitan scholarly networks."
+  ]
 }
