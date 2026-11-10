@@ -14,28 +14,11 @@
       "category": "Trade & Networks",
       "title": "A port connects people and ideas",
       "description": "Singapore's emergence as a major trading port in the 19th century attracted Muslim merchants, scholars and pilgrims from across the Malay world and beyond. These transregional networks facilitated not only the movement of people and goods, but also the circulation of religious knowledge, scholarly ideas and intellectual traditions, establishing Singapore as an important meeting point within the wider Muslim world.",
-      "image": "assets/archive/alsagoff.webp",
-      "imageAlt": "Portrait labelled “Syed Mohamed Alsagoff (1836–1906)” on the uploaded sheet.",
-      "caption": "A prominent Muslim merchant and philanthropist whose maritime enterprises, including the steamship S.S. Jeddah, facilitated pilgrimage journeys between Southeast Asia and the Hijaz, strengthening religious and intellectual connections with the wider Muslim world.",
-      "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review.",
+      "image": "assets/archive/M1_Kiyai_Abdulrahman_Klotok_Manuscript.jpg",
+      "imageAlt": "Page of a manuscript supplied as the account by Kiyai Abdulrahman Klotok, with handwritten text and marginal notes.",
+      "caption": "Manuscript by Kiyai Abdulrahman Klotok; date unverified.",
+      "source": "Image and identification supplied by the user, 5 November 2026. Collection credit and reproduction permissions have not been supplied. Historical attribution has not been independently verified.",
       "displayObjects": [
-        {
-          "id": "alsagoff",
-          "filename": "image.png",
-          "image": "assets/archive/alsagoff.webp",
-          "imageAlt": "Portrait labelled “Syed Mohamed Alsagoff (1836–1906)” on the uploaded sheet.",
-          "caption": "A prominent Muslim merchant and philanthropist whose maritime enterprises, including the steamship S.S. Jeddah, facilitated pilgrimage journeys between Southeast Asia and the Hijaz, strengthening religious and intellectual connections with the wider Muslim world.",
-          "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review.",
-          "milestone": 1,
-          "crop": [
-            575,
-            246,
-            924,
-            707
-          ],
-          "width": 349,
-          "height": 461
-        },
         {
           "image": "assets/archive/M1_Kiyai_Abdulrahman_Klotok_Manuscript.jpg",
           "caption": "Manuscript by Kiyai Abdulrahman Klotok; date unverified.",
@@ -102,10 +85,31 @@
       "category": "Modern Madrasahs",
       "title": "Structured education expands",
       "description": "Modern madrasahs, including Al-Iqbal, Alsagoff, Aljunied and Al-Ma’arif, expanded structured Islamic education and opportunities for Muslim girls.",
-      "image": null,
-      "imageAlt": "Historical photograph of madrasah pupils or educators.",
-      "caption": "Historical photograph of madrasah pupils or educators.",
-      "source": null
+      "image": "assets/archive/alsagoff.webp",
+      "imageAlt": "Portrait labelled “Syed Mohamed Alsagoff (1836–1906)” on the uploaded sheet.",
+      "caption": "A prominent Arab Muslim merchant and philanthropist whose maritime enterprises, including the steamship S.S. Jeddah, facilitated pilgrimage journeys to the Hijaz, strengthening religious learning and scholarly connections between Southeast Asia and the wider Muslim world. His philanthropic legacy also contributed to Islamic education in Singapore, with the establishment of Madrasah Alsagoff Al-Arabiah in 1912 through his family's charitable endowment, following his passing.",
+      "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review.",
+      "displayObjects": [
+        {
+          "id": "alsagoff",
+          "filename": "image.png",
+          "image": "assets/archive/alsagoff.webp",
+          "imageAlt": "Portrait labelled “Syed Mohamed Alsagoff (1836–1906)” on the uploaded sheet.",
+          "caption": "A prominent Arab Muslim merchant and philanthropist whose maritime enterprises, including the steamship S.S. Jeddah, facilitated pilgrimage journeys to the Hijaz, strengthening religious learning and scholarly connections between Southeast Asia and the wider Muslim world. His philanthropic legacy also contributed to Islamic education in Singapore, with the establishment of Madrasah Alsagoff Al-Arabiah in 1912 through his family's charitable endowment, following his passing.",
+          "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review.",
+          "milestone": 4,
+          "crop": [
+            575,
+            246,
+            924,
+            707
+          ],
+          "width": 349,
+          "height": 461,
+          "captionTitle": "Portrait of Syed Mohamed Alsagoff (1836–1906)",
+          "modalTitle": "Portrait of Syed Mohamed Alsagoff (1836–1906). A prominent Arab Muslim merchant and philanthropist whose maritime enterprises, including the steamship S.S. Jeddah, facilitated pilgrimage journeys to the Hijaz, strengthening religious learning and scholarly connections between Southeast Asia and the wider Muslim world. His philanthropic legacy also contributed to Islamic education in Singapore, with the establishment of Madrasah Alsagoff Al-Arabiah in 1912 through his family's charitable endowment, following his passing."
+        }
+      ]
     },
     {
       "id": 5,
@@ -236,7 +240,8 @@
         1,
         2,
         3
-      ]
+      ],
+      "historyDetail": "As Singapore emerged as a bustling maritime trading port in the 19th century, it became not only a crossroads of commerce but also a meeting place for scholars, pilgrims, merchants and travellers from across the Malay world and beyond. As historian Michael Laffan observed in The Makings of Indonesian Islam, “There (Singapore) the pilgrim, the jurist, and the Sufi could all meet.” Alongside the movement of goods and people came the circulation of religious texts, scholarly traditions and intellectual ideas, connecting Singapore to established centres of Islamic learning across the wider Muslim world. Mosques, homes and informal teaching circles served as important spaces for religious learning."
     },
     {
       "id": "transformation",
@@ -385,9 +390,9 @@
       "filename": "image.png",
       "image": "assets/archive/alsagoff.webp",
       "imageAlt": "Portrait labelled “Syed Mohamed Alsagoff (1836–1906)” on the uploaded sheet.",
-      "caption": "Portrait labelled “Syed Mohamed Alsagoff (1836–1906)” on the uploaded sheet.",
+      "caption": "A prominent Arab Muslim merchant and philanthropist whose maritime enterprises, including the steamship S.S. Jeddah, facilitated pilgrimage journeys to the Hijaz, strengthening religious learning and scholarly connections between Southeast Asia and the wider Muslim world. His philanthropic legacy also contributed to Islamic education in Singapore, with the establishment of Madrasah Alsagoff Al-Arabiah in 1912 through his family's charitable endowment, following his passing.",
       "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review.",
-      "milestone": 1,
+      "milestone": 4,
       "crop": [
         575,
         246,
@@ -395,7 +400,9 @@
         707
       ],
       "width": 349,
-      "height": 461
+      "height": 461,
+      "captionTitle": "Portrait of Syed Mohamed Alsagoff (1836–1906)",
+      "modalTitle": "Portrait of Syed Mohamed Alsagoff (1836–1906). A prominent Arab Muslim merchant and philanthropist whose maritime enterprises, including the steamship S.S. Jeddah, facilitated pilgrimage journeys to the Hijaz, strengthening religious learning and scholarly connections between Southeast Asia and the wider Muslim world. His philanthropic legacy also contributed to Islamic education in Singapore, with the establishment of Madrasah Alsagoff Al-Arabiah in 1912 through his family's charitable endowment, following his passing."
     },
     {
       "id": "quran-open",
@@ -535,11 +542,5 @@
     "imageAlt": "Historical sketch of Masjid Sultan in Singapore, attributed to John Turnbull Johnson, 1846.",
     "caption": "Sketch of Masjid Sultan by John Turnbull Johnson (1846).",
     "source": "Image and attribution supplied by the user. Collection credit and reproduction permissions not supplied."
-  },
-  "introHistory": [
-    "As Singapore emerged as a bustling maritime trading port in the 19th century, it became not only a crossroads of commerce but also a meeting place for scholars, pilgrims, merchants and travellers from across the Malay world and beyond. As historian Michael Laffan observed in The Makings of Indonesian Islam, “There (Singapore) the pilgrim, the jurist, and the Sufi could all meet.”",
-    "Alongside the movement of goods and people came the circulation of religious texts, scholarly traditions and intellectual ideas, connecting Singapore to established centres of Islamic learning across the wider Muslim world. Mosques, homes and informal teaching circles served as important spaces for religious learning.",
-    "By the mid-19th century, Singapore was already witnessing Islamic intellectual activity, with scholars who travelled to and settled on the island composing religious works and contributing to its growing textual heritage.",
-    "The subsequent expansion of Islamic printing and publishing further established Singapore as an important centre for the production and circulation of religious texts across the Malay world, laying the foundations for a distinctive tradition of Islamic education rooted in local communities and enriched by cosmopolitan scholarly networks."
-  ]
+  }
 }
