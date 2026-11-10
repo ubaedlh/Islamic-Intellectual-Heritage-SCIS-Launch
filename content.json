@@ -287,7 +287,6 @@
       "label": "Connections",
       "title": "A Port of Trade. A Meeting Place of Knowledge.",
       "period": "Nineteenth century",
-      "intro": "As Singapore developed as a trading port, it also became a meeting place for people, religious texts and ideas. Mosques, homes and teaching circles sustained learning; printing carried the written word across the Malay world.",
       "question": "What else travelled through Singapore besides goods and people?",
       "milestones": [
         1,
@@ -329,11 +328,6 @@
     }
   ],
   "contexts": {
-    "1": {
-      "title": "A port, and a place of exchange",
-      "text": "The trading port is part of the educational story, too: the existing exhibition account connects Singapore’s emergence as a port in 1819 with the arrival of Muslim merchants, scholars and settlers.",
-      "basis": "Interpretation of milestone 1; not a claim about a specific travel route."
-    },
     "7": {
       "title": "Institutions in a changing Singapore",
       "text": "The exhibition’s post-independence account follows educational coordination through MUIS (1968), MENDAKI (1982) and the Islamic Education Advisory Board (1990). These dates locate institutional development within Singapore’s changing national story.",
@@ -524,7 +518,8 @@
               "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
               "modalTitle": "Portrait of Yusof Ishak (1910–1970). Journalist, co-founder of Utusan Melayu (1939) and Singapore's first President. He represented a generation of Malay-Muslim intellectuals and journalists who championed education, social reform and community advancement through the Malay press."
             }
-          ]
+          ],
+          "placement": "opening"
         },
         {
           "title": "Scholars and educators",

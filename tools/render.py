@@ -23,16 +23,22 @@ def render():
     def object_figure(obj):
         title = f'<p class="caption-title"><strong>{e(obj["captionTitle"])}</strong></p>' if obj.get('captionTitle') else ''
         return f'<figure class="archive-object">{image(obj)}<figcaption>{title}{e(obj["caption"])}<details><summary>From the Archive</summary><p>{e(obj["source"])}</p></details></figcaption></figure>'
-    def chapter_archive(chapter_id):
+    def chapter_archive(chapter_id, *, opening=False):
         archive = d.get('chapterArchives', {}).get(chapter_id)
         if not archive:
             return ''
         groups = []
         for group in archive['groups']:
+            if (group.get('placement') == 'opening') != opening:
+                continue
             figures = []
             for obj in group['objects']:
                 figures.append(f'<figure class="archive-object chapter-object" id="archive-{e(obj["id"])}">{image(obj)}<figcaption><h4>{e(obj["title"])}</h4><p>{e(obj["caption"])}</p><details><summary>Source and identification</summary><p>{e(obj["source"])}</p></details></figcaption></figure>')
             groups.append(f'<section class="archive-theme"><h3>{e(group["title"])}</h3><div class="chapter-object-grid">{"".join(figures)}</div></section>')
+        if opening:
+            return ''.join(groups)
+        if not groups:
+            return ''
         return f'<aside class="chapter-archive" aria-labelledby="archive-heading-{e(chapter_id)}"><header><p class="eyebrow">{e(archive["title"])}</p><h2 id="archive-heading-{e(chapter_id)}">{e(archive["intro"])}</h2></header>{"".join(groups)}</aside>'
     def milestone(m):
         n = m['id']
@@ -66,7 +72,19 @@ def render():
     if len(ids) != 12 or set(ids) != set(by_id):
         raise ValueError('Each of the 12 milestones must appear exactly once')
     for c in d['chapters']:
-        chapters.append(f'''<section class="chapter {e(c['id'])}" id="{e(c['id'])}" aria-labelledby="heading-{e(c['id'])}"><header class="chapter-opening"><img class="folio-sprig" src="assets/folio-sprig.svg" alt="" aria-hidden="true" width="160" height="40"><p class="eyebrow">Chapter {e(c['number'])} / {e(c['label'])}</p><p class="chapter-period">{e(c['period'])}</p><div class="chapter-title-row"><span class="roman" aria-hidden="true">{e(c['number'])}</span><h2 id="heading-{e(c['id'])}">{e(c['title'])}</h2></div><p class="chapter-intro">{e(c['intro'])}</p><aside class="question"><span>A question to carry with you</span><p>{e(c['question'])}</p><details><summary>Consider the history</summary><p>{e(c.get('historyDetail', c['intro']))}</p></details></aside></header><div class="chapter-entries">{''.join(milestone(by_id[i]) for i in c['milestones'])}</div>{chapter_archive(c["id"])}<div class="chapter-end" aria-hidden="true">— {e(c['number'])} —</div></section>''')
+        chapter_id = c['id']
+        intro = f'<p class="chapter-intro">{e(c["intro"])}</p>' if c.get('intro') else ''
+        history = c.get('historyDetail') or c.get('intro', '')
+        entries = ''.join(milestone(by_id[i]) for i in c['milestones'])
+        end = f'<div class="chapter-end" aria-hidden="true">— {e(c["number"])} —</div>'
+        archive = chapter_archive(chapter_id)
+        if chapter_id == 'transformation':
+            split = c['milestones'].index(7)
+            entries = ''.join(milestone(by_id[i]) for i in c['milestones'][:split])
+            later = ''.join(milestone(by_id[i]) for i in c['milestones'][split:])
+            end = f'<div class="transformation-later"><div class="chapter-entries">{later}</div>{archive}{end}</div>'
+            archive = ''
+        chapters.append(f'''<section class="chapter {e(c['id'])}" id="{e(c['id'])}" aria-labelledby="heading-{e(c['id'])}"><header class="chapter-opening"><img class="folio-sprig" src="assets/folio-sprig.svg" alt="" aria-hidden="true" width="160" height="40"><p class="eyebrow">Chapter {e(c['number'])} / {e(c['label'])}</p><p class="chapter-period">{e(c['period'])}</p><div class="chapter-title-row"><span class="roman" aria-hidden="true">{e(c['number'])}</span><h2 id="heading-{e(c['id'])}">{e(c['title'])}</h2></div>{chapter_archive(chapter_id, opening=True)}{intro}<aside class="question"><span>A question to carry with you</span><p>{e(c['question'])}</p><details><summary>Consider the history</summary><p>{e(history)}</p></details></aside></header><div class="chapter-entries">{entries}</div>{archive}{end}</section>''')
     hero = d.get("homepageImage") or next(o for o in d["archiveObjects"] if o["id"] == d["heroObject"])
     nav = ''.join(f'<a href="#{e(c["id"])}"><span>{e(c["number"])}</span> {e(c["label"])}</a>' for c in d['chapters'])
     return f'''<!doctype html>
