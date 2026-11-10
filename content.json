@@ -74,10 +74,18 @@
       "category": "Print & Publishing",
       "title": "A centre for the printed word",
       "description": "Singapore became a major centre of Islamic printing and publishing, producing and circulating religious texts across the Malay world.",
-      "image": "assets/archive/quran-open.webp",
-      "imageAlt": "Open decorated volume reproduced beside the sheet’s heading “Early Printed Qur’an (1869)”; object identification requires review.",
-      "caption": "Open decorated volume reproduced beside the sheet’s heading “Early Printed Qur’an (1869)”; object identification requires review.",
-      "source": "Source: repository upload on main, commit 7596929973546dc116b7f19af1c9f4ffc3965303. Identification follows the supplied slide, pending curatorial verification. Collection, reproduction credit and permissions: pending review."
+      "image": "assets/archive/printed-page-full.jpg",
+      "imageAlt": "Full printed page with decorative borders and a circular block of Arabic-script text.",
+      "caption": "Printed page shown in the exhibition materials under “Early Printed Qur’an (1869)”. Object identification requires review.",
+      "source": "Full-page image supplied by the user. Date, production method and holding collection require verification.",
+      "displayObjects": [
+        {
+          "image": "assets/archive/printed-page-full.jpg",
+          "imageAlt": "Full printed page with decorative borders and a circular block of Arabic-script text.",
+          "caption": "Printed page shown in the exhibition materials under “Early Printed Qur’an (1869)”. Object identification requires review.",
+          "source": "Full-page image supplied by the user. Date, production method and holding collection require verification."
+        }
+      ]
     },
     {
       "id": 4,
@@ -108,6 +116,17 @@
           "height": 461,
           "captionTitle": "Portrait of Syed Mohamed Alsagoff (1836–1906)",
           "modalTitle": "Portrait of Syed Mohamed Alsagoff (1836–1906). A prominent Arab Muslim merchant and philanthropist whose maritime enterprises, including the steamship S.S. Jeddah, facilitated pilgrimage journeys to the Hijaz, strengthening religious learning and scholarly connections between Southeast Asia and the wider Muslim world. His philanthropic legacy also contributed to Islamic education in Singapore, with the establishment of Madrasah Alsagoff Al-Arabiah in 1912 through his family's charitable endowment, following his passing."
+        },
+        {
+          "id": "fadhlullah-and-daughters",
+          "title": "Sheikh Muhammad Fadhlullah Suhaimi and His Daughters",
+          "image": "assets/archive/fadhlullah-and-daughters.jpeg",
+          "imageAlt": "Group photograph supplied as Sheikh Muhammad Fadhlullah Suhaimi and his daughters; identified figure third from right.",
+          "caption": "A religious scholar and advocate of women's education (third from right), whose efforts contributed to the establishment of Madrasah Al-Maarif Al-Islamiah in 1936, a significant milestone in Muslim girls' education in Singapore.",
+          "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
+          "modalTitle": "Sheikh Muhammad Fadhlullah Suhaimi and His Daughters. A religious scholar and advocate of women's education (third from right), whose efforts contributed to the establishment of Madrasah Al-Maarif Al-Islamiah in 1936, a significant milestone in Muslim girls' education in Singapore.",
+          "captionTitle": "Sheikh Muhammad Fadhlullah Suhaimi and His Daughters",
+          "groupTitle": "Madrasahs and women’s education"
         }
       ]
     },
@@ -120,7 +139,29 @@
       "image": null,
       "imageAlt": "Historical photograph associated with Muslim philanthropy or educational support.",
       "caption": "Historical photograph associated with Muslim philanthropy or educational support.",
-      "source": null
+      "source": null,
+      "displayObjects": [
+        {
+          "id": "ahmad-angullia",
+          "title": "Portrait of Ahmad Mohammad Salleh Angullia (1873–1939)",
+          "image": "assets/archive/ahmad-angullia.jpeg",
+          "imageAlt": "User-identified portrait of Ahmad Mohammad Salleh Angullia wearing a turban.",
+          "caption": "A prominent Muslim merchant and philanthropist whose charitable endowments and contributions to institutions such as Jamiyah Singapore and Masjid Haji Yusoff reflected the role of philanthropy and waqf in sustaining Muslim religious and educational life.",
+          "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
+          "modalTitle": "Portrait of Ahmad Mohammad Salleh Angullia (1873–1939). A prominent Muslim merchant and philanthropist whose charitable endowments and contributions to institutions such as Jamiyah Singapore and Masjid Haji Yusoff reflected the role of philanthropy and waqf in sustaining Muslim religious and educational life.",
+          "captionTitle": "Portrait of Ahmad Mohammad Salleh Angullia (1873–1939)"
+        },
+        {
+          "id": "ali-redha-alsagoff",
+          "title": "Syed Ali Redha Alsagoff",
+          "image": "assets/archive/ali-redha-alsagoff.jpeg",
+          "imageAlt": "Indoor group photograph supplied as Syed Ali Redha Alsagoff, identified second from right.",
+          "caption": "A prominent figure in Singapore's Malay-Muslim community and chairman of the Prophet Muhammad's Birthday Memorial Scholarship Fund Board (LBKM), pictured second from right. His involvement in scholarship initiatives reflected community efforts to expand educational opportunities and support Muslim students.",
+          "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
+          "modalTitle": "Syed Ali Redha Alsagoff. A prominent figure in Singapore's Malay-Muslim community and chairman of the Prophet Muhammad's Birthday Memorial Scholarship Fund Board (LBKM), pictured second from right. His involvement in scholarship initiatives reflected community efforts to expand educational opportunities and support Muslim students.",
+          "captionTitle": "Syed Ali Redha Alsagoff"
+        }
+      ]
     },
     {
       "id": 6,
@@ -131,7 +172,19 @@
       "image": null,
       "imageAlt": "Historical madrasah building.",
       "caption": "Historical madrasah building.",
-      "source": null
+      "source": null,
+      "displayObjects": [
+        {
+          "id": "madrasah-aljunied",
+          "title": "Madrasah Aljunied Al-Islamiah",
+          "image": "assets/archive/madrasah-aljunied.jpeg",
+          "imageAlt": "Group outside the building bearing the name Madrasah Aljunied Al-Islamiah.",
+          "caption": "An important institution of Islamic learning that nurtured generations of scholars from Singapore and the wider region, reflecting Singapore's standing as a regional centre of Islamic education.",
+          "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
+          "modalTitle": "Madrasah Aljunied Al-Islamiah. An important institution of Islamic learning that nurtured generations of scholars from Singapore and the wider region, reflecting Singapore's standing as a regional centre of Islamic education.",
+          "captionTitle": "Madrasah Aljunied Al-Islamiah"
+        }
+      ]
     },
     {
       "id": 7,
@@ -325,7 +378,7 @@
     ]
   },
   "archiveNotes": {
-    "3": "Two views accompany the uploaded sheet’s “Early Printed Qur’an (1869)” caption. Their relationship to one another, production method, date and holding collection require verification. No claim is made that either was printed in Singapore.",
+    "3": "The printed page accompanies the exhibition material’s “Early Printed Qur’an (1869)” heading. The date, production method and holding collection require verification. No claim is made that the page was printed in Singapore.",
     "6": "The supplied exhibition text names Aljunied, Alsagoff and Al-Ma’arif as examples. An approved building photograph and its identification are still needed.",
     "8": "This thematic milestone begins in the 1960s and also mentions the Joint Madrasah System in 2009. “Onwards” describes a continuing theme, not a single event."
   },
@@ -486,52 +539,6 @@
               "modalTitle": "Portrait of Kiyai Zuhri (1905–1985). A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore."
             }
           ]
-        },
-        {
-          "title": "Madrasahs and women’s education",
-          "objects": [
-            {
-              "id": "fadhlullah-and-daughters",
-              "title": "Sheikh Muhammad Fadhlullah Suhaimi and His Daughters",
-              "image": "assets/archive/fadhlullah-and-daughters.jpeg",
-              "imageAlt": "Group photograph supplied as Sheikh Muhammad Fadhlullah Suhaimi and his daughters; identified figure third from right.",
-              "caption": "A religious scholar and advocate of women's education (third from right), whose efforts contributed to the establishment of Madrasah Al-Maarif Al-Islamiah in 1936, a significant milestone in Muslim girls' education in Singapore.",
-              "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
-              "modalTitle": "Sheikh Muhammad Fadhlullah Suhaimi and His Daughters. A religious scholar and advocate of women's education (third from right), whose efforts contributed to the establishment of Madrasah Al-Maarif Al-Islamiah in 1936, a significant milestone in Muslim girls' education in Singapore."
-            },
-            {
-              "id": "madrasah-aljunied",
-              "title": "Madrasah Aljunied Al-Islamiah",
-              "image": "assets/archive/madrasah-aljunied.jpeg",
-              "imageAlt": "Group outside the building bearing the name Madrasah Aljunied Al-Islamiah.",
-              "caption": "An important institution of Islamic learning that nurtured generations of scholars from Singapore and the wider region, reflecting Singapore's standing as a regional centre of Islamic education.",
-              "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
-              "modalTitle": "Madrasah Aljunied Al-Islamiah. An important institution of Islamic learning that nurtured generations of scholars from Singapore and the wider region, reflecting Singapore's standing as a regional centre of Islamic education."
-            }
-          ]
-        },
-        {
-          "title": "Philanthropy and community scholarships",
-          "objects": [
-            {
-              "id": "ahmad-angullia",
-              "title": "Portrait of Ahmad Mohammad Salleh Angullia (1873–1939)",
-              "image": "assets/archive/ahmad-angullia.jpeg",
-              "imageAlt": "User-identified portrait of Ahmad Mohammad Salleh Angullia wearing a turban.",
-              "caption": "A prominent Muslim merchant and philanthropist whose charitable endowments and contributions to institutions such as Jamiyah Singapore and Masjid Haji Yusoff reflected the role of philanthropy and waqf in sustaining Muslim religious and educational life.",
-              "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
-              "modalTitle": "Portrait of Ahmad Mohammad Salleh Angullia (1873–1939). A prominent Muslim merchant and philanthropist whose charitable endowments and contributions to institutions such as Jamiyah Singapore and Masjid Haji Yusoff reflected the role of philanthropy and waqf in sustaining Muslim religious and educational life."
-            },
-            {
-              "id": "ali-redha-alsagoff",
-              "title": "Syed Ali Redha Alsagoff",
-              "image": "assets/archive/ali-redha-alsagoff.jpeg",
-              "imageAlt": "Indoor group photograph supplied as Syed Ali Redha Alsagoff, identified second from right.",
-              "caption": "A prominent figure in Singapore's Malay-Muslim community and chairman of the Prophet Muhammad's Birthday Memorial Scholarship Fund Board (LBKM), pictured second from right. His involvement in scholarship initiatives reflected community efforts to expand educational opportunities and support Muslim students.",
-              "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
-              "modalTitle": "Syed Ali Redha Alsagoff. A prominent figure in Singapore's Malay-Muslim community and chairman of the Prophet Muhammad's Birthday Memorial Scholarship Fund Board (LBKM), pictured second from right. His involvement in scholarship initiatives reflected community efforts to expand educational opportunities and support Muslim students."
-            }
-          ]
         }
       ]
     }
@@ -542,5 +549,11 @@
     "imageAlt": "Historical sketch of Masjid Sultan in Singapore, attributed to John Turnbull Johnson, 1846.",
     "caption": "Sketch of Masjid Sultan by John Turnbull Johnson (1846).",
     "source": "Image and attribution supplied by the user. Collection credit and reproduction permissions not supplied."
+  },
+  "introductionImage": {
+    "image": "assets/archive/chulia-mosque-1846.avif",
+    "imageAlt": "Watercolour showing Sri Mariamman Temple and the entrance to Jamae Mosque on South Bridge Road, with figures in the foreground.",
+    "caption": "“Hindoo Pagoda and (Chulia) Mosque, Singapore”. John Turnbull Thomson, 1846.",
+    "source": "Hocken Collections, Uare Taoka O Hākena, University of Otago, 92/1158. Digital copy from the Masjid Jamae (Chulia) history page."
   }
 }

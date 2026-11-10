@@ -31,9 +31,16 @@ print('PASS: renderer, 12 milestones, local assets/anchors, alt text, six object
 archive=d.get('chapterArchives', {})
 assert set(archive)=={'transformation'}, 'New archive must belong only to Chapter II'
 objects=[o for g in archive['transformation']['groups'] for o in g['objects']]
+moved_ids = {'fadhlullah-and-daughters': 4, 'ahmad-angullia': 5,
+             'ali-redha-alsagoff': 5, 'madrasah-aljunied': 6}
+for m in d['milestones']:
+    for obj in m.get('displayObjects', []):
+        if obj.get('id') in moved_ids:
+            assert m['id'] == moved_ids[obj['id']]
+            objects.append(obj)
 assert len(objects)==7 and len({o['image'] for o in objects})==7
 chapter2=text.split('id="transformation"',1)[1].split('id="renewal"',1)[0]
 for o in objects:
     assert o['image'] in chapter2 and text.count('src="'+o['image']+'"')==1
     assert o['caption'] in __import__('html').unescape(chapter2)
-print('PASS: seven unique new objects exclusively in Chapter II, with supplied captions')
+print('PASS: seven unique objects exclusively in Chapter II, with supplied captions')

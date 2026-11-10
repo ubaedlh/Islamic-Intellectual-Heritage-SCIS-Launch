@@ -105,14 +105,20 @@ summary{font:600 12px/1.8 var(--heading);padding:12px 0;min-height:44px;color:va
 .introduction .opening-question {
   border-color: #bcf0ed;
 }
-.intro-image-slot {
-  display: grid;
-  place-items: center;
-  aspect-ratio: 3 / 2;
+.intro-illustration {
   margin-top: 32px;
-  border: 1px dashed #ffffff80;
-  background: #ffffff0d;
-  font: 600 12px/1.6 var(--heading);
+}
+.intro-illustration .archive-object figcaption,
+.intro-illustration summary {
+  color: var(--ivory);
+}
+.intro-illustration :focus-visible {
+  outline-color: var(--ivory);
+}
+.milestone-object-heading {
+  margin-bottom: 16px;
+  color: var(--accent-text);
+  font: 700 15px/1.6 var(--heading);
 }
 .caption-title {
   margin-bottom: 8px;
