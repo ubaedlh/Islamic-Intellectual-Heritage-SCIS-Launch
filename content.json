@@ -165,7 +165,7 @@
     },
     {
       "id": 6,
-      "date": "1920s onwards",
+      "date": "1940s onwards",
       "category": "Regional Learning",
       "title": "Students arrive from across the region",
       "description": "Madrasahs such as Aljunied, Alsagoff and Al-Ma’arif established Singapore as a regional centre of Islamic learning, attracting students from across Southeast Asia.",
@@ -183,6 +183,17 @@
           "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
           "modalTitle": "Madrasah Aljunied Al-Islamiah. An important institution of Islamic learning that nurtured generations of scholars from Singapore and the wider region, reflecting Singapore's standing as a regional centre of Islamic education.",
           "captionTitle": "Madrasah Aljunied Al-Islamiah"
+        },
+        {
+          "id": "kiyai-zuhri",
+          "title": "Portrait of Kiyai Zuhri (1905–1985)",
+          "image": "assets/archive/kiyai-zuhri.jpeg",
+          "imageAlt": "User-identified portrait of Kiyai Zuhri wearing a songkok.",
+          "caption": "A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
+          "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
+          "modalTitle": "Portrait of Kiyai Zuhri (1905–1985). A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
+          "groupTitle": "Scholars and educators",
+          "captionTitle": "Portrait of Kiyai Zuhri (1905–1985)"
         }
       ]
     },
@@ -521,20 +532,6 @@
             }
           ],
           "placement": "opening"
-        },
-        {
-          "title": "Scholars and educators",
-          "objects": [
-            {
-              "id": "kiyai-zuhri",
-              "title": "Portrait of Kiyai Zuhri (1905–1985)",
-              "image": "assets/archive/kiyai-zuhri.jpeg",
-              "imageAlt": "User-identified portrait of Kiyai Zuhri wearing a songkok.",
-              "caption": "A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
-              "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
-              "modalTitle": "Portrait of Kiyai Zuhri (1905–1985). A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore."
-            }
-          ]
         }
       ]
     }
