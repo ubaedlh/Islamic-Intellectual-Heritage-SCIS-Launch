@@ -300,27 +300,28 @@
       "number": "II",
       "label": "Transformation",
       "title": "A Changing Society. An Evolving Education.",
-      "period": "Early twentieth century – 1960s onwards",
-      "intro": "Modern madrasahs brought structured education and new opportunities for learning. Community support, institutional coordination and curriculum reform reveal different ways of sustaining an educational tradition through changing circumstances.",
-      "question": "How does an educational tradition preserve its foundations while adapting to a changing society?",
+      "period": "Early twentieth century",
+      "intro": "By the early 20th century, Singapore had emerged as a vibrant centre of Islamic printing, publishing and intellectual discourse, embedded within transregional scholarly networks connecting Java, Riau and Sumatra with major centres of Islamic learning such as Mecca, Cairo and Istanbul. The circulation of religious treatises, newspapers and periodicals facilitated the exchange of ideas and stimulated discussions on religious reform, the modernisation of Islamic education and the expansion of educational opportunities for women and girls.",
+      "question": "How significant was Singapore's role as a centre of printing and intellectual exchange in the Malay world?",
       "milestones": [
         4,
         5,
-        6,
-        7,
-        8,
-        10
-      ]
+        6
+      ],
+      "historyDetail": "Singapore emerged as a major centre of Malay-language printing and publishing, facilitating the production and circulation of religious texts, literature and intellectual ideas across the Malay world. Between 1921 and 1949, Singapore accounted for 119 of the 243 publishing and printing establishments (approximately 49%) recorded across Malaya and Singapore, reflecting its prominence within the regional publishing landscape."
     },
     {
       "id": "renewal",
       "number": "III",
       "label": "Continuity & Renewal",
       "title": "A Living Tradition. A Shared Future.",
-      "period": "1980s onwards – today",
+      "period": "1960s onwards – today",
       "intro": "Lifelong learning and higher education extend the story beyond the classroom. The professional development of religious educators and the establishment of SCIS are contemporary chapters in a tradition that continues to evolve.",
       "question": "What does it mean to prepare religious scholars for the Singapore of tomorrow?",
       "milestones": [
+        7,
+        8,
+        10,
         9,
         11,
         12

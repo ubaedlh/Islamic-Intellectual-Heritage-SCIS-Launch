@@ -78,13 +78,7 @@ def render():
         entries = ''.join(milestone(by_id[i]) for i in c['milestones'])
         end = f'<div class="chapter-end" aria-hidden="true">— {e(c["number"])} —</div>'
         archive = chapter_archive(chapter_id)
-        if chapter_id == 'transformation':
-            split = c['milestones'].index(7)
-            entries = ''.join(milestone(by_id[i]) for i in c['milestones'][:split])
-            later = ''.join(milestone(by_id[i]) for i in c['milestones'][split:])
-            end = f'<div class="transformation-later"><div class="chapter-entries">{later}</div>{archive}{end}</div>'
-            archive = ''
-        chapters.append(f'''<section class="chapter {e(c['id'])}" id="{e(c['id'])}" aria-labelledby="heading-{e(c['id'])}"><header class="chapter-opening"><img class="folio-sprig" src="assets/folio-sprig.svg" alt="" aria-hidden="true" width="160" height="40"><p class="eyebrow">Chapter {e(c['number'])} / {e(c['label'])}</p><p class="chapter-period">{e(c['period'])}</p><div class="chapter-title-row"><span class="roman" aria-hidden="true">{e(c['number'])}</span><h2 id="heading-{e(c['id'])}">{e(c['title'])}</h2></div>{chapter_archive(chapter_id, opening=True)}{intro}<aside class="question"><span>A question to carry with you</span><p>{e(c['question'])}</p><details><summary>Consider the history</summary><p>{e(history)}</p></details></aside></header><div class="chapter-entries">{entries}</div>{archive}{end}</section>''')
+        chapters.append(f'''<section class="chapter {e(c['id'])}" id="{e(c['id'])}" aria-labelledby="heading-{e(c['id'])}"><header class="chapter-opening"><img class="folio-sprig" src="assets/folio-sprig.svg" alt="" aria-hidden="true" width="160" height="40"><p class="eyebrow">Chapter {e(c['number'])} / {e(c['label'])}</p><p class="chapter-period">{e(c['period'])}</p><div class="chapter-title-row"><span class="roman" aria-hidden="true">{e(c['number'])}</span><h2 id="heading-{e(c['id'])}">{e(c['title'])}</h2></div>{intro}{chapter_archive(chapter_id, opening=True)}<aside class="question"><span>A question to carry with you</span><p>{e(c['question'])}</p><details><summary>Consider the history</summary><p>{e(history)}</p></details></aside></header><div class="chapter-entries">{entries}</div>{archive}{end}</section>''')
     hero = d.get("homepageImage") or next(o for o in d["archiveObjects"] if o["id"] == d["heroObject"])
     nav = ''.join(f'<a href="#{e(c["id"])}"><span>{e(c["number"])}</span> {e(c["label"])}</a>' for c in d['chapters'])
     return f'''<!doctype html>

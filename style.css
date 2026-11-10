@@ -124,16 +124,7 @@ summary{font:600 12px/1.8 var(--heading);padding:12px 0;min-height:44px;color:va
   margin-bottom: 8px;
 }
 
-/* Match the chapter gutters so the deeper peach reaches both page edges. */
-.transformation-later {
-  margin-inline: -7vw;
-  padding-inline: 7vw;
-  background: #f9e8d8;
-  display: flow-root;
-}
-@media (max-width: 400px) {
-  .transformation-later {
-    margin-inline: -6vw;
-    padding-inline: 6vw;
-  }
+/* Separate the Chapter II introduction from the gallery that follows it. */
+.transformation .chapter-intro {
+  margin-bottom: 32px;
 }
