@@ -194,6 +194,15 @@
           "modalTitle": "Portrait of Kiyai Zuhri (1905–1985). A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
           "groupTitle": "Scholars and educators",
           "captionTitle": "Portrait of Kiyai Zuhri (1905–1985)"
+        },
+        {
+          "id": "syed-abu-bakar-taha",
+          "captionTitle": "Syed Abu Bakar bin Taha Alsagoff (1882-1956)",
+          "caption": "A prominent Muslim educator and mudir (headmaster) of Madrasah Aljunied Al-Islamiah, Syed Abu Bakar contributed to the development of formal Islamic education in early 20th-century Singapore. Through his educational leadership, he helped strengthen the madrasah’s role as a centre of Islamic learning and scholarly development, reflecting Singapore’s wider intellectual connections with the Malay world and the Middle East.",
+          "image": "assets/archive/syed-abu-bakar-taha.jpg",
+          "imageAlt": "Seated portrait of Syed Abu Bakar bin Taha Alsagoff in a white robe and turban.",
+          "source": "Portrait reproduced from page 12 of Response on the Madrasah, Zhulkeflee Hj Ismail.",
+          "modalTitle": "Syed Abu Bakar bin Taha Alsagoff (1882-1956). A prominent Muslim educator and mudir (headmaster) of Madrasah Aljunied Al-Islamiah, Syed Abu Bakar contributed to the development of formal Islamic education in early 20th-century Singapore. Through his educational leadership, he helped strengthen the madrasah’s role as a centre of Islamic learning and scholarly development, reflecting Singapore’s wider intellectual connections with the Malay world and the Middle East."
         }
       ]
     },
@@ -522,13 +531,13 @@
               "modalTitle": "Cover of Al-Imam (1906–1908). A Malay-language Islamic reformist periodical published in Singapore, promoting religious reform, education and modernist Islamic thought across the Malay world."
             },
             {
-              "id": "yusof-ishak",
-              "title": "Portrait of Yusof Ishak (1910–1970)",
-              "image": "assets/archive/yusof-ishak.jpeg",
-              "imageAlt": "User-identified portrait of Yusof Ishak in a suit and tie.",
-              "caption": "Journalist, co-founder of Utusan Melayu (1939) and Singapore's first President. He represented a generation of Malay-Muslim intellectuals and journalists who championed education, social reform and community advancement through the Malay press.",
-              "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
-              "modalTitle": "Portrait of Yusof Ishak (1910–1970). Journalist, co-founder of Utusan Melayu (1939) and Singapore's first President. He represented a generation of Malay-Muslim intellectuals and journalists who championed education, social reform and community advancement through the Malay press."
+              "id": "eunos-abdullah",
+              "title": "Portrait of Eunos Abdullah (1876-1933)",
+              "image": "assets/archive/eunos-abdullah.jpg",
+              "imageAlt": "Eunos Abdullah seated in ceremonial Malay attire.",
+              "caption": "A pioneering Malay journalist and editor of Utusan Melayu (1907) and Lembaga Melayu (1914), Eunos Abdullah played an important role in Singapore’s flourishing Malay press and print culture. Through journalism and public leadership, he championed educational advancement, intellectual discourse and socio-economic progress within the Malay-Muslim community.",
+              "source": "Portrait photographed from a National Museum of Singapore display by Museum Volunteers, JMM.",
+              "modalTitle": "Portrait of Eunos Abdullah (1876-1933). A pioneering Malay journalist and editor of Utusan Melayu (1907) and Lembaga Melayu (1914), Eunos Abdullah played an important role in Singapore’s flourishing Malay press and print culture. Through journalism and public leadership, he championed educational advancement, intellectual discourse and socio-economic progress within the Malay-Muslim community."
             }
           ],
           "placement": "opening"
