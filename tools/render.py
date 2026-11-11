@@ -22,7 +22,10 @@ def render():
         return ''
     def object_figure(obj):
         title = f'<p class="caption-title"><strong>{e(obj["captionTitle"])}</strong></p>' if obj.get('captionTitle') else ''
-        return f'<figure class="archive-object">{image(obj)}<figcaption>{title}{e(obj["caption"])}<details><summary>From the Archive</summary><p>{e(obj["source"])}</p></details></figcaption></figure>'
+        archive_details = ''
+        if not obj.get('hideArchiveDetails'):
+            archive_details = f'<details><summary>From the Archive</summary><p>{e(obj["source"])}</p></details>'
+        return f'<figure class="archive-object">{image(obj)}<figcaption>{title}{e(obj["caption"])}{archive_details}</figcaption></figure>'
     def chapter_archive(chapter_id, *, opening=False):
         archive = d.get('chapterArchives', {}).get(chapter_id)
         if not archive:

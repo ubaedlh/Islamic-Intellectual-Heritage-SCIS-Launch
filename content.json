@@ -56,7 +56,8 @@
           "image": "assets/archive/M2_Temenggong_Daeng_Ibrahim_Mosque.jpg",
           "caption": "Side view of the entrance to the State of Johore Mosque (now Temenggong Daeng Ibrahim Mosque), along Telok Blangah Road, before 1983.",
           "imageAlt": "Historical photograph of the mosque entrance and roadside buildings along Telok Blangah Road; supplied date before 1983.",
-          "source": "Image and identification supplied by the user, 5 November 2026. Collection credit and reproduction permissions have not been supplied. Historical attribution has not been independently verified."
+          "source": "Image and identification supplied by the user, 5 November 2026. Collection credit and reproduction permissions have not been supplied. Historical attribution has not been independently verified.",
+          "hideArchiveDetails": true
         },
         {
           "image": "assets/archive/M2_Yusuf_Ma_Dexin.jpg",
@@ -64,7 +65,8 @@
           "imageAlt": "User-identified portrait of Yusuf Ma Dexin wearing a turban, with a long white beard.",
           "source": "Image and identification supplied by the user, 5 November 2026. Collection credit and reproduction permissions have not been supplied. Historical attribution has not been independently verified.",
           "featureTitle": "A Chinese Muslim Scholar in Singapore",
-          "featureText": "The Chinese Muslim scholar Yusuf Ma Dexin recorded his stay in Singapore during the 1840s in his travelogue Chaojin Tuji (Record of the Pilgrimage Journey). His account illustrates Singapore's place within wider pilgrimage routes linking China, Southeast Asia and the Hijaz."
+          "featureText": "The Chinese Muslim scholar Yusuf Ma Dexin recorded his stay in Singapore during the 1840s in his travelogue Chaojin Tuji (Record of the Pilgrimage Journey). His account illustrates Singapore's place within wider pilgrimage routes linking China, Southeast Asia and the Hijaz.",
+          "hideArchiveDetails": true
         }
       ]
     },
@@ -83,7 +85,8 @@
           "image": "assets/archive/printed-page-full.jpg",
           "imageAlt": "Full printed page with decorative borders and a circular block of Arabic-script text.",
           "caption": "Printed page shown in the exhibition materials under “Early Printed Qur’an (1869)”. Object identification requires review.",
-          "source": "Full-page image supplied by the user. Date, production method and holding collection require verification."
+          "source": "Full-page image supplied by the user. Date, production method and holding collection require verification.",
+          "hideArchiveDetails": true
         }
       ]
     },
