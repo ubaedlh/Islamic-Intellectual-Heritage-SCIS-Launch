@@ -22,10 +22,17 @@ def render():
         return ''
     def object_figure(obj):
         title = f'<p class="caption-title"><strong>{e(obj["captionTitle"])}</strong></p>' if obj.get('captionTitle') else ''
+        caption_sections = ''.join(
+            f'<p class="caption-title"><strong>{e(section["title"])}</strong></p><p>{e(section["text"])}</p>'
+            for section in obj.get('captionSections', [])
+        )
+        caption = e(obj["caption"])
+        if caption_sections:
+            caption = f'<p>{caption}</p>{caption_sections}'
         archive_details = ''
         if not obj.get('hideArchiveDetails'):
             archive_details = f'<details><summary>From the Archive</summary><p>{e(obj["source"])}</p></details>'
-        return f'<figure class="archive-object">{image(obj)}<figcaption>{title}{e(obj["caption"])}{archive_details}</figcaption></figure>'
+        return f'<figure class="archive-object">{image(obj)}<figcaption>{title}{caption}{archive_details}</figcaption></figure>'
     def chapter_archive(chapter_id, *, opening=False):
         archive = d.get('chapterArchives', {}).get(chapter_id)
         if not archive:
@@ -64,7 +71,8 @@ def render():
                 heading = f'<h4 class="milestone-object-heading">{e(obj["groupTitle"])}</h4>' if obj.get('groupTitle') else ''
                 figures.append(f'<div class="milestone-object">{heading}{feature}{object_figure(obj)}</div>')
             visual = '<div class="object-group curated-objects">' + ''.join(figures) + '</div>'
-        archive_detail = f'<details class="text-archive"><summary>Explore Further</summary>{archive_html}<p>{e(m["description"])}</p></details>' if archive else ''
+        repeated_description = f'<p>{e(m["description"])}</p>' if m.get('repeatDescriptionInArchive', True) else ''
+        archive_detail = f'<details class="text-archive"><summary>Explore Further</summary>{archive_html}{repeated_description}</details>' if archive else ''
         return f'''<article class="milestone layout-{n % 3} {'has-image' if visual else 'typographic'}" id="milestone-{n}" aria-labelledby="title-{n}">
 <div class="folio" aria-hidden="true">{n:02}<span> / 12</span></div>
 <div class="milestone-copy"><p class="date">{e(m['date'])}</p><p class="category">{e(m['category'])}</p><h3 id="title-{n}">{e(m['title'])}</h3><p class="description">{e(m['description'])}</p>{definitions}{archive_detail}</div>

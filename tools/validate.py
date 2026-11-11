@@ -32,15 +32,15 @@ archive=d.get('chapterArchives', {})
 assert set(archive)=={'transformation'}, 'New archive must belong only to Chapter II'
 objects=[o for g in archive['transformation']['groups'] for o in g['objects']]
 moved_ids = {'fadhlullah-and-daughters': 4, 'ahmad-angullia': 5,
-             'ali-redha-alsagoff': 5, 'madrasah-aljunied': 6, 'kiyai-zuhri': 6, 'syed-abu-bakar-taha': 6}
+             'ali-redha-alsagoff': 5, 'madrasah-aljunied': 6, 'kiyai-zuhri': 6, 'syed-abu-bakar-taha': 6, 'haji-abbas-taha': 4}
 for m in d['milestones']:
     for obj in m.get('displayObjects', []):
         if obj.get('id') in moved_ids:
             assert m['id'] == moved_ids[obj['id']]
             objects.append(obj)
-assert len(objects)==8 and len({o['image'] for o in objects})==8
+assert len(objects)==9 and len({o['image'] for o in objects})==9
 chapter2=text.split('id="transformation"',1)[1].split('id="renewal"',1)[0]
 for o in objects:
     assert o['image'] in chapter2 and text.count('src="'+o['image']+'"')==1
     assert o['caption'] in __import__('html').unescape(chapter2)
-print('PASS: eight unique objects exclusively in Chapter II, with supplied captions')
+print('PASS: nine unique objects exclusively in Chapter II, with supplied captions')

@@ -137,13 +137,13 @@ summary{font:600 12px/1.8 var(--heading);padding:12px 0;min-height:44px;color:va
   #milestone-4 .curated-objects > .milestone-object:first-child {
     grid-column: 3;
   }
-  #milestone-4 .curated-objects > .milestone-object:nth-child(2) {
+  #milestone-4 .curated-objects > .milestone-object:nth-child(n+2) {
     grid-column: 1 / -1;
     justify-self: center;
     width: min(100%, 640px);
   }
 }
-#milestone-4 .curated-objects > .milestone-object:nth-child(2) > .archive-object {
+#milestone-4 .curated-objects > .milestone-object:nth-child(n+2) > .archive-object {
   max-width: none;
   margin-inline: 0;
 }
