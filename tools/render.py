@@ -37,7 +37,9 @@ def render():
         if obj.get('sourceUrl'):
             source_credit = f'<p><a href="{e(obj["sourceUrl"])}">{e(obj["source"])}</a></p>'
         archive_details = ''
-        if not obj.get('hideArchiveDetails'):
+        if obj.get('archiveObject'):
+            archive_details = f'<details><summary>From the Archive</summary>{object_figure(obj["archiveObject"])}</details>'
+        elif not obj.get('hideArchiveDetails'):
             archive_details = f'<details><summary>From the Archive</summary><p>{e(obj["source"])}</p></details>'
         return f'{introduction}<figure class="archive-object">{image(obj)}<figcaption>{title}{caption}{source_credit}{archive_details}</figcaption></figure>'
     def chapter_archive(chapter_id, *, opening=False):

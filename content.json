@@ -123,15 +123,6 @@
           "height": 461,
           "captionTitle": "Portrait of Syed Mohamed Alsagoff (1836–1906)",
           "modalTitle": "Portrait of Syed Mohamed Alsagoff (1836–1906). A prominent Arab Muslim merchant and philanthropist whose maritime enterprises, including the steamship S.S. Jeddah, facilitated pilgrimage journeys to the Hijaz, strengthening religious learning and scholarly connections between Southeast Asia and the wider Muslim world. His philanthropic legacy also contributed to Islamic education in Singapore, with the establishment of Madrasah Alsagoff Al-Arabiah in 1912 through his family's charitable endowment, following his passing."
-        },
-        {
-          "id": "madrasah-alsagoff",
-          "image": "assets/archive/madrasah-alsagoff.jpg",
-          "imageAlt": "Historical street view of Alsagoff Arab School, with 1912 on its facade.",
-          "caption": "Undated image of Madrasah Alsagoff Al-Islamiah. Founded in 1912, it is the oldest surviving madrasah in Singapore.",
-          "source": "Urban Redevelopment Authority",
-          "sourceUrl": "https://www.ura.gov.sg/conservation/find-a-building/conservation-portal/kpgl-00076/",
-          "hideArchiveDetails": true
         }
       ]
     },
@@ -148,22 +139,26 @@
         {
           "id": "ahmad-angullia",
           "title": "Portrait of Ahmad Mohammad Salleh Angullia (1873–1939)",
-          "image": "assets/archive/ahmad-angullia.jpeg",
-          "imageAlt": "User-identified portrait of Ahmad Mohammad Salleh Angullia wearing a turban.",
+          "image": "assets/archive/ahmad-angullia-later.jpg",
+          "imageAlt": "Ahmad Mohammad Salleh Angullia in later years, wearing round glasses and a patterned turban.",
           "caption": "A prominent Muslim merchant and philanthropist whose charitable endowments and contributions to institutions such as Jamiyah Singapore and Masjid Haji Yusoff reflected the role of philanthropy and waqf in sustaining Muslim religious and educational life.",
-          "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
+          "source": "Angullia Heritage",
           "modalTitle": "Portrait of Ahmad Mohammad Salleh Angullia (1873–1939). A prominent Muslim merchant and philanthropist whose charitable endowments and contributions to institutions such as Jamiyah Singapore and Masjid Haji Yusoff reflected the role of philanthropy and waqf in sustaining Muslim religious and educational life.",
-          "captionTitle": "Portrait of Ahmad Mohammad Salleh Angullia (1873–1939)"
+          "captionTitle": "Portrait of Ahmad Mohammad Salleh Angullia (1873–1939)",
+          "sourceUrl": "https://heritage.angulliamosque.sg/the-stories-of-angullia-pioneers/",
+          "hideArchiveDetails": true
         },
         {
           "id": "ali-redha-alsagoff",
           "title": "Syed Ali Redha Alsagoff",
-          "image": "assets/archive/ali-redha-alsagoff.jpeg",
-          "imageAlt": "Indoor group photograph supplied as Syed Ali Redha Alsagoff, identified second from right.",
-          "caption": "A prominent figure in Singapore's Malay-Muslim community and chairman of the Prophet Muhammad's Birthday Memorial Scholarship Fund Board (LBKM), pictured second from right. His involvement in scholarship initiatives reflected community efforts to expand educational opportunities and support Muslim students.",
-          "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
-          "modalTitle": "Syed Ali Redha Alsagoff. A prominent figure in Singapore's Malay-Muslim community and chairman of the Prophet Muhammad's Birthday Memorial Scholarship Fund Board (LBKM), pictured second from right. His involvement in scholarship initiatives reflected community efforts to expand educational opportunities and support Muslim students.",
-          "captionTitle": "Syed Ali Redha Alsagoff"
+          "image": "assets/archive/ali-redha-alsagoff-1988.jpg",
+          "imageAlt": "Syed Ali Redha Alsagoff speaking at a microphone at the 1988 Hari Raya dinner.",
+          "caption": "A prominent figure in Singapore's Malay-Muslim community and chairman of the Prophet Muhammad's Birthday Memorial Scholarship Fund Board (LBKM). Pictured speaking at the Singapore Malay Chamber of Commerce Hari Raya dinner on 28 May 1988. His involvement in scholarship initiatives reflected community efforts to expand educational opportunities and support Muslim students.",
+          "source": "National Archives of Singapore",
+          "modalTitle": "Syed Ali Redha Alsagoff. A prominent figure in Singapore's Malay-Muslim community and chairman of the Prophet Muhammad's Birthday Memorial Scholarship Fund Board (LBKM). Pictured speaking at the Singapore Malay Chamber of Commerce Hari Raya dinner on 28 May 1988. His involvement in scholarship initiatives reflected community efforts to expand educational opportunities and support Muslim students.",
+          "captionTitle": "Syed Ali Redha Alsagoff",
+          "sourceUrl": "https://www.nas.gov.sg/archivesonline/photographs/record-details/0131bda0-1162-11e3-83d5-0050568939ad",
+          "hideArchiveDetails": true
         }
       ]
     },
@@ -221,6 +216,15 @@
             "source": "Pergas",
             "sourceUrl": "https://blog.pergas.org.sg/mereka-yang-menulis-sumbangan-asatizah-singapura-dalam-penulisan-dan-penerbitan-kitab-kitab-agama-1914-2016/",
             "hideArchiveDetails": true
+          },
+          "archiveObject": {
+            "id": "madrasah-alsagoff",
+            "image": "assets/archive/madrasah-alsagoff.jpg",
+            "imageAlt": "Historical street view of Alsagoff Arab School, with 1912 on its facade.",
+            "caption": "Undated image of Madrasah Alsagoff Al-Islamiah. Founded in 1912, it is the oldest surviving madrasah in Singapore.",
+            "source": "Urban Redevelopment Authority",
+            "sourceUrl": "https://www.ura.gov.sg/conservation/find-a-building/conservation-portal/kpgl-00076/",
+            "hideArchiveDetails": true
           }
         },
         {
@@ -241,7 +245,13 @@
           "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
           "modalTitle": "Portrait of Kiyai Zuhri (1905–1985). A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
           "centered": true,
-          "captionTitle": "Portrait of Kiyai Zuhri (1905–1985)"
+          "captionTitle": "Portrait of Kiyai Zuhri (1905–1985)",
+          "archiveObject": {
+            "image": "assets/archive/zuhri-hidayat-al-tahdhib.jpg",
+            "imageAlt": "Green cover of Hidayat al-Tahdhib with Arabic lettering and an ornamental floral border.",
+            "caption": "Cover of Hidayat al-Tahdhib",
+            "hideArchiveDetails": true
+          }
         }
       ]
     },
