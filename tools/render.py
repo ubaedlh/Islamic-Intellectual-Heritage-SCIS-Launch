@@ -83,7 +83,8 @@ def render():
                 feature = f'<aside class="did-you-know"><p class="eyebrow">Did You Know?</p><h4>{e(obj["featureTitle"])}</h4><p>{e(obj["featureText"])}</p></aside>' if obj.get('featureTitle') else ''
                 heading = f'<h4 class="milestone-object-heading">{e(obj["groupTitle"])}</h4>' if obj.get('groupTitle') else ''
                 placement = leading_figures if obj.get('beforeMilestoneCopy') else figures
-                placement.append(f'<div class="milestone-object">{heading}{feature}{object_figure(obj)}</div>')
+                portrait = object_figure(obj["introPortrait"]) if obj.get("introPortrait") else ""
+                placement.append(f'<div class="milestone-object">{heading}{feature}{portrait}{object_figure(obj)}</div>')
             visual = '<div class="object-group curated-objects">' + ''.join(figures) + '</div>'
             if leading_figures:
                 leading = '<div class="milestone-leading">' + date + ''.join(leading_figures) + '</div>'

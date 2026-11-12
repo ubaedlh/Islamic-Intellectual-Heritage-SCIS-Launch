@@ -219,7 +219,15 @@
               "text": "The three daughters of Kiyai Fadhlullah Suhaimi—Saadah, Kamaliah and Saedah Suhaimi—were among the pioneering Muslim women from Singapore who pursued higher education in Egypt, reflecting their father's commitment to women's intellectual and educational advancement. Upon completing their studies, they contributed to Islamic education across Southeast Asia. Ustazah Saadah served as principal of Madrasah Al-Ma’arif for approximately two decades, continuing her father's educational legacy in Singapore. Ustazah Kamaliah taught at an Arabic school in Brunei, while Ustazah Saedah became an educator, lecturer and principal of Maahad Hamidiah in Selangor, where she also participated in religious administration. Their achievements demonstrate the expanding role of Muslim women as scholars, educators and institutional leaders, while highlighting the transregional networks connecting Singapore's Islamic educational heritage with Egypt and the wider Malay world."
             }
           ],
-          "beforeMilestoneCopy": true
+          "beforeMilestoneCopy": true,
+          "introPortrait": {
+            "image": "assets/archive/fadhlullah-suhaimi-portrait.jpg",
+            "imageAlt": "Black-and-white portrait of Kiyai Fadhlullah Suhaimi in a dark cap and light jacket.",
+            "caption": "Portrait of Kiyai Fadhlullah Suhaimi",
+            "source": "Pergas",
+            "sourceUrl": "https://blog.pergas.org.sg/mereka-yang-menulis-sumbangan-asatizah-singapura-dalam-penulisan-dan-penerbitan-kitab-kitab-agama-1914-2016/",
+            "hideArchiveDetails": true
+          }
         },
         {
           "id": "universiti-al-quran",

@@ -176,3 +176,7 @@ summary{font:600 12px/1.8 var(--heading);padding:12px 0;min-height:44px;color:va
 .archive-introduction > p + p {
   margin-top: 12px;
 }
+
+.milestone-object-heading + .archive-object + .archive-introduction {
+  margin-top: 24px;
+}
