@@ -29,13 +29,17 @@ def render():
         caption = e(obj["caption"])
         if caption_sections:
             caption = f'<p>{caption}</p>{caption_sections}'
+        introduction = ''
+        if obj.get('imageBeforeCaptionSections') and caption_sections:
+            introduction = f'<div class="archive-introduction">{title}<p>{e(obj["caption"])}</p></div>'
+            title, caption = '', caption_sections
         source_credit = ''
         if obj.get('sourceUrl'):
             source_credit = f'<p><a href="{e(obj["sourceUrl"])}">{e(obj["source"])}</a></p>'
         archive_details = ''
         if not obj.get('hideArchiveDetails'):
             archive_details = f'<details><summary>From the Archive</summary><p>{e(obj["source"])}</p></details>'
-        return f'<figure class="archive-object">{image(obj)}<figcaption>{title}{caption}{source_credit}{archive_details}</figcaption></figure>'
+        return f'{introduction}<figure class="archive-object">{image(obj)}<figcaption>{title}{caption}{source_credit}{archive_details}</figcaption></figure>'
     def chapter_archive(chapter_id, *, opening=False):
         archive = d.get('chapterArchives', {}).get(chapter_id)
         if not archive:
@@ -71,6 +75,7 @@ def render():
         extras = ''.join(object_figure(o) for o in d.get('archiveObjects', []) if o['milestone'] == n and o['image'] != m.get('image'))
         visual = f'<div class="object-group">{object_figure(m)}{extras}</div>' if m.get('image') else ''
         leading = ''
+        date = f'<p class="date">{e(m['date'])}</p>'
         if m.get('displayObjects'):
             figures = []
             leading_figures = []
@@ -81,12 +86,13 @@ def render():
                 placement.append(f'<div class="milestone-object">{heading}{feature}{object_figure(obj)}</div>')
             visual = '<div class="object-group curated-objects">' + ''.join(figures) + '</div>'
             if leading_figures:
-                leading = '<div class="milestone-leading">' + ''.join(leading_figures) + '</div>'
+                leading = '<div class="milestone-leading">' + date + ''.join(leading_figures) + '</div>'
+                date = ''
         repeated_description = f'<p>{e(m["description"])}</p>' if m.get('repeatDescriptionInArchive', True) else ''
         archive_detail = f'<details class="text-archive"><summary>Explore Further</summary>{archive_html}{repeated_description}</details>' if archive else ''
         return f'''<article class="milestone layout-{n % 3} {'has-image' if visual else 'typographic'}" id="milestone-{n}" aria-labelledby="title-{n}">
 <div class="folio" aria-hidden="true">{n:02}<span> / 12</span></div>
-{leading}<div class="milestone-copy"><p class="date">{e(m['date'])}</p><p class="category">{e(m['category'])}</p><h3 id="title-{n}">{e(m['title'])}</h3><p class="description">{e(m['description'])}</p>{definitions}{archive_detail}</div>
+{leading}<div class="milestone-copy">{date}<p class="category">{e(m['category'])}</p><h3 id="title-{n}">{e(m['title'])}</h3><p class="description">{e(m['description'])}</p>{definitions}{archive_detail}</div>
 {visual}{highlight_html}{context_html}</article>'''
     chapters = []
     by_id = {m['id']: m for m in d['milestones']}
