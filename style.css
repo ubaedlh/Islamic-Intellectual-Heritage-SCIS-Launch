@@ -202,3 +202,10 @@ summary{font:600 12px/1.8 var(--heading);padding:12px 0;min-height:44px;color:va
   background: none;
   box-shadow: none;
 }
+
+.milestone-object-centered {
+  text-align: center;
+}
+.milestone-object-centered > .archive-object {
+  margin-inline: auto;
+}

@@ -84,7 +84,8 @@ def render():
                 heading = f'<h4 class="milestone-object-heading">{e(obj["groupTitle"])}</h4>' if obj.get('groupTitle') else ''
                 placement = leading_figures if obj.get('beforeMilestoneCopy') else figures
                 portrait = object_figure(obj["introPortrait"]) if obj.get("introPortrait") else ""
-                placement.append(f'<div class="milestone-object">{heading}{feature}{portrait}{object_figure(obj)}</div>')
+                alignment = " milestone-object-centered" if obj.get("centered") else ""
+                placement.append(f'<div class="milestone-object{alignment}">{heading}{feature}{portrait}{object_figure(obj)}</div>')
             visual = '<div class="object-group curated-objects">' + ''.join(figures) + '</div>'
             if leading_figures:
                 leading = '<div class="milestone-leading">' + heading_html + ''.join(leading_figures) + '</div>'
