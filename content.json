@@ -107,7 +107,7 @@
       "id": 4,
       "category": "Modern Madrasahs",
       "title": "Structured education expands",
-      "description": "The early 20th century witnessed the emergence and expansion of formal madrasah education in Singapore, beginning with early institutions such as Madrasah As-Sibyan (1905) and Madrasah al-Iqbal (1908). This was followed by the establishment of six madrasahs that continue to operate today: Madrasah Alsagoff Al-Arabiah (1912), Madrasah Aljunied Al-Islamiah (1927), Madrasah Al-Arabiah Al-Islamiah (1930s), Madrasah Al-Ma'arif Al-Islamiah (1936), Madrasah Al-Irsyad Al-Islamiah (1947) and Madrasah Wak Tanjong Al-Islamiah (1955).",
+      "description": "The early decades of the 20th century witnessed the emergence and expansion of formal madrasah education in Singapore, beginning with early institutions such as Madrasah As-Sibyan (1905) and Madrasah al-Iqbal (1908). This was followed by the establishment of six madrasahs that continue to operate today: Madrasah Alsagoff Al-Arabiah (1912), Madrasah Aljunied Al-Islamiah (1927), Madrasah Al-Arabiah Al-Islamiah (1930s), Madrasah Al-Ma'arif Al-Islamiah (1936), Madrasah Al-Irsyad Al-Islamiah (1947) and Madrasah Wak Tanjong Al-Islamiah (1955).",
       "image": "assets/archive/alsagoff.webp",
       "imageAlt": "Portrait labelled “Syed Mohamed Alsagoff (1836–1906)” on the uploaded sheet.",
       "caption": "A prominent Arab Muslim merchant and philanthropist whose maritime enterprises, including the steamship S.S. Jeddah, facilitated pilgrimage journeys to the Hijaz, strengthening religious learning and scholarly connections between Southeast Asia and the wider Muslim world. His philanthropic legacy also contributed to Islamic education in Singapore, with the establishment of Madrasah Alsagoff Al-Arabiah in 1912 through his family's charitable endowment, following his passing.",
@@ -140,6 +140,12 @@
           "source": "Urban Redevelopment Authority",
           "sourceUrl": "https://www.ura.gov.sg/conservation/find-a-building/conservation-portal/kpgl-00076/",
           "hideArchiveDetails": true
+        },
+        {
+          "id": "khamsiah-ahmad",
+          "groupTitle": "First Female Principal",
+          "captionTitle": "Ustazah Khamsiah bte Ahmad (1929–1981)",
+          "caption": "A pioneering female religious educator and advocate for women's education in Singapore, Ustazah Khamsiah became the first female principal (mudirah) of Madrasah Alsagoff Al-Arabiah in the early 1960s. Her leadership coincided with the madrasah's transformation into an all-girls institution in 1966, contributing to the expansion of formal Islamic education for girls. Beyond her administrative role, she was remembered for her dedication to teaching, mentorship and advancing educational opportunities for Muslim women."
         }
       ]
     },
@@ -220,7 +226,6 @@
           "image": "assets/archive/fadhlullah-and-daughters.jpeg",
           "imageAlt": "Group photograph supplied as Sheikh Muhammad Fadhlullah Suhaimi and his daughters; identified figure third from right.",
           "caption": "Kiyai Fadhlullah Suhaimi was a prominent ulama-intellectual, educator and reformist thinker who played a significant role in advancing Islamic education and intellectual discourse in Singapore. A strong advocate of women's education, he established Madrasah Al-Ma’arif in 1936, a pioneering institution that expanded opportunities for Muslim girls to pursue formal Islamic education.",
-          "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
           "modalTitle": "Kiyai Fadhlullah Suhaimi (1886–1964): Islamic Scholarship, Educational Reform and the Vernacular Press. Kiyai Fadhlullah Suhaimi was a prominent ulama-intellectual, educator and reformist thinker who played a significant role in advancing Islamic education and intellectual discourse in Singapore. A strong advocate of women's education, he established Madrasah Al-Ma’arif in 1936, a pioneering institution that expanded opportunities for Muslim girls to pursue formal Islamic education. The Daughters of Kiyai Fadhlullah Suhaimi: Pioneers of Women's Islamic Education. The three daughters of Kiyai Fadhlullah Suhaimi—Saadah, Kamaliah and Saedah Suhaimi—were among the pioneering Muslim women from Singapore who pursued higher education in Egypt, reflecting their father's commitment to women's intellectual and educational advancement. Upon completing their studies, they contributed to Islamic education across Southeast Asia. Ustazah Saadah served as principal of Madrasah Al-Ma’arif for approximately two decades, continuing her father's educational legacy in Singapore. Ustazah Kamaliah taught at an Arabic school in Brunei, while Ustazah Saedah became an educator, lecturer and principal of Maahad Hamidiah in Selangor, where she also participated in religious administration. Their achievements demonstrate the expanding role of Muslim women as scholars, educators and institutional leaders, while highlighting the transregional networks connecting Singapore's Islamic educational heritage with Egypt and the wider Malay world.",
           "captionTitle": "Kiyai Fadhlullah Suhaimi (1886–1964): Islamic Scholarship, Educational Reform and the Vernacular Press",
           "groupTitle": "Madrasahs and women’s education",
@@ -239,7 +244,21 @@
             "source": "Pergas",
             "sourceUrl": "https://blog.pergas.org.sg/mereka-yang-menulis-sumbangan-asatizah-singapura-dalam-penulisan-dan-penerbitan-kitab-kitab-agama-1914-2016/",
             "hideArchiveDetails": true
-          }
+          },
+          "archiveImages": [
+            {
+              "image": "assets/archive/qalam-1951-cover.jpg",
+              "imageAlt": "Qalam cover, January 1951, featuring the three Suhaimi sisters.",
+              "caption": "Qalam cover, January 1951, featuring the three Suhaimi sisters.",
+              "source": "Qalam Digital Archive, Kyoto University"
+            },
+            {
+              "image": "assets/archive/qalam-1951-daughters.jpg",
+              "imageAlt": "Original Jawi article about the cover photograph, Qalam, January 1951.",
+              "caption": "Original Jawi article about the cover photograph, Qalam, January 1951.",
+              "source": "Qalam Digital Archive, Kyoto University"
+            }
+          ]
         },
         {
           "id": "universiti-al-quran",
@@ -379,7 +398,7 @@
       "label": "Transformation",
       "title": "A Changing Society. An Evolving Education.",
       "period": "Early twentieth century",
-      "intro": "By the early 20th century, Singapore had emerged as a vibrant centre of Islamic printing, publishing and intellectual discourse, embedded within transregional scholarly networks connecting Java, Riau and Sumatra with major centres of Islamic learning such as Mecca, Cairo and Istanbul. The circulation of religious treatises, newspapers and periodicals facilitated the exchange of ideas and stimulated discussions on religious reform, the modernisation of Islamic education and the expansion of educational opportunities for women and girls.",
+      "intro": "At the turn of the 20th century, Singapore had emerged as a vibrant centre of Islamic printing, publishing and intellectual discourse, embedded within transregional scholarly networks connecting Java, Riau and Sumatra with major centres of Islamic learning such as Mecca, Cairo and Istanbul. The circulation of religious treatises, newspapers and periodicals facilitated the exchange of ideas and stimulated discussions on religious reform, the modernisation of Islamic education and the expansion of educational opportunities for women and girls.",
       "question": "How significant was Singapore's role as a centre of printing and intellectual exchange in the Malay world?",
       "milestones": [
         4,
