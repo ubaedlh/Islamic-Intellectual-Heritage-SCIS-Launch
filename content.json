@@ -3,7 +3,7 @@
   "subtitle": "Rooted in Tradition. Shaped by Singapore.",
   "introduction": [
     "Islamic education in Singapore has grown through generations of scholars, educators, philanthropists and institutions. Rooted in Islamic traditions and the local socio-religious context, it is enriched by scholarly networks across the Malay world and beyond.",
-    "This exhibition traces selected milestones from the 19th to the 21st century, highlighting a cosmopolitan and adaptive tradition.",
+    "This digital exhibition traces selected milestones from the 19th to the 21st century, highlighting a cosmopolitan and adaptive tradition.",
     "Selected texts and manuscripts showcase Singapore’s Islamic intellectual heritage and SCIS’s commitment to its preservation and study through research and the Library’s Special Collections.",
     "SCIS continues this intellectual legacy and opens a new chapter in Islamic education in Singapore."
   ],
@@ -19,12 +19,20 @@
       "source": "Kiyai Abdurrahman Klotok, a Javanese Islamic scholar from Bojonegoro, East Java, documented his pilgrimage journey to Mecca in a manuscript dating to 1837. Having travelled through Lingga and Riau, he arrived in Singapore on 22 October 1837, referring to the settlement as “Pulo Selat” under British administration. He remained in Singapore for approximately two months before departing for Jeddah on 5 December 1837. His account provides valuable early evidence of Singapore's role as a transit point for pilgrims and scholars from the Malay-Indonesian world, reflecting the maritime and religious networks connecting the region to the wider Muslim world. Image credit: Hajj travel manuscript of Kiyai Abdurrahman Klotok. Photograph courtesy of RPCS Research Fellow, Dr A. Ginanjar Sya’ban.",
       "displayObjects": [
         {
+          "image": "assets/archive/map.webp",
+          "imageAlt": "Hand-coloured Ottoman map of Sumatra and the southern Malay Peninsula.",
+          "captionTitle": "Ottoman Map of Singapore (1732)",
+          "caption": "Map depicting Singapore in an Ottoman geographical work, reflecting its presence in the wider Muslim world's geographical knowledge and its significance within regional maritime networks.",
+          "hideArchiveDetails": true
+        },
+        {
           "image": "assets/archive/M1_Kiyai_Abdulrahman_Klotok_Manuscript.jpg",
           "caption": "Hajj Travel Manuscript of Kiyai Abdulrahman Klotok (1837)",
           "imageAlt": "Page of a manuscript supplied as the account by Kiyai Abdulrahman Klotok, with handwritten text and marginal notes.",
           "source": "Kiyai Abdurrahman Klotok, a Javanese Islamic scholar from Bojonegoro, East Java, documented his pilgrimage journey to Mecca in a manuscript dating to 1837. Having travelled through Lingga and Riau, he arrived in Singapore on 22 October 1837, referring to the settlement as “Pulo Selat” under British administration. He remained in Singapore for approximately two months before departing for Jeddah on 5 December 1837. His account provides valuable early evidence of Singapore's role as a transit point for pilgrims and scholars from the Malay-Indonesian world, reflecting the maritime and religious networks connecting the region to the wider Muslim world. Image credit: Hajj travel manuscript of Kiyai Abdurrahman Klotok. Photograph courtesy of RPCS Research Fellow, Dr A. Ginanjar Sya’ban.",
           "featureTitle": "Singapore and the Hajj",
-          "featureText": "An early account of Singapore's role as a transit point for Muslim pilgrims travelling from the Malay world to the Hijaz is preserved in a manuscript by Kiyai Abdulrahman Klotok. This historical record offers a glimpse into Singapore's connections with regional pilgrimage networks and the wider Muslim world."
+          "featureText": "An early account of Singapore's role as a transit point for Muslim pilgrims travelling from the Malay world to the Hijaz is preserved in a manuscript by Kiyai Abdulrahman Klotok. This historical record offers a glimpse into Singapore's connections with regional pilgrimage networks and the wider Muslim world.",
+          "hideFeatureLabel": true
         }
       ]
     },
@@ -63,7 +71,7 @@
           "imageAlt": "User-identified portrait of Yusuf Ma Dexin wearing a turban, with a long white beard.",
           "source": "Image and identification supplied by the user, 5 November 2026. Collection credit and reproduction permissions have not been supplied. Historical attribution has not been independently verified.",
           "featureTitle": "A Chinese Muslim Scholar in Singapore",
-          "featureText": "The Chinese Muslim scholar Yusuf Ma Dexin recorded his stay in Singapore during the 1840s in his travelogue Chaojin Tuji (Record of the Pilgrimage Journey). His account illustrates Singapore's place within wider pilgrimage routes linking China, Southeast Asia and the Hijaz.",
+          "featureText": "The Chinese Muslim scholar from Yunnan, Yusuf Ma Dexin, recorded his stay in Singapore during the 1840s in his travelogue Chaojin Tuji (Record of the Pilgrimage Journey). His account illustrates Singapore's place within wider pilgrimage routes linking China, Southeast Asia and the Hijaz.",
           "hideArchiveDetails": true
         },
         {
@@ -78,7 +86,7 @@
       "id": 3,
       "category": "Print & Publishing",
       "title": "A centre for the printed word",
-      "description": "Singapore became a major centre of Islamic printing and publishing, producing and circulating religious texts across the Malay world.",
+      "description": "By the late 19th century, Singapore had emerged as a major centre of Islamic printing and publishing, particularly around Kampong Gelam, facilitating the production and circulation of Jawi religious texts across the Malay world. This flourishing print culture supported Islamic education by widening access to religious knowledge and strengthening intellectual networks.",
       "image": "assets/archive/kitab-fasholatan.jpg",
       "imageAlt": "Title page of Kitab Fasholatan with Jawi text in a triangular frame.",
       "caption": "Kitab Fasholatan written by Muhammad Sālih bin Umar as-Samarani, more famously known as Kiyai Soleh Darat (1820-1903). This text was produced by Haji Muhammad Amin in Singapore between 1896-1897. (SCIS Special Collection)",
@@ -99,7 +107,7 @@
       "id": 4,
       "category": "Modern Madrasahs",
       "title": "Structured education expands",
-      "description": "Modern madrasahs, including Al-Iqbal (1908), Alsagoff (1912 - present), Aljunied (1927-present) and Al-Ma’arif (1936-present), expanded structured Islamic education and opportunities for Muslim girls.",
+      "description": "The early 20th century witnessed the emergence and expansion of formal madrasah education in Singapore, beginning with early institutions such as Madrasah As-Sibyan (1905) and Madrasah al-Iqbal (1908). This was followed by the establishment of six madrasahs that continue to operate today: Madrasah Alsagoff Al-Arabiah (1912), Madrasah Aljunied Al-Islamiah (1927), Madrasah Al-Arabiah Al-Islamiah (1930s), Madrasah Al-Ma'arif Al-Islamiah (1936), Madrasah Al-Irsyad Al-Islamiah (1947) and Madrasah Wak Tanjong Al-Islamiah (1955).",
       "image": "assets/archive/alsagoff.webp",
       "imageAlt": "Portrait labelled “Syed Mohamed Alsagoff (1836–1906)” on the uploaded sheet.",
       "caption": "A prominent Arab Muslim merchant and philanthropist whose maritime enterprises, including the steamship S.S. Jeddah, facilitated pilgrimage journeys to the Hijaz, strengthening religious learning and scholarly connections between Southeast Asia and the wider Muslim world. His philanthropic legacy also contributed to Islamic education in Singapore, with the establishment of Madrasah Alsagoff Al-Arabiah in 1912 through his family's charitable endowment, following his passing.",
@@ -123,14 +131,23 @@
           "height": 461,
           "captionTitle": "Portrait of Syed Mohamed Alsagoff (1836–1906)",
           "modalTitle": "Portrait of Syed Mohamed Alsagoff (1836–1906). A prominent Arab Muslim merchant and philanthropist whose maritime enterprises, including the steamship S.S. Jeddah, facilitated pilgrimage journeys to the Hijaz, strengthening religious learning and scholarly connections between Southeast Asia and the wider Muslim world. His philanthropic legacy also contributed to Islamic education in Singapore, with the establishment of Madrasah Alsagoff Al-Arabiah in 1912 through his family's charitable endowment, following his passing."
+        },
+        {
+          "id": "madrasah-alsagoff",
+          "image": "assets/archive/madrasah-alsagoff.jpg",
+          "imageAlt": "Historical street view of Alsagoff Arab School, with 1912 on its facade.",
+          "caption": "Undated image of Madrasah Alsagoff Al-Islamiah. Founded in 1912, it is the oldest surviving madrasah in Singapore.",
+          "source": "Urban Redevelopment Authority",
+          "sourceUrl": "https://www.ura.gov.sg/conservation/find-a-building/conservation-portal/kpgl-00076/",
+          "hideArchiveDetails": true
         }
       ]
     },
     {
       "id": 5,
       "category": "Community Support",
-      "title": "Philanthropy sustains learning",
-      "description": "Muslim benefactors and community organisations sustained and expanded Islamic education through waqf, philanthropy and community initiatives.",
+      "title": "Philanthropy and collective efforts sustain learning",
+      "description": "Muslim benefactors and community organisations played an important role in sustaining and expanding Islamic education in Singapore through waqf, philanthropy, scholarships and community initiatives. Organisations such as Jamiyah, Muhammadiyah, PERGAS and Lembaga Biasiswa Kenangan Maulud (LBKM) contributed through religious education programmes, educational institutions, teacher development, scholarships and financial assistance. Alongside the support of individual philanthropists and community leaders, these efforts broadened access to Islamic education, strengthened religious learning and supported the educational advancement of the Muslim community.",
       "image": null,
       "imageAlt": "Historical photograph associated with Muslim philanthropy or educational support.",
       "caption": "Historical photograph associated with Muslim philanthropy or educational support.",
@@ -164,9 +181,9 @@
     },
     {
       "id": 6,
-      "category": "Regional Learning",
+      "category": "Expanding Access and Pathways in Islamic Education",
       "title": "Students arrive from across the region",
-      "description": "Madrasahs such as Aljunied, Alsagoff and Al-Ma’arif established Singapore as a regional centre of Islamic learning, attracting students from across Southeast Asia.",
+      "description": "By the 1930s and 1940s, Singapore had emerged as an important regional centre of Islamic learning, with madrasahs attracting students from neighbouring territories, including Malaya, Indonesia and Brunei. Madrasah Aljunied, in particular, gained recognition for its Arabic and Islamic education, nurturing graduates who subsequently contributed to religious leadership and education across the region.",
       "image": null,
       "imageAlt": "Historical madrasah building.",
       "caption": "Historical madrasah building.",
@@ -216,15 +233,6 @@
             "source": "Pergas",
             "sourceUrl": "https://blog.pergas.org.sg/mereka-yang-menulis-sumbangan-asatizah-singapura-dalam-penulisan-dan-penerbitan-kitab-kitab-agama-1914-2016/",
             "hideArchiveDetails": true
-          },
-          "archiveObject": {
-            "id": "madrasah-alsagoff",
-            "image": "assets/archive/madrasah-alsagoff.jpg",
-            "imageAlt": "Historical street view of Alsagoff Arab School, with 1912 on its facade.",
-            "caption": "Undated image of Madrasah Alsagoff Al-Islamiah. Founded in 1912, it is the oldest surviving madrasah in Singapore.",
-            "source": "Urban Redevelopment Authority",
-            "sourceUrl": "https://www.ura.gov.sg/conservation/find-a-building/conservation-portal/kpgl-00076/",
-            "hideArchiveDetails": true
           }
         },
         {
@@ -241,9 +249,9 @@
           "title": "Portrait of Kiyai Zuhri (1905–1985)",
           "image": "assets/archive/kiyai-zuhri.jpeg",
           "imageAlt": "User-identified portrait of Kiyai Zuhri wearing a songkok.",
-          "caption": "A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
+          "caption": "Kiyai Zuhri was a prominent Islamic educator and religious scholar who contributed significantly to the development of Islamic education in Singapore. He served as Ra’is al-Asatizah (Head of Teachers) at Madrasah Alsagoff Al-Arabiah and was the first President of the Singapore Islamic Scholars and Religious Teachers Association (PERGAS). Through his leadership in madrasah education and PERGAS, he played an important role in strengthening religious teaching, supporting the development of asatizah and advancing Islamic education within Singapore's Muslim community.",
           "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
-          "modalTitle": "Portrait of Kiyai Zuhri (1905–1985). A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
+          "modalTitle": "Portrait of Kiyai Zuhri (1905–1985). Kiyai Zuhri was a prominent Islamic educator and religious scholar who contributed significantly to the development of Islamic education in Singapore. He served as Ra’is al-Asatizah (Head of Teachers) at Madrasah Alsagoff Al-Arabiah and was the first President of the Singapore Islamic Scholars and Religious Teachers Association (PERGAS). Through his leadership in madrasah education and PERGAS, he played an important role in strengthening religious teaching, supporting the development of asatizah and advancing Islamic education within Singapore's Muslim community.",
           "centered": true,
           "captionTitle": "Portrait of Kiyai Zuhri (1905–1985)",
           "archiveObject": {
@@ -253,7 +261,8 @@
             "hideArchiveDetails": true
           }
         }
-      ]
+      ],
+      "featureImage": "madrasah-aljunied"
     },
     {
       "id": 7,
@@ -371,7 +380,8 @@
         5,
         6
       ],
-      "historyDetail": "Singapore emerged as a major centre of Malay-language printing and publishing, facilitating the production and circulation of religious texts, literature and intellectual ideas across the Malay world. Between 1921 and 1949, Singapore accounted for 119 of the 243 publishing and printing establishments (approximately 49%) recorded across Malaya and Singapore, reflecting its prominence within the regional publishing landscape."
+      "historyDetail": "Singapore emerged as a major centre of Malay-language printing and publishing, facilitating the production and circulation of religious texts, literature and intellectual ideas across the Malay world. Between 1921 and 1949, Singapore accounted for 119 of the 243 publishing and printing establishments (approximately 49%) recorded across Malaya and Singapore, reflecting its prominence within the regional publishing landscape.",
+      "featureText": "One of Singapore's earliest documented madrasahs, Madrasah As-Sibyan (1905), had connections to the Muslim printing community of Kampong Gelam. Muhammad bin Muhammad Sa'id, who was associated with the madrasah as a teacher, was the son of Haji Muhammad Sa'id bin Haji Arsyad, a prominent printer and publisher of Malay and Islamic texts. This connection illustrates how Singapore's flourishing Islamic print culture and early madrasah education were intertwined in the transmission of religious knowledge."
     },
     {
       "id": "renewal",
@@ -436,7 +446,6 @@
   },
   "archiveNotes": {
     "3": "Javanese Muslim printers and publishers played a pioneering role in establishing Singapore as a major centre of Islamic printing and intellectual exchange during the late 19th and early 20th centuries. Figures such as Haji Muhammad Said (H.M. Said), Haji Muhammad Siraj (H.M. Siraj) and Haji Muhammad Amin (H.M. Amin) were among those associated with the growth of Muslim printing and publishing enterprises, particularly around Kampong Gelam. Through the production and circulation of religious texts, including works on theology, jurisprudence, Qur’anic exegesis and Islamic ethics, these enterprises facilitated the dissemination of Islamic knowledge across Singapore and the wider Malay world. Their printing activities helped make religious scholarship more accessible, sustained intellectual connections with scholars and learning centres across the Nusantara, and contributed to a flourishing culture of reading, learning and scholarly exchange. These early Muslim printers and publishers laid important foundations for Singapore’s Islamic intellectual heritage, helping transform the port city into a regional centre for the production, circulation and exchange of religious knowledge.",
-    "6": "The supplied exhibition text names Aljunied, Alsagoff and Al-Ma’arif as examples. An approved building photograph and its identification are still needed.",
     "8": "This thematic milestone begins in the 1960s and also mentions the Joint Madrasah System in 2009. “Onwards” describes a continuing theme, not a single event."
   },
   "closingReflection": [
@@ -568,9 +577,9 @@
               "title": "Cover of Al-Imam (1906–1908)",
               "image": "assets/archive/al-imam.jpeg",
               "imageAlt": "Cover of Al-Imam with ornamental border and Arabic-script lettering.",
-              "caption": "A Malay-language Islamic reformist periodical published in Singapore, promoting religious reform, education and modernist Islamic thought across the Malay world.",
+              "caption": "First published in Singapore in 1906, Al-Imam was an influential Malay-language Islamic reformist periodical that promoted religious renewal, intellectual discourse and educational reform. Among its founders was Syed Sheikh Ahmad al-Hadi (1867–1934), who was also associated with the establishment of Madrasah al-Iqbal in 1907, one of Singapore's earliest modern Islamic schools. Together, the periodical and madrasah reflected growing efforts to modernise Islamic education through both print and formal schooling.",
               "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Periodical publication range supplied; date of this particular issue has not been verified.",
-              "modalTitle": "Cover of Al-Imam (1906–1908). A Malay-language Islamic reformist periodical published in Singapore, promoting religious reform, education and modernist Islamic thought across the Malay world.",
+              "modalTitle": "Cover of Al-Imam (1906–1908). First published in Singapore in 1906, Al-Imam was an influential Malay-language Islamic reformist periodical that promoted religious renewal, intellectual discourse and educational reform. Among its founders was Syed Sheikh Ahmad al-Hadi (1867–1934), who was also associated with the establishment of Madrasah al-Iqbal in 1907, one of Singapore's earliest modern Islamic schools. Together, the periodical and madrasah reflected growing efforts to modernise Islamic education through both print and formal schooling.",
               "hideArchiveDetails": true
             },
             {

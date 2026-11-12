@@ -33,7 +33,7 @@ archive=d.get('chapterArchives', {})
 assert set(archive)=={'transformation'}, 'New archive must belong only to Chapter II'
 objects=[o for g in archive['transformation']['groups'] for o in g['objects']]
 moved_ids = {'fadhlullah-and-daughters': 6, 'ahmad-angullia': 5,
-             'ali-redha-alsagoff': 5, 'madrasah-aljunied': 6, 'kiyai-zuhri': 6, 'syed-abu-bakar-taha': 6, 'universiti-al-quran': 6, 'madrasah-alsagoff': 6}
+             'ali-redha-alsagoff': 5, 'madrasah-aljunied': 6, 'kiyai-zuhri': 6, 'syed-abu-bakar-taha': 6, 'universiti-al-quran': 6, 'madrasah-alsagoff': 4}
 for m in d['milestones']:
     exhibits = m.get('displayObjects', [])
     archive_exhibits = [obj['archiveObject'] for obj in exhibits if 'archiveObject' in obj]

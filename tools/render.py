@@ -76,13 +76,18 @@ def render():
         highlight_html = f'<aside class="milestone-highlights" aria-label="Milestone highlights">{highlights}</aside>' if highlights else ''
         extras = ''.join(object_figure(o) for o in d.get('archiveObjects', []) if o['milestone'] == n and o['image'] != m.get('image'))
         visual = f'<div class="object-group">{object_figure(m)}{extras}</div>' if m.get('image') else ''
+        feature_answer = ''
         leading = ''
         heading_html = f'<h3 class="milestone-heading" id="title-{n}">{e(m["category"])}</h3>'
         if m.get('displayObjects'):
             figures = []
             leading_figures = []
             for obj in m['displayObjects']:
-                feature = f'<aside class="did-you-know"><p class="eyebrow">Did You Know?</p><h4>{e(obj["featureTitle"])}</h4><p>{e(obj["featureText"])}</p></aside>' if obj.get('featureTitle') else ''
+                if obj.get('id') and obj['id'] == m.get('featureImage'):
+                    feature_answer = f'<details class="did-you-know"><summary>Did You Know?</summary><h4>{e(m["title"])}</h4><p>{e(m["description"])}</p>{object_figure(obj)}</details>'
+                    continue
+                feature_label = '' if obj.get('hideFeatureLabel') else '<p class="eyebrow">Did You Know?</p>'
+                feature = f'<aside class="did-you-know">{feature_label}<h4>{e(obj["featureTitle"])}</h4><p>{e(obj["featureText"])}</p></aside>' if obj.get('featureTitle') else ''
                 heading = f'<h4 class="milestone-object-heading">{e(obj["groupTitle"])}</h4>' if obj.get('groupTitle') else ''
                 placement = leading_figures if obj.get('beforeMilestoneCopy') else figures
                 portrait = object_figure(obj["introPortrait"]) if obj.get("introPortrait") else ""
@@ -94,9 +99,10 @@ def render():
                 heading_html = ''
         repeated_description = f'<p>{e(m["description"])}</p>' if m.get('repeatDescriptionInArchive', True) else ''
         archive_detail = f'<details class="text-archive"><summary>Explore Further</summary>{archive_html}{repeated_description}</details>' if archive else ''
+        copy = feature_answer or f'<p class="milestone-subtitle">{e(m["title"])}</p><p class="description">{e(m["description"])}</p>'
         return f'''<article class="milestone layout-{n % 3} {'has-image' if visual else 'typographic'}" id="milestone-{n}" aria-labelledby="title-{n}">
 <div class="folio" aria-hidden="true">{n:02}<span> / 12</span></div>
-{leading}<div class="milestone-copy">{heading_html}<p class="milestone-subtitle">{e(m['title'])}</p><p class="description">{e(m['description'])}</p>{definitions}{archive_detail}</div>
+{leading}<div class="milestone-copy">{heading_html}{copy}{definitions}{archive_detail}</div>
 {visual}{highlight_html}{context_html}</article>'''
     chapters = []
     by_id = {m['id']: m for m in d['milestones']}
@@ -106,12 +112,13 @@ def render():
     for c in d['chapters']:
         chapter_id = c['id']
         intro = f'<p class="chapter-intro">{e(c["intro"])}</p>' if c.get('intro') else ''
+        feature = f'<details class="did-you-know chapter-feature"><summary>Did You Know?</summary><p>{e(c["featureText"])}</p></details>' if c.get('featureText') else ''
         history = c.get('historyDetail') or c.get('intro', '')
         entries = ''.join(milestone(by_id[i]) for i in c['milestones'])
         end = f'<div class="chapter-end" aria-hidden="true">— {e(c["number"])} —</div>'
         archive = chapter_archive(chapter_id)
         period = f'<p class="chapter-period">{e(c["period"])}</p>' if c.get("period") else ''
-        chapters.append(f'''<section class="chapter {e(c['id'])}" id="{e(c['id'])}" aria-labelledby="heading-{e(c['id'])}"><header class="chapter-opening"><img class="folio-sprig" src="assets/folio-sprig.svg" alt="" aria-hidden="true" width="160" height="40"><p class="eyebrow">Chapter {e(c['number'])} / {e(c['label'])}</p>{period}<div class="chapter-title-row"><span class="roman" aria-hidden="true">{e(c['number'])}</span><h2 id="heading-{e(c['id'])}">{e(c['title'])}</h2></div>{intro}{chapter_archive(chapter_id, opening=True)}<aside class="question"><span>A question to carry with you</span><p>{e(c['question'])}</p><details><summary>Consider the history</summary><p>{e(history)}</p></details></aside></header><div class="chapter-entries">{entries}</div>{archive}{end}</section>''')
+        chapters.append(f'''<section class="chapter {e(c['id'])}" id="{e(c['id'])}" aria-labelledby="heading-{e(c['id'])}"><header class="chapter-opening"><img class="folio-sprig" src="assets/folio-sprig.svg" alt="" aria-hidden="true" width="160" height="40"><p class="eyebrow">Chapter {e(c['number'])} / {e(c['label'])}</p>{period}<div class="chapter-title-row"><span class="roman" aria-hidden="true">{e(c['number'])}</span><h2 id="heading-{e(c['id'])}">{e(c['title'])}</h2></div>{intro}{feature}{chapter_archive(chapter_id, opening=True)}<aside class="question"><span>A question to carry with you</span><p>{e(c['question'])}</p><details><summary>Consider the history</summary><p>{e(history)}</p></details></aside></header><div class="chapter-entries">{entries}</div>{archive}{end}</section>''')
     hero = d.get("homepageImage") or next(o for o in d["archiveObjects"] if o["id"] == d["heroObject"])
     nav = ''.join(f'<a href="#{e(c["id"])}"><span>{e(c["number"])}</span> {e(c["label"])}</a>' for c in d['chapters'])
     return f'''<!doctype html>
