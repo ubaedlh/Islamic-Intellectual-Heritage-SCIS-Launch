@@ -70,18 +70,23 @@ def render():
         highlight_html = f'<aside class="milestone-highlights" aria-label="Milestone highlights">{highlights}</aside>' if highlights else ''
         extras = ''.join(object_figure(o) for o in d.get('archiveObjects', []) if o['milestone'] == n and o['image'] != m.get('image'))
         visual = f'<div class="object-group">{object_figure(m)}{extras}</div>' if m.get('image') else ''
+        leading = ''
         if m.get('displayObjects'):
             figures = []
+            leading_figures = []
             for obj in m['displayObjects']:
                 feature = f'<aside class="did-you-know"><p class="eyebrow">Did You Know?</p><h4>{e(obj["featureTitle"])}</h4><p>{e(obj["featureText"])}</p></aside>' if obj.get('featureTitle') else ''
                 heading = f'<h4 class="milestone-object-heading">{e(obj["groupTitle"])}</h4>' if obj.get('groupTitle') else ''
-                figures.append(f'<div class="milestone-object">{heading}{feature}{object_figure(obj)}</div>')
+                placement = leading_figures if obj.get('beforeMilestoneCopy') else figures
+                placement.append(f'<div class="milestone-object">{heading}{feature}{object_figure(obj)}</div>')
             visual = '<div class="object-group curated-objects">' + ''.join(figures) + '</div>'
+            if leading_figures:
+                leading = '<div class="milestone-leading">' + ''.join(leading_figures) + '</div>'
         repeated_description = f'<p>{e(m["description"])}</p>' if m.get('repeatDescriptionInArchive', True) else ''
         archive_detail = f'<details class="text-archive"><summary>Explore Further</summary>{archive_html}{repeated_description}</details>' if archive else ''
         return f'''<article class="milestone layout-{n % 3} {'has-image' if visual else 'typographic'}" id="milestone-{n}" aria-labelledby="title-{n}">
 <div class="folio" aria-hidden="true">{n:02}<span> / 12</span></div>
-<div class="milestone-copy"><p class="date">{e(m['date'])}</p><p class="category">{e(m['category'])}</p><h3 id="title-{n}">{e(m['title'])}</h3><p class="description">{e(m['description'])}</p>{definitions}{archive_detail}</div>
+{leading}<div class="milestone-copy"><p class="date">{e(m['date'])}</p><p class="category">{e(m['category'])}</p><h3 id="title-{n}">{e(m['title'])}</h3><p class="description">{e(m['description'])}</p>{definitions}{archive_detail}</div>
 {visual}{highlight_html}{context_html}</article>'''
     chapters = []
     by_id = {m['id']: m for m in d['milestones']}

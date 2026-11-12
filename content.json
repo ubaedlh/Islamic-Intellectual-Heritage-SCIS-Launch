@@ -136,42 +136,6 @@
           "source": "Urban Redevelopment Authority",
           "sourceUrl": "https://www.ura.gov.sg/conservation/find-a-building/conservation-portal/kpgl-00076/",
           "hideArchiveDetails": true
-        },
-        {
-          "id": "fadhlullah-and-daughters",
-          "title": "Sheikh Muhammad Fadhlullah Suhaimi and His Daughters",
-          "image": "assets/archive/fadhlullah-and-daughters.jpeg",
-          "imageAlt": "Group photograph supplied as Sheikh Muhammad Fadhlullah Suhaimi and his daughters; identified figure third from right.",
-          "caption": "Kiyai Fadhlullah Suhaimi was a prominent ulama-intellectual, educator and reformist thinker who played a significant role in advancing Islamic education and intellectual discourse in Singapore. A strong advocate of women's education, he established Madrasah Al-Ma’arif in 1936, a pioneering institution that expanded opportunities for Muslim girls to pursue formal Islamic education.",
-          "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
-          "modalTitle": "Kiyai Fadhlullah Suhaimi (1886–1964): Islamic Scholarship, Educational Reform and the Vernacular Press. Kiyai Fadhlullah Suhaimi was a prominent ulama-intellectual, educator and reformist thinker who played a significant role in advancing Islamic education and intellectual discourse in Singapore. A strong advocate of women's education, he established Madrasah Al-Ma’arif in 1936, a pioneering institution that expanded opportunities for Muslim girls to pursue formal Islamic education. The Daughters of Kiyai Fadhlullah Suhaimi: Pioneers of Women's Islamic Education. The three daughters of Kiyai Fadhlullah Suhaimi—Saadah, Kamaliah and Saedah Suhaimi—were among the pioneering Muslim women from Singapore who pursued higher education in Egypt, reflecting their father's commitment to women's intellectual and educational advancement. Upon completing their studies, they contributed to Islamic education across Southeast Asia. Ustazah Saadah served as principal of Madrasah Al-Ma’arif for approximately two decades, continuing her father's educational legacy in Singapore. Ustazah Kamaliah taught at an Arabic school in Brunei, while Ustazah Saedah became an educator, lecturer and principal of Maahad Hamidiah in Selangor, where she also participated in religious administration. Their achievements demonstrate the expanding role of Muslim women as scholars, educators and institutional leaders, while highlighting the transregional networks connecting Singapore's Islamic educational heritage with Egypt and the wider Malay world.",
-          "captionTitle": "Kiyai Fadhlullah Suhaimi (1886–1964): Islamic Scholarship, Educational Reform and the Vernacular Press",
-          "groupTitle": "Madrasahs and women’s education",
-          "captionSections": [
-            {
-              "title": "The Daughters of Kiyai Fadhlullah Suhaimi: Pioneers of Women's Islamic Education",
-              "text": "The three daughters of Kiyai Fadhlullah Suhaimi—Saadah, Kamaliah and Saedah Suhaimi—were among the pioneering Muslim women from Singapore who pursued higher education in Egypt, reflecting their father's commitment to women's intellectual and educational advancement. Upon completing their studies, they contributed to Islamic education across Southeast Asia. Ustazah Saadah served as principal of Madrasah Al-Ma’arif for approximately two decades, continuing her father's educational legacy in Singapore. Ustazah Kamaliah taught at an Arabic school in Brunei, while Ustazah Saedah became an educator, lecturer and principal of Maahad Hamidiah in Selangor, where she also participated in religious administration. Their achievements demonstrate the expanding role of Muslim women as scholars, educators and institutional leaders, while highlighting the transregional networks connecting Singapore's Islamic educational heritage with Egypt and the wider Malay world."
-            }
-          ]
-        },
-        {
-          "id": "universiti-al-quran",
-          "image": "assets/archive/universiti-al-quran.jpg",
-          "imageAlt": "Universiti Al-Quran cover with a starburst and a drawing of a book.",
-          "caption": "Universiti Al-Quran, written by Kiyai Fadhlullah Suhaimi and published by Al-Ahmadiyyah Press in 1957.",
-          "source": "Image supplied by the exhibition editor.",
-          "hideArchiveDetails": true
-        },
-        {
-          "id": "kiyai-zuhri",
-          "title": "Portrait of Kiyai Zuhri (1905–1985)",
-          "image": "assets/archive/kiyai-zuhri.jpeg",
-          "imageAlt": "User-identified portrait of Kiyai Zuhri wearing a songkok.",
-          "caption": "A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
-          "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
-          "modalTitle": "Portrait of Kiyai Zuhri (1905–1985). A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
-          "groupTitle": "Scholars and educators",
-          "captionTitle": "Portrait of Kiyai Zuhri (1905–1985)"
         }
       ]
     },
@@ -210,7 +174,7 @@
     },
     {
       "id": 6,
-      "date": "1940s onwards",
+      "date": "1930s onwards",
       "category": "Regional Learning",
       "title": "Students arrive from across the region",
       "description": "Madrasahs such as Aljunied, Alsagoff and Al-Ma’arif established Singapore as a regional centre of Islamic learning, attracting students from across Southeast Asia.",
@@ -237,6 +201,44 @@
           "imageAlt": "Seated portrait of Syed Abu Bakar bin Taha Alsagoff in a white robe and turban.",
           "source": "Portrait reproduced from page 12 of Response on the Madrasah, Zhulkeflee Hj Ismail.",
           "modalTitle": "Syed Abu Bakar bin Taha Alsagoff (1882-1956). A prominent Muslim educator and mudir (headmaster) of Madrasah Aljunied Al-Islamiah, Syed Abu Bakar contributed to the development of formal Islamic education in early 20th-century Singapore. Through his educational leadership, he helped strengthen the madrasah’s role as a centre of Islamic learning and scholarly development, reflecting Singapore’s wider intellectual connections with the Malay world and the Middle East."
+        },
+        {
+          "id": "fadhlullah-and-daughters",
+          "title": "Sheikh Muhammad Fadhlullah Suhaimi and His Daughters",
+          "image": "assets/archive/fadhlullah-and-daughters.jpeg",
+          "imageAlt": "Group photograph supplied as Sheikh Muhammad Fadhlullah Suhaimi and his daughters; identified figure third from right.",
+          "caption": "Kiyai Fadhlullah Suhaimi was a prominent ulama-intellectual, educator and reformist thinker who played a significant role in advancing Islamic education and intellectual discourse in Singapore. A strong advocate of women's education, he established Madrasah Al-Ma’arif in 1936, a pioneering institution that expanded opportunities for Muslim girls to pursue formal Islamic education.",
+          "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
+          "modalTitle": "Kiyai Fadhlullah Suhaimi (1886–1964): Islamic Scholarship, Educational Reform and the Vernacular Press. Kiyai Fadhlullah Suhaimi was a prominent ulama-intellectual, educator and reformist thinker who played a significant role in advancing Islamic education and intellectual discourse in Singapore. A strong advocate of women's education, he established Madrasah Al-Ma’arif in 1936, a pioneering institution that expanded opportunities for Muslim girls to pursue formal Islamic education. The Daughters of Kiyai Fadhlullah Suhaimi: Pioneers of Women's Islamic Education. The three daughters of Kiyai Fadhlullah Suhaimi—Saadah, Kamaliah and Saedah Suhaimi—were among the pioneering Muslim women from Singapore who pursued higher education in Egypt, reflecting their father's commitment to women's intellectual and educational advancement. Upon completing their studies, they contributed to Islamic education across Southeast Asia. Ustazah Saadah served as principal of Madrasah Al-Ma’arif for approximately two decades, continuing her father's educational legacy in Singapore. Ustazah Kamaliah taught at an Arabic school in Brunei, while Ustazah Saedah became an educator, lecturer and principal of Maahad Hamidiah in Selangor, where she also participated in religious administration. Their achievements demonstrate the expanding role of Muslim women as scholars, educators and institutional leaders, while highlighting the transregional networks connecting Singapore's Islamic educational heritage with Egypt and the wider Malay world.",
+          "captionTitle": "Kiyai Fadhlullah Suhaimi (1886–1964): Islamic Scholarship, Educational Reform and the Vernacular Press",
+          "groupTitle": "Madrasahs and women’s education",
+          "captionSections": [
+            {
+              "title": "The Daughters of Kiyai Fadhlullah Suhaimi: Pioneers of Women's Islamic Education",
+              "text": "The three daughters of Kiyai Fadhlullah Suhaimi—Saadah, Kamaliah and Saedah Suhaimi—were among the pioneering Muslim women from Singapore who pursued higher education in Egypt, reflecting their father's commitment to women's intellectual and educational advancement. Upon completing their studies, they contributed to Islamic education across Southeast Asia. Ustazah Saadah served as principal of Madrasah Al-Ma’arif for approximately two decades, continuing her father's educational legacy in Singapore. Ustazah Kamaliah taught at an Arabic school in Brunei, while Ustazah Saedah became an educator, lecturer and principal of Maahad Hamidiah in Selangor, where she also participated in religious administration. Their achievements demonstrate the expanding role of Muslim women as scholars, educators and institutional leaders, while highlighting the transregional networks connecting Singapore's Islamic educational heritage with Egypt and the wider Malay world."
+            }
+          ],
+          "beforeMilestoneCopy": true
+        },
+        {
+          "id": "universiti-al-quran",
+          "image": "assets/archive/universiti-al-quran.jpg",
+          "imageAlt": "Universiti Al-Quran cover with a starburst and a drawing of a book.",
+          "caption": "Universiti Al-Quran, written by Kiyai Fadhlullah Suhaimi and published by Al-Ahmadiyyah Press in 1957.",
+          "source": "Image supplied by the exhibition editor.",
+          "hideArchiveDetails": true,
+          "beforeMilestoneCopy": true
+        },
+        {
+          "id": "kiyai-zuhri",
+          "title": "Portrait of Kiyai Zuhri (1905–1985)",
+          "image": "assets/archive/kiyai-zuhri.jpeg",
+          "imageAlt": "User-identified portrait of Kiyai Zuhri wearing a songkok.",
+          "caption": "A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
+          "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
+          "modalTitle": "Portrait of Kiyai Zuhri (1905–1985). A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
+          "groupTitle": "Scholars and educators",
+          "captionTitle": "Portrait of Kiyai Zuhri (1905–1985)"
         }
       ]
     },

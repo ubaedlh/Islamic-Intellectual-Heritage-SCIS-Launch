@@ -32,8 +32,8 @@ print('PASS: renderer, 12 milestones, local assets/anchors, alt text, six object
 archive=d.get('chapterArchives', {})
 assert set(archive)=={'transformation'}, 'New archive must belong only to Chapter II'
 objects=[o for g in archive['transformation']['groups'] for o in g['objects']]
-moved_ids = {'fadhlullah-and-daughters': 4, 'ahmad-angullia': 5,
-             'ali-redha-alsagoff': 5, 'madrasah-aljunied': 6, 'kiyai-zuhri': 4, 'syed-abu-bakar-taha': 6, 'universiti-al-quran': 4, 'madrasah-alsagoff': 4}
+moved_ids = {'fadhlullah-and-daughters': 6, 'ahmad-angullia': 5,
+             'ali-redha-alsagoff': 5, 'madrasah-aljunied': 6, 'kiyai-zuhri': 6, 'syed-abu-bakar-taha': 6, 'universiti-al-quran': 6, 'madrasah-alsagoff': 4}
 for m in d['milestones']:
     for obj in m.get('displayObjects', []):
         if obj.get('id') in moved_ids:
