@@ -10,7 +10,6 @@
   "milestones": [
     {
       "id": 1,
-      "date": "1810s onwards",
       "category": "Trade & Networks",
       "title": "A port connects people and ideas",
       "description": "Singapore's emergence as a major trading port in the 19th century attracted Muslim merchants, scholars and pilgrims from across the Malay world and beyond. These transregional networks facilitated not only the movement of people and goods, but also the circulation of religious knowledge, scholarly ideas and intellectual traditions, establishing Singapore as an important meeting point within the wider Muslim world.",
@@ -31,7 +30,6 @@
     },
     {
       "id": 2,
-      "date": "1840s onwards",
       "category": "Early Learning",
       "title": "Learning takes root in the community",
       "description": "Mosques, homes and informal teaching circles became important centres of Islamic learning in early Singapore, sustained by ulama, Sufi networks and connections with the wider Muslim world. Singapore also attracted prominent scholars who produced religious writings on the island, including Sheikh Salim bin Sumayr and Sheikh Ismail al-Khalidi al-Minangkabawi, reflecting its emerging role as a centre of Islamic intellectual activity.",
@@ -78,7 +76,6 @@
     },
     {
       "id": 3,
-      "date": "1860s onwards",
       "category": "Print & Publishing",
       "title": "A centre for the printed word",
       "description": "Singapore became a major centre of Islamic printing and publishing, producing and circulating religious texts across the Malay world.",
@@ -100,7 +97,6 @@
     },
     {
       "id": 4,
-      "date": "Early 1900s onwards",
       "category": "Modern Madrasahs",
       "title": "Structured education expands",
       "description": "Modern madrasahs, including Al-Iqbal (1908), Alsagoff (1912 - present), Aljunied (1927-present) and Al-Ma’arif (1936-present), expanded structured Islamic education and opportunities for Muslim girls.",
@@ -141,7 +137,6 @@
     },
     {
       "id": 5,
-      "date": "1920s onwards",
       "category": "Community Support",
       "title": "Philanthropy sustains learning",
       "description": "Muslim benefactors and community organisations sustained and expanded Islamic education through waqf, philanthropy and community initiatives.",
@@ -174,7 +169,6 @@
     },
     {
       "id": 6,
-      "date": "1930s onwards",
       "category": "Regional Learning",
       "title": "Students arrive from across the region",
       "description": "Madrasahs such as Aljunied, Alsagoff and Al-Ma’arif established Singapore as a regional centre of Islamic learning, attracting students from across Southeast Asia.",
@@ -253,7 +247,6 @@
     },
     {
       "id": 7,
-      "date": "1960s onwards",
       "category": "Institution Building",
       "title": "Coordinating Islamic education",
       "description": "Institutionalisation grew from MUIS’s establishment (1968) to greater coordination through MENDAKI (1982) and the Islamic Education Advisory Board (1990).",
@@ -278,7 +271,6 @@
     },
     {
       "id": 8,
-      "date": "1960s onwards",
       "category": "Madrasah Reform",
       "title": "Modernising full-time madrasahs",
       "description": "Curriculum reforms, national examinations, campus upgrading and MOE–NIE collaborations modernised full-time madrasah education, alongside the Joint Madrasah System (2009).",
@@ -290,7 +282,6 @@
     },
     {
       "id": 9,
-      "date": "1980s onwards",
       "category": "Lifelong Learning",
       "title": "Learning at every stage of life",
       "description": "Community-based and lifelong Islamic education expanded through SKML, PERGAS and other providers, with structured programmes such as aLIVE, ADIL and ILHAM.",
@@ -301,7 +292,6 @@
     },
     {
       "id": 10,
-      "date": "1960s onwards",
       "category": "Global Connections",
       "title": "Deepening scholarly networks",
       "description": "Overseas university pathways and global intellectual exchanges through MUIS Academy, ICCOS and the Distinguished Visitors Programme deepened international Islamic education and scholarly networks.",
@@ -312,7 +302,6 @@
     },
     {
       "id": 11,
-      "date": "2000s onwards",
       "category": "Higher Education",
       "title": "Advancing education and the asatizah",
       "description": "Higher Islamic education and asatizah professionalisation advanced through local post-secondary institutions, accreditation, PCICS, the Syed Isa Semait Scholarship and COFA.",
@@ -323,7 +312,6 @@
     },
     {
       "id": 12,
-      "date": "2024 onwards",
       "category": "A New Chapter",
       "title": "Establishing SCIS",
       "description": "SCIS opens a new chapter in contextualised Islamic higher education, integrating Islamic scholarship, interdisciplinary research and Singapore’s socio-religious context.",
@@ -380,7 +368,6 @@
       "number": "III",
       "label": "Continuity & Renewal",
       "title": "A Living Tradition. A Shared Future.",
-      "period": "1960s onwards – today",
       "intro": "Lifelong learning and higher education extend the story beyond the classroom. The professional development of religious educators and the establishment of SCIS are contemporary chapters in a tradition that continues to evolve.",
       "question": "What does it mean to prepare religious scholars for the Singapore of tomorrow?",
       "milestones": [
