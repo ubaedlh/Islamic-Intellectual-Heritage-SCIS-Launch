@@ -193,3 +193,12 @@ summary{font:600 12px/1.8 var(--heading);padding:12px 0;min-height:44px;color:va
   font-family: var(--narrative);
   line-height: 1.15;
 }
+
+.archive-object .image-button[href="assets/archive/fadhlullah-suhaimi-portrait.jpg"] {
+  /* Preserve the portrait's 640:950 proportions at the gallery's 640px height cap. */
+  width: min(100%, 431px);
+  padding: 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
+}
