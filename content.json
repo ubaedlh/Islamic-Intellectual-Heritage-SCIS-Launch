@@ -76,16 +76,17 @@
       "category": "Print & Publishing",
       "title": "A centre for the printed word",
       "description": "Singapore became a major centre of Islamic printing and publishing, producing and circulating religious texts across the Malay world.",
-      "image": "assets/archive/printed-page-full.jpg",
-      "imageAlt": "Full printed page with decorative borders and a circular block of Arabic-script text.",
-      "caption": "Printed page shown in the exhibition materials under “Early Printed Qur’an (1869)”. Object identification requires review.",
-      "source": "Full-page image supplied by the user. Date, production method and holding collection require verification.",
+      "image": "assets/archive/kitab-fasholatan.jpg",
+      "imageAlt": "Title page of Kitab Fasholatan with Jawi text in a triangular frame.",
+      "caption": "Kitab Fasholatan written by Muhammad Sālih bin Umar as-Samarani, more famously known as Kiyai Soleh Darat (1820-1903). This text was produced by Haji Muhammad Amin in Singapore between 1896-1897. (SCIS Special Collection)",
+      "source": "SCIS Special Collection.",
       "displayObjects": [
         {
-          "image": "assets/archive/printed-page-full.jpg",
-          "imageAlt": "Full printed page with decorative borders and a circular block of Arabic-script text.",
-          "caption": "Printed page shown in the exhibition materials under “Early Printed Qur’an (1869)”. Object identification requires review.",
-          "source": "Full-page image supplied by the user. Date, production method and holding collection require verification.",
+          "id": "kitab-fasholatan",
+          "image": "assets/archive/kitab-fasholatan.jpg",
+          "imageAlt": "Title page of Kitab Fasholatan with Jawi text in a triangular frame.",
+          "caption": "Kitab Fasholatan written by Muhammad Sālih bin Umar as-Samarani, more famously known as Kiyai Soleh Darat (1820-1903). This text was produced by Haji Muhammad Amin in Singapore between 1896-1897. (SCIS Special Collection)",
+          "source": "SCIS Special Collection.",
           "hideArchiveDetails": true
         }
       ],
@@ -122,13 +123,22 @@
           "modalTitle": "Portrait of Syed Mohamed Alsagoff (1836–1906). A prominent Arab Muslim merchant and philanthropist whose maritime enterprises, including the steamship S.S. Jeddah, facilitated pilgrimage journeys to the Hijaz, strengthening religious learning and scholarly connections between Southeast Asia and the wider Muslim world. His philanthropic legacy also contributed to Islamic education in Singapore, with the establishment of Madrasah Alsagoff Al-Arabiah in 1912 through his family's charitable endowment, following his passing."
         },
         {
+          "id": "madrasah-alsagoff",
+          "image": "assets/archive/madrasah-alsagoff.jpg",
+          "imageAlt": "Historical street view of Alsagoff Arab School, with 1912 on its facade.",
+          "caption": "Undated image of Madrasah Alsagoff Al-Islamiah. Founded in 1912, it is the oldest surviving madrasah in Singapore.",
+          "source": "Urban Redevelopment Authority",
+          "sourceUrl": "https://www.ura.gov.sg/conservation/find-a-building/conservation-portal/kpgl-00076/",
+          "hideArchiveDetails": true
+        },
+        {
           "id": "fadhlullah-and-daughters",
           "title": "Sheikh Muhammad Fadhlullah Suhaimi and His Daughters",
           "image": "assets/archive/fadhlullah-and-daughters.jpeg",
           "imageAlt": "Group photograph supplied as Sheikh Muhammad Fadhlullah Suhaimi and his daughters; identified figure third from right.",
-          "caption": "Kiyai Fadhlullah Suhaimi was a prominent ulama-intellectual, educator and reformist thinker who played a significant role in advancing Islamic education and intellectual discourse in Singapore. A strong advocate of women's education, he established Madrasah Al-Ma’arif in 1936, a pioneering institution that expanded opportunities for Muslim girls to pursue formal Islamic education. Beyond his educational initiatives, he actively engaged in the Malay vernacular press through his writings and editorial work. His contributions exemplify the intersection of Islamic scholarship, print culture and educational advancement, helping shape Singapore's Islamic intellectual heritage.",
+          "caption": "Kiyai Fadhlullah Suhaimi was a prominent ulama-intellectual, educator and reformist thinker who played a significant role in advancing Islamic education and intellectual discourse in Singapore. A strong advocate of women's education, he established Madrasah Al-Ma’arif in 1936, a pioneering institution that expanded opportunities for Muslim girls to pursue formal Islamic education.",
           "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
-          "modalTitle": "Kiyai Fadhlullah Suhaimi (1886–1964): Islamic Scholarship, Educational Reform and the Vernacular Press. Kiyai Fadhlullah Suhaimi was a prominent ulama-intellectual, educator and reformist thinker who played a significant role in advancing Islamic education and intellectual discourse in Singapore. A strong advocate of women's education, he established Madrasah Al-Ma’arif in 1936, a pioneering institution that expanded opportunities for Muslim girls to pursue formal Islamic education. Beyond his educational initiatives, he actively engaged in the Malay vernacular press through his writings and editorial work. His contributions exemplify the intersection of Islamic scholarship, print culture and educational advancement, helping shape Singapore's Islamic intellectual heritage. The Daughters of Kiyai Fadhlullah Suhaimi: Pioneers of Women's Islamic Education. The three daughters of Kiyai Fadhlullah Suhaimi—Saadah, Kamaliah and Saedah Suhaimi—were among the pioneering Muslim women from Singapore who pursued higher education in Egypt, reflecting their father's commitment to women's intellectual and educational advancement. Upon completing their studies, they contributed to Islamic education across Southeast Asia. Ustazah Saadah served as principal of Madrasah Al-Ma’arif for approximately two decades, continuing her father's educational legacy in Singapore. Ustazah Kamaliah taught at an Arabic school in Brunei, while Ustazah Saedah became an educator, lecturer and principal of Maahad Hamidiah in Selangor, where she also participated in religious administration. Their achievements demonstrate the expanding role of Muslim women as scholars, educators and institutional leaders, while highlighting the transregional networks connecting Singapore's Islamic educational heritage with Egypt and the wider Malay world.",
+          "modalTitle": "Kiyai Fadhlullah Suhaimi (1886–1964): Islamic Scholarship, Educational Reform and the Vernacular Press. Kiyai Fadhlullah Suhaimi was a prominent ulama-intellectual, educator and reformist thinker who played a significant role in advancing Islamic education and intellectual discourse in Singapore. A strong advocate of women's education, he established Madrasah Al-Ma’arif in 1936, a pioneering institution that expanded opportunities for Muslim girls to pursue formal Islamic education. The Daughters of Kiyai Fadhlullah Suhaimi: Pioneers of Women's Islamic Education. The three daughters of Kiyai Fadhlullah Suhaimi—Saadah, Kamaliah and Saedah Suhaimi—were among the pioneering Muslim women from Singapore who pursued higher education in Egypt, reflecting their father's commitment to women's intellectual and educational advancement. Upon completing their studies, they contributed to Islamic education across Southeast Asia. Ustazah Saadah served as principal of Madrasah Al-Ma’arif for approximately two decades, continuing her father's educational legacy in Singapore. Ustazah Kamaliah taught at an Arabic school in Brunei, while Ustazah Saedah became an educator, lecturer and principal of Maahad Hamidiah in Selangor, where she also participated in religious administration. Their achievements demonstrate the expanding role of Muslim women as scholars, educators and institutional leaders, while highlighting the transregional networks connecting Singapore's Islamic educational heritage with Egypt and the wider Malay world.",
           "captionTitle": "Kiyai Fadhlullah Suhaimi (1886–1964): Islamic Scholarship, Educational Reform and the Vernacular Press",
           "groupTitle": "Madrasahs and women’s education",
           "captionSections": [
@@ -139,11 +149,23 @@
           ]
         },
         {
-          "id": "haji-abbas-taha",
-          "image": "assets/archive/haji-abbas-taha-group.jpg",
-          "imageAlt": "Historical group photograph with a Jawi caption. Haji Abbas Taha is seated second from left.",
-          "caption": "Haji Abbas bin Muhammad Taha (1885-1954) (seated, second from left) was a prominent Singapore-born ulama-intellectual, educator and journalist who contributed significantly to Islamic scholarship and intellectual discourse in the early 20th century. Educated in Mecca, he served as a religious teacher, Kadi of Tanjong Pagar and later Chief Kadi of Singapore (1936). He was assistant editor and subsequently editor of Al-Imam (1906–1908), before founding and editing Neracha (1911–1915) and Tunas Melayu (1913). Through his writings, including Kitab Sempurnaan Pelajaran (1906), he advocated religious renewal, educational advancement and intellectual exchange. His contributions to Islamic scholarship, religious administration and the vernacular press helped establish Singapore as an important centre of Islamic intellectualism in the Malay world.",
-          "source": "Matching copy of the supplied group photograph reproduced by Iluminasi. Identification and caption supplied by the exhibition editor."
+          "id": "universiti-al-quran",
+          "image": "assets/archive/universiti-al-quran.jpg",
+          "imageAlt": "Universiti Al-Quran cover with a starburst and a drawing of a book.",
+          "caption": "Universiti Al-Quran, written by Kiyai Fadhlullah Suhaimi and published by Al-Ahmadiyyah Press in 1957.",
+          "source": "Image supplied by the exhibition editor.",
+          "hideArchiveDetails": true
+        },
+        {
+          "id": "kiyai-zuhri",
+          "title": "Portrait of Kiyai Zuhri (1905–1985)",
+          "image": "assets/archive/kiyai-zuhri.jpeg",
+          "imageAlt": "User-identified portrait of Kiyai Zuhri wearing a songkok.",
+          "caption": "A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
+          "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
+          "modalTitle": "Portrait of Kiyai Zuhri (1905–1985). A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
+          "groupTitle": "Scholars and educators",
+          "captionTitle": "Portrait of Kiyai Zuhri (1905–1985)"
         }
       ]
     },
@@ -200,17 +222,6 @@
           "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
           "modalTitle": "Madrasah Aljunied Al-Islamiah. An important institution of Islamic learning that nurtured generations of scholars from Singapore and the wider region, reflecting Singapore's standing as a regional centre of Islamic education.",
           "captionTitle": "Madrasah Aljunied Al-Islamiah"
-        },
-        {
-          "id": "kiyai-zuhri",
-          "title": "Portrait of Kiyai Zuhri (1905–1985)",
-          "image": "assets/archive/kiyai-zuhri.jpeg",
-          "imageAlt": "User-identified portrait of Kiyai Zuhri wearing a songkok.",
-          "caption": "A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
-          "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Date of photograph unknown; dates mentioned in the caption describe the person or institution, not necessarily this photograph.",
-          "modalTitle": "Portrait of Kiyai Zuhri (1905–1985). A prominent religious scholar and educator associated with Madrasah Alsagoff Al-Arabiah. As the first President of PERGAS, he championed the welfare of religious teachers and the advancement of Islamic education in Singapore.",
-          "groupTitle": "Scholars and educators",
-          "captionTitle": "Portrait of Kiyai Zuhri (1905–1985)"
         },
         {
           "id": "syed-abu-bakar-taha",
@@ -545,7 +556,8 @@
               "imageAlt": "Cover of Al-Imam with ornamental border and Arabic-script lettering.",
               "caption": "A Malay-language Islamic reformist periodical published in Singapore, promoting religious reform, education and modernist Islamic thought across the Malay world.",
               "source": "User-supplied image and identification, received 4 November 2026. Original collection, photographer or publisher credit, and reproduction permissions have not been supplied. Periodical publication range supplied; date of this particular issue has not been verified.",
-              "modalTitle": "Cover of Al-Imam (1906–1908). A Malay-language Islamic reformist periodical published in Singapore, promoting religious reform, education and modernist Islamic thought across the Malay world."
+              "modalTitle": "Cover of Al-Imam (1906–1908). A Malay-language Islamic reformist periodical published in Singapore, promoting religious reform, education and modernist Islamic thought across the Malay world.",
+              "hideArchiveDetails": true
             },
             {
               "id": "eunos-abdullah",
@@ -554,7 +566,16 @@
               "imageAlt": "Eunos Abdullah seated in ceremonial Malay attire.",
               "caption": "A pioneering Malay journalist and editor of Utusan Melayu (1907) and Lembaga Melayu (1914), Eunos Abdullah played an important role in Singapore’s flourishing Malay press and print culture. Through journalism and public leadership, he championed educational advancement, intellectual discourse and socio-economic progress within the Malay-Muslim community.",
               "source": "Portrait photographed from a National Museum of Singapore display by Museum Volunteers, JMM.",
-              "modalTitle": "Portrait of Eunos Abdullah (1876-1933). A pioneering Malay journalist and editor of Utusan Melayu (1907) and Lembaga Melayu (1914), Eunos Abdullah played an important role in Singapore’s flourishing Malay press and print culture. Through journalism and public leadership, he championed educational advancement, intellectual discourse and socio-economic progress within the Malay-Muslim community."
+              "modalTitle": "Portrait of Eunos Abdullah (1876-1933). A pioneering Malay journalist and editor of Utusan Melayu (1907) and Lembaga Melayu (1914), Eunos Abdullah played an important role in Singapore’s flourishing Malay press and print culture. Through journalism and public leadership, he championed educational advancement, intellectual discourse and socio-economic progress within the Malay-Muslim community.",
+              "hideArchiveDetails": true
+            },
+            {
+              "id": "haji-abbas-taha",
+              "image": "assets/archive/haji-abbas-taha-group.jpg",
+              "imageAlt": "Historical group photograph with a Jawi caption. Haji Abbas Taha is seated second from left.",
+              "caption": "Haji Abbas bin Muhammad Taha (1885-1954) (seated, second from left) was a prominent Singapore-born ulama-intellectual, educator and journalist who contributed significantly to Islamic scholarship and intellectual discourse in the early 20th century. Educated in Mecca, he served as a religious teacher, Kadi of Tanjong Pagar and later Chief Kadi of Singapore (1936). He was assistant editor and subsequently editor of Al-Imam (1906–1908), before founding and editing Neracha (1911–1915) and Tunas Melayu (1913). Through his writings, including Kitab Sempurnaan Pelajaran (1906), he advocated religious renewal, educational advancement and intellectual exchange. His contributions to Islamic scholarship, religious administration and the vernacular press helped establish Singapore as an important centre of Islamic intellectualism in the Malay world.",
+              "source": "Matching copy of the supplied group photograph reproduced by Iluminasi. Identification and caption supplied by the exhibition editor.",
+              "title": "Haji Abbas bin Muhammad Taha (1885–1954)"
             }
           ],
           "placement": "opening"

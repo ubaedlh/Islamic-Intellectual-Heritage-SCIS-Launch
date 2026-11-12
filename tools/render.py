@@ -29,10 +29,13 @@ def render():
         caption = e(obj["caption"])
         if caption_sections:
             caption = f'<p>{caption}</p>{caption_sections}'
+        source_credit = ''
+        if obj.get('sourceUrl'):
+            source_credit = f'<p><a href="{e(obj["sourceUrl"])}">{e(obj["source"])}</a></p>'
         archive_details = ''
         if not obj.get('hideArchiveDetails'):
             archive_details = f'<details><summary>From the Archive</summary><p>{e(obj["source"])}</p></details>'
-        return f'<figure class="archive-object">{image(obj)}<figcaption>{title}{caption}{archive_details}</figcaption></figure>'
+        return f'<figure class="archive-object">{image(obj)}<figcaption>{title}{caption}{source_credit}{archive_details}</figcaption></figure>'
     def chapter_archive(chapter_id, *, opening=False):
         archive = d.get('chapterArchives', {}).get(chapter_id)
         if not archive:
@@ -43,7 +46,10 @@ def render():
                 continue
             figures = []
             for obj in group['objects']:
-                figures.append(f'<figure class="archive-object chapter-object" id="archive-{e(obj["id"])}">{image(obj)}<figcaption><h4>{e(obj["title"])}</h4><p>{e(obj["caption"])}</p><details><summary>Source and identification</summary><p>{e(obj["source"])}</p></details></figcaption></figure>')
+                archive_details = ''
+                if not obj.get('hideArchiveDetails'):
+                    archive_details = f'<details><summary>Source and identification</summary><p>{e(obj["source"])}</p></details>'
+                figures.append(f'<figure class="archive-object chapter-object" id="archive-{e(obj["id"])}">{image(obj)}<figcaption><h4>{e(obj["title"])}</h4><p>{e(obj["caption"])}</p>{archive_details}</figcaption></figure>')
             groups.append(f'<section class="archive-theme"><h3>{e(group["title"])}</h3><div class="chapter-object-grid">{"".join(figures)}</div></section>')
         if opening:
             return ''.join(groups)
