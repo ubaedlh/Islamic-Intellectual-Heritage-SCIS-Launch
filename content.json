@@ -622,12 +622,60 @@
     {
       "id": 11,
       "category": "Higher Education",
-      "title": "Advancing education and the asatizah",
-      "description": "Higher Islamic education and asatizah professionalisation advanced through local post-secondary institutions, accreditation, PCICS, the Syed Isa Semait Scholarship and COFA.",
+      "title": "Preparing asatizah for practice in Singapore",
+      "description": "As Singapore’s madrasahs developed and their graduates went on to pursue higher Islamic studies, greater attention turned to how graduates could apply their learning when they returned to serve the community. This raised a question for Islamic education in Singapore: how could graduates draw on their training to offer religious guidance in a multireligious society? Early certificate programmes began to address this need, laying the groundwork for local postgraduate training for asatizah, or Islamic religious teachers.",
       "image": null,
       "imageAlt": "Relevant publication or institutional material.",
       "caption": "Relevant publication or institutional material.",
-      "source": null
+      "source": null,
+      "subsections": [
+        {
+          "title": "From Islamic studies to practice in Singapore",
+          "text": "The Certificate in Islamic Thought in Context (CITC) brought final-year students and recent Islamic studies graduates into discussion with local and international speakers about the application of Islamic thought in plural societies. In 2017, the Certificate in Islam in Context (ICON) built on this approach. Its introduction as a prerequisite under the Asatizah Recognition Scheme (ARS) made training in the local context part of the process of becoming a recognised religious teacher.",
+          "references": [
+            [
+              "MUIS Annual Report 2016",
+              "https://www.muis.gov.sg/-/media/Files/Corporate-Site/Annual-Reports/MUIS-AR16-Full-New.pdf"
+            ],
+            [
+              "MUIS programme overview",
+              "https://www.muis.gov.sg/education/singapore-college-of-islamic-studies/postgraduate-certificate-in-islam-in-contemporary-societies/about/overview/"
+            ]
+          ]
+        },
+        {
+          "title": "Reviewing the changing roles of asatizah",
+          "text": "As contextual training became part of professional preparation, attention also turned to the roles asatizah would take on over the course of their careers. In 2019, the Committee on Future Asatizah (COFA) consulted religious teachers, Islamic studies graduates, madrasah students and their parents, academics and industry experts. Its recommendations helped shape the Asatizah Workforce Development Plan, including a career map and a framework identifying the skills needed for different roles.",
+          "references": [
+            [
+              "MUIS programme overview",
+              "https://www.muis.gov.sg/education/singapore-college-of-islamic-studies/postgraduate-certificate-in-islam-in-contemporary-societies/about/overview/"
+            ],
+            [
+              "MUIS Annual Report 2019",
+              "https://www.muis.gov.sg/-/media/Files/Corporate-Site/Annual-Reports/Muis-AR2019.pdf"
+            ]
+          ]
+        },
+        {
+          "title": "Establishing postgraduate training in Singapore",
+          "text": "In 2020, the Postgraduate Certificate in Islam in Contemporary Societies (PCICS) expanded the training introduced through ICON into a one-year programme. Its first cohort comprised 60 recent graduates of Islamic universities in the Middle East and Southeast Asia. By combining Islamic studies and the social sciences with a practicum, PCICS gave graduates opportunities to apply their scholarship to the work of teaching and providing religious guidance in Singapore. Completion became a requirement for new applicants seeking graduate-tier recognition under the ARS.",
+          "references": [
+            [
+              "MUIS Annual Report 2019",
+              "https://www.muis.gov.sg/-/media/Files/Corporate-Site/Annual-Reports/Muis-AR2019.pdf"
+            ],
+            [
+              "Inaugural PCICS cohort",
+              "https://www.muis.gov.sg/resources/media-releases/19-may-20-media-release-inaugural-pcics-programme-commences-with-new-learning-norm/"
+            ],
+            [
+              "PCICS overview",
+              "https://www.muis.gov.sg/education/singapore-college-of-islamic-studies/postgraduate-certificate-in-islam-in-contemporary-societies/about/overview/"
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": 12,
@@ -725,12 +773,6 @@
       {
         "term": "Waqf",
         "definition": "An endowment dedicated to religious or charitable purposes."
-      }
-    ],
-    "11": [
-      {
-        "term": "Asatizah",
-        "definition": "Religious teachers; the plural of ustaz or ustazah."
       }
     ],
     "3": [
