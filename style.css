@@ -235,3 +235,11 @@ details.did-you-know > p {
 }
 
 #milestone-1 .did-you-know h4{font-weight:700}
+
+#transformation .chapter-intro:first-letter{font-size:inherit;color:inherit}
+#milestone-6 .milestone-leading .milestone-object-heading{font:400 33px/1.25 Georgia,serif;color:#000}
+#milestone-6 .archive-introduction .caption-title{color:#000}
+#milestone-4 .archive-object .portrait-caption{font:17px/1.65 Georgia,serif;color:#000}
+#milestone-4 .archive-object .caption-title:has(+ .portrait-caption){font-size:16px;color:#000}
+#milestone-4 .milestone-object-description{font-size:17px;color:#000}
+.archive-inline{margin-block-start:1.5rem}

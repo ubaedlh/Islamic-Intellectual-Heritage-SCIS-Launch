@@ -41,9 +41,13 @@ def render():
             scans = ''.join(f'<figure>{image(scan)}<figcaption>{e(scan["caption"])}</figcaption></figure>' for scan in obj['archiveImages'])
             archive_details = f'<details><summary>From the Archive</summary>{scans}<p><a href="https://majalahqalam.kyoto.jp/eng/">Qalam Digital Archive, Kyoto University</a></p></details>'
         elif obj.get('archiveObject'):
-            archive_details = f'<details><summary>From the Archive</summary>{object_figure(obj["archiveObject"])}</details>'
+            archive_details = f'<div class="archive-inline">{object_figure(obj["archiveObject"])}</div>'
         elif not obj.get('hideArchiveDetails'):
             archive_details = f'<details><summary>From the Archive</summary><p>{e(obj["source"])}</p></details>'
+        if obj.get('hideCaption'):
+            return f'<figure class="archive-object">{image(obj)}</figure>'
+        if obj.get('id') == 'alsagoff' and title:
+            caption = f'<p class="portrait-caption">{caption}</p>'
         return f'{introduction}<figure class="archive-object">{image(obj)}<figcaption>{title}{caption}{source_credit}{archive_details}</figcaption></figure>'
     def chapter_archive(chapter_id, *, opening=False):
         archive = d.get('chapterArchives', {}).get(chapter_id)
@@ -94,7 +98,7 @@ def render():
                 heading = f'<h4 class="milestone-object-heading">{e(obj["groupTitle"])}</h4>' if obj.get('groupTitle') else ''
                 placement = leading_figures if obj.get('beforeMilestoneCopy') else figures
                 if not obj.get('image'):
-                    placement.append(f'<div class="milestone-object">{heading}<p class="caption-title"><strong>{e(obj["captionTitle"])}</strong></p><p>{e(obj["caption"])}</p></div>')
+                    placement.append(f'<div class="milestone-object">{heading}<p class="caption-title"><strong>{e(obj["captionTitle"])}</strong></p><p class="milestone-object-description">{e(obj["caption"])}</p></div>')
                     continue
                 portrait = object_figure(obj["introPortrait"]) if obj.get("introPortrait") else ""
                 alignment = " milestone-object-centered" if obj.get("centered") else ""
