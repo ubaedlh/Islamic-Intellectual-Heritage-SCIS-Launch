@@ -48,34 +48,4 @@
   addEventListener('load', scheduleUpdate);
   document.addEventListener('toggle', scheduleUpdate, true);
   updateProgress();
-
-  const dialog = document.querySelector('.image-dialog');
-  let opener;
-  document.addEventListener('click', event => {
-    const button = event.target.closest('.image-button');
-    if (!button || typeof dialog.showModal !== 'function') return;
-    event.preventDefault();
-    opener = button;
-    const original = button.querySelector('img');
-    const image = dialog.querySelector('img');
-    image.src = original.currentSrc || original.src;
-    image.alt = original.alt;
-    dialog.querySelector('.dialog-caption').textContent = button.dataset.caption || '';
-    dialog.querySelector('.dialog-source').textContent = button.dataset.source || 'Source information pending.';
-    dialog.showModal();
-  });
-  dialog.addEventListener('keydown', event => {
-    if (event.key === 'Tab') {
-      // The close control is the viewer's only interactive element.
-      event.preventDefault();
-      dialog.querySelector('.close-dialog').focus();
-    }
-  });
-  dialog.querySelector('.close-dialog').addEventListener('click', () => dialog.close());
-  dialog.addEventListener('click', event => {
-    if (event.target !== dialog) return;
-    const r = dialog.getBoundingClientRect();
-    if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) dialog.close();
-  });
-  dialog.addEventListener('close', () => { dialog.querySelector('img').removeAttribute('src'); opener?.focus(); });
 })();

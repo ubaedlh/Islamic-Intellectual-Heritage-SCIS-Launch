@@ -26,8 +26,9 @@ d=json.loads((ROOT/'content.json').read_text())
 assert len(d['archiveObjects'])==6
 for m in d['milestones']:assert m['description'] in __import__('html').unescape(text)
 assert 'image-placeholder' not in text
+assert not any(marker in text for marker in ('image-dialog', 'View image', 'Explore the timeline'))
 assert sum(o['width']*o['height']>0 for o in d['archiveObjects'])==6
-print('PASS: renderer, 12 milestones, local assets/anchors, alt text, six object views, static narrative')
+print('PASS: renderer, 12 milestones, local assets/anchors, alt text, six source objects, static narrative')
 
 archive=d.get('chapterArchives', {})
 assert set(archive)=={'transformation'}, 'New archive must belong only to Chapter II'

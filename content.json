@@ -86,7 +86,7 @@
       "id": 3,
       "category": "Print & Publishing",
       "title": "A centre for the printed word",
-      "description": "By the late 19th century, Singapore had emerged as a major centre of Islamic printing and publishing, particularly around Kampong Gelam, facilitating the production and circulation of Jawi religious texts across the Malay world. This flourishing print culture supported Islamic education by widening access to religious knowledge and strengthening intellectual networks.",
+      "description": "By the late 19th century, Singapore had emerged as a major centre of Islamic printing and publishing, particularly around Kampong Gelam, facilitating the production and circulation of Jawi religious texts across the Malay world. This flourishing print culture supported Islamic education by widening access to religious knowledge and strengthening intellectual networks. The works produced during this period reflect the diversity of 19th-century Singapore, where works in Arabic, Jawi, Pegon (Javanese written in Arabic-derived script), Tamil and other languages and scripts facilitated the transmission of religious knowledge across different communities. This multilingual print culture underscores Singapore's role as a cosmopolitan centre of Islamic learning, publishing and intellectual exchange.",
       "image": "assets/archive/kitab-fasholatan.jpg",
       "imageAlt": "Title page of Kitab Fasholatan with Jawi text in a triangular frame.",
       "caption": "Kitab Fasholatan written by Muhammad Sālih bin Umar as-Samarani, more famously known as Kiyai Soleh Darat (1820-1903). This text was produced by Haji Muhammad Amin in Singapore between 1896-1897. (SCIS Special Collection)",
@@ -98,6 +98,16 @@
           "imageAlt": "Title page of Kitab Fasholatan with Jawi text in a triangular frame.",
           "caption": "Kitab Fasholatan written by Muhammad Sālih bin Umar as-Samarani, more famously known as Kiyai Soleh Darat (1820-1903). This text was produced by Haji Muhammad Amin in Singapore between 1896-1897. (SCIS Special Collection)",
           "source": "SCIS Special Collection.",
+          "hideArchiveDetails": true
+        },
+        {
+          "id": "munajathu-thirattu",
+          "image": "assets/archive/munajathu-thirattu.jpg",
+          "imageAlt": "An open copy of Munajathu Thirattu showing its Tamil title page and facing page.",
+          "captionTitle": "Munajathu Thirattu (1872)",
+          "caption": "Considered the oldest surviving Tamil publication printed in Singapore discovered to date, Munajathu Thirattu was written by N. M. Mohamad Abdulkadir Pulawar, a Muslim scholar and poet from Nagore, India, and printed at the Singapore Government Press in 1872. The anthology contains 55 devotional poems praising Prophet Muhammad, spiritual leaders and Muslim saints (awliya).",
+          "source": "Indian Heritage Centre / Roots.sg; on loan from National Library Board, Singapore",
+          "sourceUrl": "https://www.roots.gov.sg/stories-landing/stories/From-the-Coromandel-Coast-to-the-Straits",
           "hideArchiveDetails": true
         }
       ],
@@ -471,7 +481,7 @@
     ]
   },
   "archiveNotes": {
-    "3": "Javanese Muslim printers and publishers played a pioneering role in establishing Singapore as a major centre of Islamic printing and intellectual exchange during the late 19th and early 20th centuries. Figures such as Haji Muhammad Said (H.M. Said), Haji Muhammad Siraj (H.M. Siraj) and Haji Muhammad Amin (H.M. Amin) were among those associated with the growth of Muslim printing and publishing enterprises, particularly around Kampong Gelam. Through the production and circulation of religious texts, these enterprises facilitated the dissemination of Islamic knowledge across Singapore and the wider Malay world. Their printing activities helped make religious scholarship more accessible, sustained intellectual connections with scholars and learning centres across the Nusantara, and contributed to a flourishing culture of reading, learning and scholarly exchange. These early Muslim printers and publishers laid important foundations for Singapore’s Islamic intellectual heritage, helping transform the port city into a regional centre for the production, circulation and exchange of religious knowledge.",
+    "3": "Javanese Muslim printers and publishers played a pioneering role in establishing Singapore as a major centre of Islamic printing and intellectual exchange during the late 19th and early 20th centuries. Figures such as Haji Muhammad Said (H.M. Said), Haji Muhammad Siraj (H.M. Siraj) and Haji Muhammad Amin (H.M. Amin) were among those associated with the growth of Muslim printing and publishing enterprises, particularly around Kampong Gelam. These early Muslim printers and publishers laid important foundations for Singapore’s Islamic intellectual heritage, helping transform the port city into a regional centre for the production, circulation and exchange of religious knowledge.",
     "8": "This thematic milestone begins in the 1960s and also mentions the Joint Madrasah System in 2009. “Onwards” describes a continuing theme, not a single event."
   },
   "closingReflection": [
