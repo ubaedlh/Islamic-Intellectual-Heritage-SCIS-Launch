@@ -370,7 +370,8 @@ details.did-you-know > p {
   max-width: none;
 }
 
-#milestone-9 .description {
+#milestone-9 .description,
+#milestone-10 .description {
   margin-bottom: 1.5rem;
 }
 
@@ -378,6 +379,7 @@ details.did-you-know > p {
   padding-block: 1.5rem;
 }
 
-#milestone-9 .madrasah-theme > p {
+#milestone-9 .madrasah-theme > p,
+#milestone-10 .madrasah-theme > p {
   margin-bottom: 0;
 }

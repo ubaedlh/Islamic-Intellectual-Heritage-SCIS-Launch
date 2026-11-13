@@ -34,7 +34,7 @@ def render():
             introduction = f'<div class="archive-introduction">{title}<p>{e(obj["caption"])}</p></div>'
             title, caption = '', caption_sections
         source_credit = ''
-        if obj.get('sourceUrl'):
+        if obj.get('sourceUrl') and not obj.get('hideSourceCredit'):
             source_credit = f'<p><a href="{e(obj["sourceUrl"])}">{e(obj["source"])}</a></p>'
         archive_details = ''
         if obj.get('archiveImages'):

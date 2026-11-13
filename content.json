@@ -347,7 +347,8 @@
           "imageAlt": "Portrait of Cikgu Haji Mohamed Yusuf bin Haji Ahmad Zuhri",
           "source": "Berita Harian (video still)",
           "sourceUrl": "https://web2-prd.beritaharian.sg/singapura/tokoh-pendidikan-agama-cikgu-mohamed-yusuf-ahmad-zuhri-meninggal-dunia",
-          "hideArchiveDetails": true
+          "hideArchiveDetails": true,
+          "hideSourceCredit": true
         },
         {
           "captionTitle": "Ustaz Syed Abdillah Ahmad Al-Jufri (1938–2003)",
@@ -356,7 +357,8 @@
           "imageAlt": "Portrait of Ustaz Syed Abdillah Ahmad Al-Jufri (1938–2003)",
           "source": "Pergas",
           "sourceUrl": "https://blog.pergas.org.sg/mereka-yang-menulis-sumbangan-asatizah-singapura-dalam-penulisan-dan-penerbitan-kitab-kitab-agama-1914-2016/",
-          "hideArchiveDetails": true
+          "hideArchiveDetails": true,
+          "hideSourceCredit": true
         },
         {
           "captionTitle": "Pendeta Dr Muhammad Ariff Ahmad (1924–2016)",
@@ -365,7 +367,8 @@
           "imageAlt": "Portrait of Pendeta Dr Muhammad Ariff Ahmad (1924–2016)",
           "source": "The Straits Times",
           "sourceUrl": "https://www.straitstimes.com/singapore/permanent-exhibition-launched-at-nie-library-for-malay-literary-icon",
-          "hideArchiveDetails": true
+          "hideArchiveDetails": true,
+          "hideSourceCredit": true
         },
         {
           "captionTitle": "Associate Professor Haji Abbas Mohd Shariff",
@@ -595,11 +598,26 @@
       "id": 10,
       "category": "Global Connections",
       "title": "Deepening scholarly networks",
-      "description": "Overseas university pathways and global intellectual exchanges through MUIS Academy, ICCOS and the Distinguished Visitors Programme deepened international Islamic education and scholarly networks.",
+      "description": "Singapore’s Muslim community has long looked to the wider Muslim world as a source of learning and a partner in scholarly exchange. Overseas study helped develop the expertise of local asatizah and educators. Through visiting scholars and international conferences, Singapore also became a place where Muslim communities could compare experiences and share approaches to religious education and community life in diverse societies.",
       "image": null,
       "imageAlt": "Academic conference or scholarly engagement.",
       "caption": "Academic conference or scholarly engagement.",
-      "source": null
+      "source": null,
+      "subsections": [
+        {
+          "title": "Overseas university pathways",
+          "text": "Singaporean students pursued Islamic studies at institutions such as Al-Azhar University in Egypt, the University of Jordan and the International Islamic University Malaysia. These universities offered opportunities to specialise in fields such as Islamic theology, jurisprudence and Arabic. Returning graduates applied their training in Singapore’s madrasahs, mosques and other educational institutions."
+        },
+        {
+          "title": "Visiting scholars and public lectures",
+          "text": "From 2007, MUIS Academy expanded opportunities for scholarly exchange through lectures, seminars and conferences. Through the Distinguished Visitors Programme, MUIS invited scholars to Singapore to discuss developments in Islamic thought and questions facing Muslims in contemporary societies. Published lectures and occasional papers made these discussions accessible beyond the events themselves."
+        },
+        {
+          "title": "International dialogue among Muslim communities",
+          "text": "The inaugural International Conference on Communities of Success (ICCOS) in 2022 brought together scholars, community leaders and practitioners from Singapore and abroad. The conference enabled Muslim minority communities to exchange experiences on religious life in diverse societies. It also gave Singapore’s Muslim community a platform to share its experience of building institutions, developing community leaders and contributing to a multireligious society."
+        }
+      ],
+      "repeatDescriptionInArchive": false
     },
     {
       "id": 11,
