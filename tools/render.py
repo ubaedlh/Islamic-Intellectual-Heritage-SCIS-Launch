@@ -154,11 +154,6 @@ def render():
                 <figcaption>MENDAKI’s inaugural education congress, May 1982. Photograph: Facebook / Abdul Halim Kader, via <a href="https://berita.mediacorp.sg/komentar/alam-melayu-budi-mansor-dalam-gema-gong-mendaki-1005451">BERITA Mediacorp</a>.</figcaption>
               </figure>
               <p><a href="https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19820528b.pdf">Lee Kuan Yew’s opening address, National Archives of Singapore</a></p>
-              <details class="did-you-know">
-                <summary>Did You Know?</summary>
-                <p>{e(m['study'])}</p>
-                <small>Source: Parliamentary statement by Dr Ahmad Mattar, 27 March 1986.</small>
-              </details>
             </aside>"""
         profiles = []
         for profile in m.get('educatorProfiles', []):

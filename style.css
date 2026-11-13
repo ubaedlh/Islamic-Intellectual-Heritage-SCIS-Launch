@@ -355,3 +355,29 @@ details.did-you-know > p {
   padding: 1.5rem 1rem;
   text-align: center;
 }
+
+#educator-profiles {
+  gap: 1.5rem;
+}
+
+#educator-profiles > .milestone-object-heading,
+#educator-profiles > .archive-object {
+  margin: 0;
+}
+
+#educator-profiles > .archive-object {
+  width: 100%;
+  max-width: none;
+}
+
+#milestone-9 .description {
+  margin-bottom: 1.5rem;
+}
+
+#milestone-9 .madrasah-theme {
+  padding-block: 1.5rem;
+}
+
+#milestone-9 .madrasah-theme > p {
+  margin-bottom: 0;
+}
