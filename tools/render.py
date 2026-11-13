@@ -79,7 +79,14 @@ def render():
         caption = m['caption'] if m.get('image') else ''
         context = d.get('contexts', {}).get(str(n))
         context_html = f'''<aside class="context"><p class="eyebrow">Singapore in context</p><h4>{e(context['title'])}</h4><p>{e(context['text'])}</p><details><summary>About this connection</summary><p>{e(context['basis'])}</p></details></aside>''' if context else ''
-        highlights = ''.join(f'<div><span>{e(h["date"])}</span><p>{e(h["label"])}</p></div>' for h in m.get('highlights', []))
+        def highlight(entry):
+            label = e(entry['label'])
+            if entry.get('text'):
+                label = f'<h5>{label}</h5><p>{e(entry["text"])}</p>'
+            else:
+                label = f'<p>{label}</p>'
+            return f'<div><span>{e(entry["date"])}</span>{label}</div>'
+        highlights = ''.join(highlight(entry) for entry in m.get('highlights', []))
         highlight_html = f'<aside class="milestone-highlights" aria-label="Milestone highlights">{highlights}</aside>' if highlights else ''
         extras = ''.join(object_figure(o) for o in d.get('archiveObjects', []) if o['milestone'] == n and o['image'] != m.get('image'))
         visual = f'<div class="object-group">{object_figure(m)}{extras}</div>' if m.get('image') else ''
@@ -110,10 +117,30 @@ def render():
         repeated_description = f'<p>{e(m["description"])}</p>' if m.get('repeatDescriptionInArchive', True) else ''
         archive_detail = f'<details class="text-archive"><summary>Explore Further</summary>{archive_html}{repeated_description}</details>' if archive else ''
         copy = feature_answer or f'<p class="milestone-subtitle">{e(m["title"])}</p><p class="description">{e(m["description"])}</p>'
+        period = f'<p class="chapter-period">{e(m["period"])}</p>' if m.get('period') else ''
+        additional = ''.join(f'<p class="description">{e(paragraph)}</p>' for paragraph in m.get('additionalDescription', []))
+        institution_feature = ''
+        if m.get('institutionFeature'):
+            institution_feature = f"""
+            <aside class="institution-feature" aria-labelledby="mendaki-congress">
+              <p class="eyebrow">From the Archive</p>
+              <h4 id="mendaki-congress">Kongres Pendidikan Anak-Anak Islam, 28–30 May 1982</h4>
+              {paras(m['institutionFeature'])}
+              <figure class="archive-object">
+                <div class="image-mat archive-placeholder">Archival photograph pending</div>
+                <figcaption>MENDAKI’s inaugural education congress, May 1982. Potential photograph source: BERITA Mediacorp, credited to Facebook / Abdul Halim Kader. Verify the image credit and reproduction permission before publication.</figcaption>
+              </figure>
+              <p><a href="https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19820528b.pdf">Lee Kuan Yew’s opening address, National Archives of Singapore</a></p>
+              <details class="did-you-know">
+                <summary>Did You Know?</summary>
+                <p>{e(m['study'])}</p>
+                <small>Source: Parliamentary statement by Dr Ahmad Mattar, 27 March 1986.</small>
+              </details>
+            </aside>"""
         return f'''<article class="milestone layout-{n % 3} {'has-image' if visual else 'typographic'}" id="milestone-{n}" aria-labelledby="title-{n}">
 <div class="folio" aria-hidden="true">{n:02}<span> / 12</span></div>
-{leading}<div class="milestone-copy">{heading_html}{copy}{definitions}{archive_detail}</div>
-{visual}{highlight_html}{context_html}</article>'''
+{leading}<div class="milestone-copy">{heading_html}{period}{copy}{additional}{definitions}{archive_detail}</div>
+{visual}{highlight_html}{institution_feature}{context_html}</article>'''
     chapters = []
     by_id = {m['id']: m for m in d['milestones']}
     ids = [i for c in d['chapters'] for i in c['milestones']]
