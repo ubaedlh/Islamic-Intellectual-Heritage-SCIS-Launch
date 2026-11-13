@@ -383,3 +383,19 @@ details.did-you-know > p {
 #milestone-10 .madrasah-theme > p {
   margin-bottom: 0;
 }
+
+#milestone-7 .milestone-highlights h5 + p {
+  margin-block-start: .4rem;
+}
+
+#milestone-8,
+#milestone-9,
+#milestone-10 {
+  padding-block-end: clamp(1rem, 4vw, 2.5rem);
+}
+
+#milestone-8 .madrasah-theme:last-child,
+#milestone-9 .madrasah-theme:last-child,
+#milestone-10 .madrasah-theme:last-child {
+  padding-block-end: 0;
+}
