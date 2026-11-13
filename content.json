@@ -370,6 +370,13 @@
         {
           "captionTitle": "Associate Professor Haji Abbas Mohd Shariff",
           "caption": "An educator and academic, Associate Professor Abbas Shariff contributed to the development of Islamic Religious Knowledge education in Singapore during the 1980s. Working alongside Cikgu Yusuf Zuhri and Ustaz Syed Abdillah Al-Jufri, he supported the preparation of teachers and the development of educational materials for Islamic Religious Knowledge in national schools. His contributions helped connect educational expertise and religious scholarship in the delivery of Islamic education."
+        },
+        {
+          "image": "assets/archive/islamic-religious-knowledge-secondary-four.jpg",
+          "imageAlt": "Teal cover of Islamic Religious Knowledge, Textbook for Secondary Four, showing the Kaaba.",
+          "captionTitle": "Islamic Religious Knowledge: Textbook for Secondary Four",
+          "caption": "Curriculum Development Institute of Singapore. Cover image via Wardah Books.",
+          "hideArchiveDetails": true
         }
       ]
     },
@@ -564,11 +571,25 @@
       "id": 9,
       "category": "Lifelong Learning",
       "title": "Learning at every stage of life",
-      "description": "Community-based and lifelong Islamic education expanded through SKML, PERGAS and other providers, with structured programmes such as aLIVE, ADIL and ILHAM.",
+      "description": "Alongside full-time madrasahs, part-time Islamic education became an important means of widening access to religious learning in Singapore. It enabled the wider community to receive religious instruction and gave adults opportunities to begin or continue their studies. Over time, community organisations, mosques and local institutes developed more structured pathways for learners at different stages of life.",
       "image": null,
       "imageAlt": "Photograph of contemporary Islamic education programmes.",
       "caption": "Photograph of contemporary Islamic education programmes.",
-      "source": null
+      "source": null,
+      "subsections": [
+        {
+          "title": "Community-based part-time education",
+          "text": "Mosques and community organisations such as the Singapore Kadayanallur Muslim League (SKML), Perdaus and Muhammadiyah offered part-time religious classes for children and youth. Darul Arqam provided religious instruction for new Muslims, while providers such as Andalus and Cordova expanded the range of structured classes available to children and adults."
+        },
+        {
+          "title": "Pathways to higher Islamic education",
+          "text": "Local institutions also broadened opportunities for advanced study. Muhammadiyah Islamic College, Institut Pengajian Tinggi Al-Zuhri and Institut Pengajian Islam Pergas (IPIP), established by PERGAS in 2005, developed pathways for further study in dakwah and Islamic studies."
+        },
+        {
+          "title": "Structured learning for youth and adults",
+          "text": "The introduction of Learning Islamic Values Everyday (aLIVE) in 2004 and the subsequent development of Adult Islamic Learning (ADIL) provided structured curricula for young learners and adults respectively. In 2019, MUIS established the Islamic Learning Hub and Management (ILHAM) to support the delivery of part-time Islamic education at mosques."
+        }
+      ]
     },
     {
       "id": 10,

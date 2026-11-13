@@ -167,9 +167,13 @@ def render():
             else:
                 profiles.append(f'<div><p class="caption-title"><strong>{e(profile["captionTitle"])}</strong></p><p class="milestone-object-description">{e(profile["caption"])}</p></div>')
         educators = f'<div class="institution-feature object-group" id="educator-profiles"><h4 class="milestone-object-heading">Shaping Islamic Education: Scholars, Educators and Curriculum Pioneers</h4>{"".join(profiles)}</div>' if profiles else ''
+        subsections = ''.join(
+            f'<section class="madrasah-theme"><h4>{e(part["title"])}</h4><p>{e(part["text"])}</p></section>'
+            for part in m.get('subsections', [])
+        )
         return f'''<article class="milestone layout-{n % 3} {'has-image' if visual else 'typographic'}" id="milestone-{n}" aria-labelledby="title-{n}">
 <div class="folio" aria-hidden="true">{n:02}<span> / 12</span></div>
-{leading}<div class="milestone-copy">{heading_html}{period}{copy}{additional}{definitions}{archive_detail}</div>
+{leading}<div class="milestone-copy">{heading_html}{period}{copy}{additional}{subsections}{definitions}{archive_detail}</div>
 {visual}{highlight_html}{themes}{institution_feature}{educators}{context_html}</article>'''
     chapters = []
     by_id = {m['id']: m for m in d['milestones']}
