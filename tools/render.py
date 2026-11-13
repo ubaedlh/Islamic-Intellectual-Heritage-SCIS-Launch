@@ -160,10 +160,17 @@ def render():
                 <small>Source: Parliamentary statement by Dr Ahmad Mattar, 27 March 1986.</small>
               </details>
             </aside>"""
+        profiles = []
+        for profile in m.get('educatorProfiles', []):
+            if profile.get('image'):
+                profiles.append(object_figure(profile))
+            else:
+                profiles.append(f'<div><p class="caption-title"><strong>{e(profile["captionTitle"])}</strong></p><p class="milestone-object-description">{e(profile["caption"])}</p></div>')
+        educators = f'<div class="institution-feature object-group" id="educator-profiles">{"".join(profiles)}</div>' if profiles else ''
         return f'''<article class="milestone layout-{n % 3} {'has-image' if visual else 'typographic'}" id="milestone-{n}" aria-labelledby="title-{n}">
 <div class="folio" aria-hidden="true">{n:02}<span> / 12</span></div>
 {leading}<div class="milestone-copy">{heading_html}{period}{copy}{additional}{definitions}{archive_detail}</div>
-{visual}{highlight_html}{themes}{institution_feature}{context_html}</article>'''
+{visual}{highlight_html}{themes}{institution_feature}{educators}{context_html}</article>'''
     chapters = []
     by_id = {m['id']: m for m in d['milestones']}
     ids = [i for c in d['chapters'] for i in c['milestones']]
