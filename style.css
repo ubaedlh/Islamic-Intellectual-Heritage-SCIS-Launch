@@ -47,7 +47,6 @@ h1,h2,h3{font-weight:400;line-height:1.14}p+p{margin-top:1em}em{font-weight:400}
 .renewal{--accent:var(--teal);--accent-text:var(--teal-text);--secondary:var(--turquoise);--chapter-line:#00616c30;background:#f0f8f3}
 .chapter-opening{max-width:1120px;margin:auto;position:relative;padding-top:32px;border-top:4px solid var(--accent)}
 .folio-sprig{display:none}.chapter-opening>.eyebrow{color:var(--accent-text);font-size:clamp(20px,4vw,30px)}.chapter-period{font:500 clamp(17px,3.25vw,25px)/1.7 var(--heading);margin-top:10px;color:var(--muted)}
-#connections .chapter-period{color:#000B88}
 .chapter-title-row{display:flex;gap:36px;align-items:flex-start;margin:35px 0}.roman{font:800 90px/1 var(--heading);color:var(--accent-text);letter-spacing:-.07em}.chapter-title-row h2{font:700 clamp(29px,3.6vw,49px)/1.2 var(--heading);max-width:800px;letter-spacing:-.045em}
 .chapter-intro{max-width:680px;margin-left:auto;font-size:20px}.chapter-intro:first-letter{font-size:38px;color:var(--accent-text)}
 .question{margin:60px auto 10px;padding:35px 5vw;text-align:center;border-block:1px solid var(--chapter-line);max-width:900px}.question>span{color:var(--accent-text)}.question>p{font-size:clamp(25px,2.8vw,37px);font-style:italic;margin:18px auto 22px;max-width:720px}.question details{max-width:650px;margin:auto}.question details p{font-size:17px;margin-top:16px}
@@ -214,9 +213,6 @@ summary{font:600 12px/1.8 var(--heading);padding:12px 0;min-height:44px;color:va
   text-align: justify;
   hyphens: auto;
 }
-#transformation .chapter-period {
-  color: var(--accent-text);
-}
 .chapter-feature {
   max-width: 680px;
   margin: 24px 0 25px auto;
@@ -234,12 +230,52 @@ details.did-you-know > p {
   }
 }
 
-#milestone-1 .did-you-know h4{font-weight:700}
 
 #transformation .chapter-intro:first-letter{font-size:inherit;color:inherit}
-#milestone-6 .milestone-leading .milestone-object-heading{font:400 33px/1.25 Georgia,serif;color:#000}
-#milestone-6 .archive-introduction .caption-title{color:#000}
-#milestone-4 .archive-object .portrait-caption{font:17px/1.65 Georgia,serif;color:#000}
-#milestone-4 .archive-object .caption-title:has(+ .portrait-caption){font-size:16px;color:#000}
-#milestone-4 .milestone-object-description{font-size:17px;color:#000}
 .archive-inline{margin-block-start:1.5rem}
+
+/* Match text by its role across the exhibition. */
+.chapter-period {
+  color: var(--accent-text);
+}
+
+.milestone-subtitle,
+.milestone-object-heading,
+.did-you-know h4,
+.context h4,
+.archive-theme > h3 {
+  color: var(--charcoal);
+  font: 700 clamp(1.375rem, 4.4vw, 2.0625rem)/1.25 Georgia, serif;
+}
+
+.chapter-intro:first-letter {
+  font-size: inherit;
+  color: inherit;
+}
+
+.archive-object figcaption,
+.chapter-object figcaption > p,
+.archive-introduction,
+.cover-object figcaption,
+.milestone-object-description {
+  font: 400 1.0625rem/1.65 Georgia, serif;
+}
+
+.archive-object figcaption,
+.chapter-object figcaption > p,
+.archive-introduction,
+.milestone-object-description {
+  color: var(--charcoal);
+}
+
+.caption-title,
+.chapter-object figcaption h4 {
+  color: inherit;
+  font: 700 1rem/1.45 var(--heading);
+}
+
+.archive-object > figcaption > details > p,
+#milestone-2 .archive-object > figcaption > details > p {
+  font-size: .875rem;
+  line-height: 1.6;
+}
