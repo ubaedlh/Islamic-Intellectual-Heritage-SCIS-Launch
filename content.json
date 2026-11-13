@@ -342,14 +342,194 @@
     },
     {
       "id": 8,
-      "category": "Madrasah Development",
-      "title": "Modernising full-time madrasahs",
-      "description": "Curriculum reforms, national examinations, campus upgrading and MOE–NIE collaborations modernised full-time madrasah education, alongside the Joint Madrasah System (2009).",
+      "category": "Modernising Madrasah Education",
+      "title": "Strengthening Curricula. Expanding Pathways.",
+      "description": "Following Singapore's independence, madrasahs progressively strengthened their curricula, introduced national examination pathways and expanded opportunities for higher education, while preserving their traditions of Islamic scholarship.",
       "image": null,
       "imageAlt": "Madrasah institutional logos.",
       "caption": "Madrasah institutional logos.",
       "source": null,
-      "highlights": []
+      "highlights": [],
+      "additionalDescription": [
+        "From the incorporation of academic subjects and GCE examinations to campus redevelopment, teacher professionalisation and closer alignment with national educational standards, these reforms reflected the madrasahs' continuing adaptation to Singapore's changing educational landscape.",
+        "The introduction of the Joint Madrasah System (JMS) in 2009 marked a significant milestone, promoting greater institutional specialisation, curriculum coordination and diversified educational pathways. Together, these developments strengthened the madrasahs' role in nurturing future asatizah, scholars and professionals."
+      ],
+      "themes": [
+        {
+          "title": "Curriculum Reform and National Examinations",
+          "text": "Madrasahs progressively incorporated academic subjects alongside Islamic studies and introduced national examination pathways, enabling students to pursue recognised qualifications while maintaining a foundation in religious education.",
+          "items": [
+            {
+              "label": "1966 — Madrasah Aljunied",
+              "text": "Introduced curriculum reforms incorporating English, Malay, Mathematics and Science."
+            },
+            {
+              "label": "1971 — Madrasah Al-Ma'arif",
+              "text": "Presented its first cohort for GCE O-Level examinations."
+            },
+            {
+              "label": "1973 — Madrasah Al-Ma'arif",
+              "text": "Presented students for GCE A-Level examinations."
+            },
+            {
+              "label": "1973 — Madrasah Aljunied",
+              "text": "Introduced GCE O-Level examinations."
+            },
+            {
+              "label": "Subsequent decades",
+              "text": "Other madrasahs progressively strengthened their academic curricula and examination pathways."
+            }
+          ],
+          "source": "Madrasah Aljunied school history",
+          "sourceUrl": "https://www.aljunied.edu.sg/history"
+        },
+        {
+          "title": "Expanding Pathways to Higher Education",
+          "text": "Madrasahs strengthened existing pathways to overseas universities through institutional recognition and pre-university qualifications, while subsequently introducing diploma and international academic programmes that diversified opportunities for graduates.",
+          "items": [
+            {
+              "label": "1948 — Madrasah Al-Ma'arif",
+              "text": "Sent three alumni to Al-Azhar University in Egypt, demonstrating that overseas university pathways predated independence."
+            },
+            {
+              "label": "1969 — Madrasah Aljunied",
+              "text": "Gained recognition from Al-Azhar University."
+            },
+            {
+              "label": "1970 — Madrasah Wak Tanjong",
+              "text": "Its first secondary graduates pursued studies overseas."
+            },
+            {
+              "label": "1999 — Madrasah Wak Tanjong",
+              "text": "Its pre-university certificate gained recognition from several Middle Eastern universities."
+            },
+            {
+              "label": "2013 — Madrasah Alsagoff",
+              "text": "Introduced its Diploma in Islamic Studies."
+            },
+            {
+              "label": "2019 — Madrasah Aljunied",
+              "text": "Introduced the International Baccalaureate Diploma Programme."
+            }
+          ],
+          "source": "Madrasah Aljunied school history",
+          "sourceUrl": "https://www.aljunied.edu.sg/history"
+        },
+        {
+          "title": "Campus Redevelopment and Upgrading",
+          "text": "Madrasahs underwent significant redevelopment and infrastructure upgrading, reflecting sustained investments by Muslim philanthropists, community organisations and religious institutions in improving educational facilities and learning environments.",
+          "items": [
+            {
+              "label": "1987 — Madrasah Al-Ma'arif",
+              "text": "Redeveloped its Ipoh Lane campus with support from Jamiyah and the Islamic Development Bank."
+            },
+            {
+              "label": "1994 — Madrasah Wak Tanjong",
+              "text": "Completed redevelopment of its Sims Avenue campus."
+            },
+            {
+              "label": "1998 — Madrasah Aljunied",
+              "text": "Moved into a new school campus."
+            },
+            {
+              "label": "2009 — Madrasah Irsyad Zuhri",
+              "text": "Relocated to the Singapore Islamic Hub at Braddell Road."
+            },
+            {
+              "label": "2020 — Madrasah Al-Arabiah",
+              "text": "Moved into its purpose-built Toa Payoh campus with modern learning facilities."
+            }
+          ],
+          "source": "Madrasah Aljunied school history",
+          "sourceUrl": "https://www.aljunied.edu.sg/history",
+          "placeholder": "Archival photograph of madrasah campus redevelopment pending"
+        },
+        {
+          "title": "Alignment with National Education Standards",
+          "text": "Madrasahs strengthened their academic programmes and curriculum planning in response to Singapore's evolving national educational standards, balancing mainstream academic requirements with their distinctive Islamic educational mission.",
+          "items": [
+            {
+              "label": "2003 — Compulsory Education",
+              "text": "Singapore implemented compulsory primary education, with full-time madrasahs operating under an exemption framework."
+            },
+            {
+              "label": "2003 — Madrasah Al-Irsyad",
+              "text": "Introduced an integrated primary Islamic studies curriculum developed by MUIS."
+            },
+            {
+              "label": "2008 — PSLE Performance Benchmarks",
+              "text": "Minimum PSLE performance requirements took effect for exempted madrasah pupils."
+            },
+            {
+              "label": "2000s onwards — Curriculum Enhancement",
+              "text": "Madrasahs strengthened English, Mathematics and Science teaching, curriculum planning and assessment."
+            },
+            {
+              "label": "Continuing development",
+              "text": "Greater coordination with MUIS and engagement with national educational standards supported academic improvements."
+            }
+          ],
+          "source": "MOE information sheet on PSLE benchmarks",
+          "sourceUrl": "https://www.moe.gov.sg/-/media/files/news/press/2016/2016-psle-results-annex-a.pdf"
+        },
+        {
+          "title": "Teacher Professionalisation and Educational Collaboration",
+          "text": "Closer collaboration between MUIS, the Ministry of Education (MOE) and the National Institute of Education (NIE) supported improvements in teacher training, pedagogy, curriculum development and school leadership.",
+          "items": [
+            {
+              "label": "2000s onwards — Teacher Professional Development",
+              "text": "Expanded professional training opportunities for madrasah educators."
+            },
+            {
+              "label": "MUIS–NIE Collaborations",
+              "text": "Specialist training in pedagogy, classroom management and academic subject instruction."
+            },
+            {
+              "label": "2011 — School Leadership Development",
+              "text": "MUIS and NIE developed the Customised Leaders in Education Programme."
+            },
+            {
+              "label": "Continuing development",
+              "text": "MOE engagement supported national academic alignment, while NIE collaborations focused on pedagogy and professional development."
+            }
+          ],
+          "placeholder": "Archival photograph of madrasah teacher training pending"
+        },
+        {
+          "title": "The Joint Madrasah System (JMS)",
+          "text": "The establishment of the Joint Madrasah System marked a significant development in the coordination and modernisation of full-time madrasah education. Through institutional specialisation and the sharing of resources and expertise, the system aimed to strengthen educational quality and provide differentiated pathways for students.",
+          "items": [
+            {
+              "label": "2007 — JMS Agreement",
+              "text": "Madrasah Al-Irsyad, Aljunied and Al-Arabiah agreed to participate in the system."
+            },
+            {
+              "label": "January 2009 — Implementation",
+              "text": "The JMS formally commenced."
+            },
+            {
+              "label": "Madrasah Irsyad Zuhri Al-Islamiah",
+              "text": "Specialised in primary education."
+            },
+            {
+              "label": "Madrasah Aljunied Al-Islamiah",
+              "text": "Focused on secondary and pre-university Islamic education."
+            },
+            {
+              "label": "Madrasah Al-Arabiah Al-Islamiah",
+              "text": "Focused on academically oriented secondary education within an Islamic environment."
+            },
+            {
+              "label": "Continuing development",
+              "text": "The system facilitated sharing of resources, curriculum expertise and institutional support."
+            }
+          ],
+          "source": "MUIS 50th anniversary fact sheet",
+          "sourceUrl": "https://www.muis.gov.sg/-/media/Files/Corporate-Site/Press-Releases/Fact-Sheet-for-Muis50-Awards.pdf",
+          "review": "MUIS confirms implementation in 2009. The 2007 agreement and January start require a primary record. Aljunied’s school history dates its entry to 2015, so the participation chronology remains under review."
+        }
+      ],
+      "repeatDescriptionInArchive": false
     },
     {
       "id": 9,

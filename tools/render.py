@@ -120,6 +120,28 @@ def render():
         copy = feature_answer or f'{subtitle}<p class="description">{e(m["description"])}</p>'
         period = f'<p class="chapter-period">{e(m["period"])}</p>' if m.get('period') else ''
         additional = ''.join(f'<p class="description">{e(paragraph)}</p>' for paragraph in m.get('additionalDescription', []))
+        theme_panels = []
+        for theme in m.get('themes', []):
+            developments = ''.join(
+                f'<li><strong>{e(item["label"])}</strong> {e(item["text"])}</li>'
+                for item in theme['items']
+            )
+            source = ''
+            if theme.get('sourceUrl'):
+                source = f'<p><a href="{e(theme["sourceUrl"])}">{e(theme["source"])}</a></p>'
+            review = f'<p class="term-note">{e(theme["review"])}</p>' if theme.get('review') else ''
+            placeholder = f'<p class="theme-photo-pending">{e(theme["placeholder"])}</p>' if theme.get('placeholder') else ''
+            theme_panels.append(f"""
+              <section class="madrasah-theme">
+                <h4>{e(theme['title'])}</h4>
+                <p>{e(theme['text'])}</p>
+                <details>
+                  <summary>Selected developments</summary>
+                  <ul>{developments}</ul>
+                  {source}{review}{placeholder}
+                </details>
+              </section>""")
+        themes = '<div class="madrasah-themes">' + ''.join(theme_panels) + '</div>' if theme_panels else ''
         institution_feature = ''
         if m.get('institutionFeature'):
             institution_feature = f"""
@@ -141,7 +163,7 @@ def render():
         return f'''<article class="milestone layout-{n % 3} {'has-image' if visual else 'typographic'}" id="milestone-{n}" aria-labelledby="title-{n}">
 <div class="folio" aria-hidden="true">{n:02}<span> / 12</span></div>
 {leading}<div class="milestone-copy">{heading_html}{period}{copy}{additional}{definitions}{archive_detail}</div>
-{visual}{highlight_html}{institution_feature}{context_html}</article>'''
+{visual}{highlight_html}{themes}{institution_feature}{context_html}</article>'''
     chapters = []
     by_id = {m['id']: m for m in d['milestones']}
     ids = [i for c in d['chapters'] for i in c['milestones']]

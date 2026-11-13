@@ -317,3 +317,41 @@ details.did-you-know > p {
 .institution-feature details {
   margin-top: 1.5rem;
 }
+
+#milestone-8 .description + .description {
+  margin-top: 1em;
+}
+
+.madrasah-themes {
+  grid-column: 2 / -1;
+  max-width: 680px;
+}
+
+.madrasah-theme {
+  border-top: 1px solid var(--chapter-line);
+  padding-block: 1.5rem;
+}
+
+.madrasah-theme h4 {
+  font: 700 clamp(1.375rem, 4.4vw, 2.0625rem)/1.25 Georgia, serif;
+  margin-bottom: .75rem;
+}
+
+.madrasah-theme ul {
+  padding-inline-start: 1.25em;
+  margin-block: .75em;
+}
+
+.madrasah-theme li + li {
+  margin-top: .6em;
+}
+
+.madrasah-theme li strong {
+  color: var(--accent-text);
+}
+
+.theme-photo-pending {
+  border: 1px dashed var(--accent-text);
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
