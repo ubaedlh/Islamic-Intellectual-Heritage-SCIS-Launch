@@ -145,8 +145,8 @@ def render():
         institution_feature = ''
         if m.get('institutionFeature'):
             institution_feature = f"""
-            <aside class="institution-feature" aria-labelledby="mendaki-congress">
-              <p class="eyebrow">From the Archive</p>
+            <details class="institution-feature">
+              <summary>From the Archive</summary>
               <h4 id="mendaki-congress">Kongres Pendidikan Anak-Anak Islam, 28–30 May 1982</h4>
               {paras(m['institutionFeature'])}
               <figure class="archive-object">
@@ -154,7 +154,7 @@ def render():
                 <figcaption>MENDAKI’s inaugural education congress, May 1982. Photograph: Facebook / Abdul Halim Kader, via <a href="https://berita.mediacorp.sg/komentar/alam-melayu-budi-mansor-dalam-gema-gong-mendaki-1005451">BERITA Mediacorp</a>.</figcaption>
               </figure>
               <p><a href="https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19820528b.pdf">Lee Kuan Yew’s opening address, National Archives of Singapore</a></p>
-            </aside>"""
+            </details>"""
         profiles = []
         for profile in m.get('educatorProfiles', []):
             if profile.get('image'):
