@@ -116,7 +116,8 @@ def render():
                 heading_html = ''
         repeated_description = f'<p>{e(m["description"])}</p>' if m.get('repeatDescriptionInArchive', True) else ''
         archive_detail = f'<details class="text-archive"><summary>Explore Further</summary>{archive_html}{repeated_description}</details>' if archive else ''
-        copy = feature_answer or f'<p class="milestone-subtitle">{e(m["title"])}</p><p class="description">{e(m["description"])}</p>'
+        subtitle = f'<p class="milestone-subtitle">{e(m["title"])}</p>' if m.get("title") else ""
+        copy = feature_answer or f'{subtitle}<p class="description">{e(m["description"])}</p>'
         period = f'<p class="chapter-period">{e(m["period"])}</p>' if m.get('period') else ''
         additional = ''.join(f'<p class="description">{e(paragraph)}</p>' for paragraph in m.get('additionalDescription', []))
         institution_feature = ''
@@ -127,8 +128,8 @@ def render():
               <h4 id="mendaki-congress">Kongres Pendidikan Anak-Anak Islam, 28–30 May 1982</h4>
               {paras(m['institutionFeature'])}
               <figure class="archive-object">
-                <div class="image-mat archive-placeholder">Archival photograph pending</div>
-                <figcaption>MENDAKI’s inaugural education congress, May 1982. Potential photograph source: BERITA Mediacorp, credited to Facebook / Abdul Halim Kader. Verify the image credit and reproduction permission before publication.</figcaption>
+                <div class="image-mat"><img src="assets/archive/mendaki-congress-1982.jpg" alt="Participants seated on stage at the 1982 MENDAKI congress, with a speaker at the lectern." width="830" height="468" loading="lazy"></div>
+                <figcaption>MENDAKI’s inaugural education congress, May 1982. Photograph: Facebook / Abdul Halim Kader, via <a href="https://berita.mediacorp.sg/komentar/alam-melayu-budi-mansor-dalam-gema-gong-mendaki-1005451">BERITA Mediacorp</a>.</figcaption>
               </figure>
               <p><a href="https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19820528b.pdf">Lee Kuan Yew’s opening address, National Archives of Singapore</a></p>
               <details class="did-you-know">
@@ -155,7 +156,8 @@ def render():
         end = f'<div class="chapter-end" aria-hidden="true">— {e(c["number"])} —</div>'
         archive = chapter_archive(chapter_id)
         period = f'<p class="chapter-period">{e(c["period"])}</p>' if c.get("period") else ''
-        chapters.append(f'''<section class="chapter {e(c['id'])}" id="{e(c['id'])}" aria-labelledby="heading-{e(c['id'])}"><header class="chapter-opening"><img class="folio-sprig" src="assets/folio-sprig.svg" alt="" aria-hidden="true" width="160" height="40"><p class="eyebrow">Chapter {e(c['number'])} / {e(c['label'])}</p>{period}<div class="chapter-title-row"><span class="roman" aria-hidden="true">{e(c['number'])}</span><h2 id="heading-{e(c['id'])}">{e(c['title'])}</h2></div>{intro}{feature}{chapter_archive(chapter_id, opening=True)}<aside class="question"><span>A question to carry with you</span><p>{e(c['question'])}</p><details><summary>Consider the history</summary><p>{e(history)}</p></details></aside></header><div class="chapter-entries">{entries}</div>{archive}{end}</section>''')
+        question = f'''<aside class="question"><span>A question to carry with you</span><p>{e(c['question'])}</p><details><summary>Consider the history</summary><p>{e(history)}</p></details></aside>'''
+        chapters.append(f'''<section class="chapter {e(c['id'])}" id="{e(c['id'])}" aria-labelledby="heading-{e(c['id'])}"><header class="chapter-opening"><img class="folio-sprig" src="assets/folio-sprig.svg" alt="" aria-hidden="true" width="160" height="40"><p class="eyebrow">Chapter {e(c['number'])} / {e(c['label'])}</p>{period}{question if chapter_id == 'renewal' else ''}<div class="chapter-title-row"><span class="roman" aria-hidden="true">{e(c['number'])}</span><h2 id="heading-{e(c['id'])}">{e(c['title'])}</h2></div>{intro}{feature}{chapter_archive(chapter_id, opening=True)}{question if chapter_id != 'renewal' else ''}</header><div class="chapter-entries">{entries}</div>{archive}{end}</section>''')
     hero = d.get("homepageImage") or next(o for o in d["archiveObjects"] if o["id"] == d["heroObject"])
     nav = ''.join(f'<a href="#{e(c["id"])}"><span>{e(c["number"])}</span> {e(c["label"])}</a>' for c in d['chapters'])
     return f'''<!doctype html>
